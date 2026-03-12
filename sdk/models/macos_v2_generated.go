@@ -228,6 +228,7 @@ type MacOSV2FeedResponse struct {
 				Cve202620680 *struct{} `json:"CVE-2026-20680,omitempty"`
 			} `json:"CVEs"`
 			DaysSincePreviousRelease int       `json:"DaysSincePreviousRelease"`
+			DeviceScope              string    `json:"DeviceScope"`
 			ExpirationDate           string    `json:"ExpirationDate"`
 			ProductName              string    `json:"ProductName"`
 			ProductVersion           string    `json:"ProductVersion"`
@@ -364,7 +365,12 @@ type MacOSV2FeedResponse struct {
 				Cve202130949 *struct{} `json:"CVE-2021-30949,omitempty"`
 				Cve202130950 *struct{} `json:"CVE-2021-30950,omitempty"`
 				Cve202130951 *struct{} `json:"CVE-2021-30951,omitempty"`
-				Cve202130952 *struct{} `json:"CVE-2021-30952,omitempty"`
+				Cve202130952 *struct {
+					ActivelyExploited bool   `json:"actively_exploited"`
+					InKev             bool   `json:"in_kev"`
+					NistURL           string `json:"nist_url"`
+					Severity          string `json:"severity"`
+				} `json:"CVE-2021-30952,omitempty"`
 				Cve202130953 *struct{} `json:"CVE-2021-30953,omitempty"`
 				Cve202130954 *struct{} `json:"CVE-2021-30954,omitempty"`
 				Cve202130955 *struct{} `json:"CVE-2021-30955,omitempty"`
@@ -1508,7 +1514,13 @@ type MacOSV2FeedResponse struct {
 				Cve202342981 *struct{} `json:"CVE-2023-42981,omitempty"`
 				Cve202342982 *struct{} `json:"CVE-2023-42982,omitempty"`
 				Cve202342983 *struct{} `json:"CVE-2023-42983,omitempty"`
-				Cve202343000 *struct{} `json:"CVE-2023-43000,omitempty"`
+				Cve202343000 *struct {
+					ActivelyExploited bool   `json:"actively_exploited"`
+					InKev             bool   `json:"in_kev"`
+					NistURL           string `json:"nist_url"`
+					Severity          string `json:"severity"`
+				} `json:"CVE-2023-43000,omitempty"`
+				Cve202343010 *struct{} `json:"CVE-2023-43010,omitempty"`
 				Cve20234504  *struct{} `json:"CVE-2023-4504,omitempty"`
 				Cve202345866 *struct{} `json:"CVE-2023-45866,omitempty"`
 				Cve202347100 *struct{} `json:"CVE-2023-47100,omitempty"`
@@ -2779,6 +2791,7 @@ type MacOSV2FeedResponse struct {
 				} `json:"CVE-2026-20700,omitempty"`
 			} `json:"CVEs"`
 			DaysSincePreviousRelease int       `json:"DaysSincePreviousRelease,omitempty"`
+			DeviceScope              string    `json:"DeviceScope"`
 			ExpirationDate           string    `json:"ExpirationDate,omitempty"`
 			ProductName              string    `json:"ProductName"`
 			ProductVersion           string    `json:"ProductVersion"`
