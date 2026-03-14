@@ -183,6 +183,7 @@ type IOSV1FeedResponse struct {
 				Cve202342973 bool `json:"CVE-2023-42973"`
 				Cve202342974 bool `json:"CVE-2023-42974"`
 				Cve202342977 bool `json:"CVE-2023-42977"`
+				Cve202343010 bool `json:"CVE-2023-43010"`
 				Cve202345866 bool `json:"CVE-2023-45866"`
 				Cve20235217  bool `json:"CVE-2023-5217,omitempty"`
 				Cve202352356 bool `json:"CVE-2023-52356"`
