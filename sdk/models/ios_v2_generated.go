@@ -263,6 +263,7 @@ type IOSFeedResponse struct {
 				Cve202342973 *struct{} `json:"CVE-2023-42973,omitempty"`
 				Cve202342974 *struct{} `json:"CVE-2023-42974,omitempty"`
 				Cve202342977 *struct{} `json:"CVE-2023-42977,omitempty"`
+				Cve202343010 *struct{} `json:"CVE-2023-43010,omitempty"`
 				Cve202345866 *struct{} `json:"CVE-2023-45866,omitempty"`
 				Cve20235217  *struct {
 					ActivelyExploited bool   `json:"actively_exploited"`
