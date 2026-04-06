@@ -394,6 +394,7 @@ type WatchOSV2FeedResponse struct {
 				Cve202620628 *struct{} `json:"CVE-2026-20628,omitempty"`
 				Cve202620634 *struct{} `json:"CVE-2026-20634,omitempty"`
 				Cve202620635 *struct{} `json:"CVE-2026-20635,omitempty"`
+				Cve202620637 *struct{} `json:"CVE-2026-20637,omitempty"`
 				Cve202620641 *struct{} `json:"CVE-2026-20641,omitempty"`
 				Cve202620649 *struct{} `json:"CVE-2026-20649,omitempty"`
 				Cve202620650 *struct{} `json:"CVE-2026-20650,omitempty"`
