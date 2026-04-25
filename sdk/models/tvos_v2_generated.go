@@ -5,10 +5,16 @@ import (
 )
 
 type TVOSV2FeedResponse struct {
-	BackgroundSecurityImprovements struct{}  `json:"BackgroundSecurityImprovements"`
-	LastCheck                      time.Time `json:"LastCheck"`
-	OSName                         string    `json:"OSName"`
-	OSVersions                     []struct {
+	BackgroundSecurityImprovements struct{} `json:"BackgroundSecurityImprovements"`
+	Devices                        struct {
+		// "AppleTV11,1" cannot be unmarshalled into a struct field by encoding/json.
+		// "AppleTV14,1" cannot be unmarshalled into a struct field by encoding/json.
+		// "AppleTV5,3" cannot be unmarshalled into a struct field by encoding/json.
+		// "AppleTV6,2" cannot be unmarshalled into a struct field by encoding/json.
+	} `json:"Devices"`
+	LastCheck  time.Time `json:"LastCheck"`
+	OSName     string    `json:"OSName"`
+	OSVersions []struct {
 		Latest struct {
 			ActivelyExploitedCvEs []string `json:"ActivelyExploitedCVEs"`
 			AllBuilds             []string `json:"AllBuilds"`
@@ -17,9 +23,9 @@ type TVOSV2FeedResponse struct {
 				Cve202514524 *struct{} `json:"CVE-2025-14524,omitempty"`
 				Cve202531273 *struct{} `json:"CVE-2025-31273,omitempty"`
 				Cve202531277 *struct {
-					InKev    bool   `json:"in_kev"`
-					NistURL  string `json:"nist_url"`
-					Severity string `json:"severity"`
+					InKev    bool   `json:"InKEV"`
+					Nisturl  string `json:"NISTURL"`
+					Severity string `json:"Severity"`
 				} `json:"CVE-2025-31277,omitempty"`
 				Cve202531278 *struct{} `json:"CVE-2025-31278,omitempty"`
 				Cve202531281 *struct{} `json:"CVE-2025-31281,omitempty"`
@@ -43,9 +49,9 @@ type TVOSV2FeedResponse struct {
 				Cve202543282 *struct{} `json:"CVE-2025-43282,omitempty"`
 				Cve202564505 *struct{} `json:"CVE-2025-64505,omitempty"`
 				Cve20256558  *struct {
-					InKev    bool   `json:"in_kev"`
-					NistURL  string `json:"nist_url"`
-					Severity string `json:"severity"`
+					InKev    bool   `json:"InKEV"`
+					Nisturl  string `json:"NISTURL"`
+					Severity string `json:"Severity"`
 				} `json:"CVE-2025-6558,omitempty"`
 				Cve20256965  *struct{} `json:"CVE-2025-6965,omitempty"`
 				Cve20257424  *struct{} `json:"CVE-2025-7424,omitempty"`
@@ -78,19 +84,19 @@ type TVOSV2FeedResponse struct {
 			UniqueCvEsCount          int      `json:"UniqueCVEsCount"`
 			UpdateName               string   `json:"UpdateName"`
 			UpdateSummary            struct {
-				Priority       string `json:"priority"`
-				Recommendation string `json:"recommendation"`
+				Priority       string `json:"Priority"`
+				Recommendation string `json:"Recommendation"`
 				Stats          struct {
-					Critical  int `json:"critical"`
-					Exploited int `json:"exploited"`
-					High      int `json:"high"`
-					Low       int `json:"low"`
-					Medium    int `json:"medium"`
-					Remote    int `json:"remote"`
-					Total     int `json:"total"`
-				} `json:"stats"`
-				Summary string `json:"summary"`
-			} `json:"update_summary"`
+					Critical  int `json:"Critical"`
+					Exploited int `json:"Exploited"`
+					High      int `json:"High"`
+					Low       int `json:"Low"`
+					Medium    int `json:"Medium"`
+					Remote    int `json:"Remote"`
+					Total     int `json:"Total"`
+				} `json:"Stats"`
+				Summary string `json:"Summary"`
+			} `json:"UpdateSummary"`
 		} `json:"Latest"`
 		OSVersion        string `json:"OSVersion"`
 		SecurityReleases []struct {
@@ -168,15 +174,15 @@ type TVOSV2FeedResponse struct {
 				Cve20248176  *struct{} `json:"CVE-2024-8176,omitempty"`
 				Cve20249681  *struct{} `json:"CVE-2024-9681,omitempty"`
 				Cve202514174 *struct {
-					InKev    bool   `json:"in_kev"`
-					NistURL  string `json:"nist_url"`
-					Severity string `json:"severity"`
+					InKev    bool   `json:"InKEV"`
+					Nisturl  string `json:"NISTURL"`
+					Severity string `json:"Severity"`
 				} `json:"CVE-2025-14174,omitempty"`
 				Cve202514524 *struct{} `json:"CVE-2025-14524,omitempty"`
 				Cve202524085 *struct {
-					InKev    bool   `json:"in_kev"`
-					NistURL  string `json:"nist_url"`
-					Severity string `json:"severity"`
+					InKev    bool   `json:"InKEV"`
+					Nisturl  string `json:"NISTURL"`
+					Severity string `json:"Severity"`
 				} `json:"CVE-2025-24085,omitempty"`
 				Cve202524086 *struct{} `json:"CVE-2025-24086,omitempty"`
 				Cve202524097 *struct{} `json:"CVE-2025-24097,omitempty"`
@@ -244,14 +250,14 @@ type TVOSV2FeedResponse struct {
 				Cve202531196 *struct{} `json:"CVE-2025-31196,omitempty"`
 				Cve202531197 *struct{} `json:"CVE-2025-31197,omitempty"`
 				Cve202531200 *struct {
-					InKev    bool   `json:"in_kev"`
-					NistURL  string `json:"nist_url"`
-					Severity string `json:"severity"`
+					InKev    bool   `json:"InKEV"`
+					Nisturl  string `json:"NISTURL"`
+					Severity string `json:"Severity"`
 				} `json:"CVE-2025-31200,omitempty"`
 				Cve202531201 *struct {
-					InKev    bool   `json:"in_kev"`
-					NistURL  string `json:"nist_url"`
-					Severity string `json:"severity"`
+					InKev    bool   `json:"InKEV"`
+					Nisturl  string `json:"NISTURL"`
+					Severity string `json:"Severity"`
 				} `json:"CVE-2025-31201,omitempty"`
 				Cve202531202 *struct{} `json:"CVE-2025-31202,omitempty"`
 				Cve202531203 *struct{} `json:"CVE-2025-31203,omitempty"`
@@ -281,9 +287,9 @@ type TVOSV2FeedResponse struct {
 				Cve202531262 *struct{} `json:"CVE-2025-31262,omitempty"`
 				Cve202531273 *struct{} `json:"CVE-2025-31273,omitempty"`
 				Cve202531277 *struct {
-					InKev    bool   `json:"in_kev"`
-					NistURL  string `json:"nist_url"`
-					Severity string `json:"severity"`
+					InKev    bool   `json:"InKEV"`
+					Nisturl  string `json:"NISTURL"`
+					Severity string `json:"Severity"`
 				} `json:"CVE-2025-31277,omitempty"`
 				Cve202531278 *struct{} `json:"CVE-2025-31278,omitempty"`
 				Cve202531281 *struct{} `json:"CVE-2025-31281,omitempty"`
@@ -357,19 +363,19 @@ type TVOSV2FeedResponse struct {
 				Cve202543462 *struct{} `json:"CVE-2025-43462,omitempty"`
 				Cve202543480 *struct{} `json:"CVE-2025-43480,omitempty"`
 				Cve202543510 *struct {
-					InKev    bool   `json:"in_kev"`
-					NistURL  string `json:"nist_url"`
-					Severity string `json:"severity"`
+					InKev    bool   `json:"InKEV"`
+					Nisturl  string `json:"NISTURL"`
+					Severity string `json:"Severity"`
 				} `json:"CVE-2025-43510,omitempty"`
 				Cve202543520 *struct {
-					InKev    bool   `json:"in_kev"`
-					NistURL  string `json:"nist_url"`
-					Severity string `json:"severity"`
+					InKev    bool   `json:"InKEV"`
+					Nisturl  string `json:"NISTURL"`
+					Severity string `json:"Severity"`
 				} `json:"CVE-2025-43520,omitempty"`
 				Cve202543529 *struct {
-					InKev    bool   `json:"in_kev"`
-					NistURL  string `json:"nist_url"`
-					Severity string `json:"severity"`
+					InKev    bool   `json:"InKEV"`
+					Nisturl  string `json:"NISTURL"`
+					Severity string `json:"Severity"`
 				} `json:"CVE-2025-43529,omitempty"`
 				Cve202543531 *struct{} `json:"CVE-2025-43531,omitempty"`
 				Cve202543532 *struct{} `json:"CVE-2025-43532,omitempty"`
@@ -388,9 +394,9 @@ type TVOSV2FeedResponse struct {
 				Cve202559375 *struct{} `json:"CVE-2025-59375,omitempty"`
 				Cve202564505 *struct{} `json:"CVE-2025-64505,omitempty"`
 				Cve20256558  *struct {
-					InKev    bool   `json:"in_kev"`
-					NistURL  string `json:"nist_url"`
-					Severity string `json:"severity"`
+					InKev    bool   `json:"InKEV"`
+					Nisturl  string `json:"NISTURL"`
+					Severity string `json:"Severity"`
 				} `json:"CVE-2025-6558,omitempty"`
 				Cve20256965  *struct{} `json:"CVE-2025-6965,omitempty"`
 				Cve20257424  *struct{} `json:"CVE-2025-7424,omitempty"`
@@ -414,9 +420,9 @@ type TVOSV2FeedResponse struct {
 				Cve202620690 *struct{} `json:"CVE-2026-20690,omitempty"`
 				Cve202620698 *struct{} `json:"CVE-2026-20698,omitempty"`
 				Cve202620700 *struct {
-					InKev    bool   `json:"in_kev"`
-					NistURL  string `json:"nist_url"`
-					Severity string `json:"severity"`
+					InKev    bool   `json:"InKEV"`
+					Nisturl  string `json:"NISTURL"`
+					Severity string `json:"Severity"`
 				} `json:"CVE-2026-20700,omitempty"`
 				Cve202628822 *struct{} `json:"CVE-2026-28822,omitempty"`
 				Cve202628852 *struct{} `json:"CVE-2026-28852,omitempty"`
@@ -430,33 +436,40 @@ type TVOSV2FeedResponse struct {
 				Cve202628882 *struct{} `json:"CVE-2026-28882,omitempty"`
 				Cve202628886 *struct{} `json:"CVE-2026-28886,omitempty"`
 			} `json:"CVEs"`
-			DaysSincePreviousRelease int      `json:"DaysSincePreviousRelease"`
-			ExpirationDate           string   `json:"ExpirationDate,omitempty"`
-			ProductName              string   `json:"ProductName"`
-			ProductVersion           string   `json:"ProductVersion"`
-			ReleaseDate              string   `json:"ReleaseDate"`
-			ReleaseType              string   `json:"ReleaseType"`
-			SecurityInfo             string   `json:"SecurityInfo"`
-			SecurityInfoContext      string   `json:"SecurityInfoContext"`
-			SupportedDevices         []string `json:"SupportedDevices"`
-			UniqueCvEsCount          int      `json:"UniqueCVEsCount"`
-			UpdateName               string   `json:"UpdateName"`
-			UpdateSummary            struct {
-				Priority       string `json:"priority"`
-				Recommendation string `json:"recommendation"`
+			DaysSincePreviousRelease int    `json:"DaysSincePreviousRelease"`
+			ExpirationDate           string `json:"ExpirationDate,omitempty"`
+			ProductName              string `json:"ProductName"`
+			ProductVersion           string `json:"ProductVersion"`
+			ReleaseDate              string `json:"ReleaseDate"`
+			ReleaseType              string `json:"ReleaseType"`
+			SecurityInfo             string `json:"SecurityInfo"`
+			SecurityInfoContext      string `json:"SecurityInfoContext"`
+			SupersededBy             *struct {
+				Build          string `json:"Build"`
+				DaysLater      int    `json:"DaysLater"`
+				ProductVersion string `json:"ProductVersion"`
+				ReleaseDate    string `json:"ReleaseDate"`
+			} `json:"SupersededBy,omitempty"`
+			SupportedDevices []string `json:"SupportedDevices"`
+			UniqueCvEsCount  int      `json:"UniqueCVEsCount"`
+			UpdateName       string   `json:"UpdateName"`
+			UpdateSummary    struct {
+				Priority       string `json:"Priority"`
+				Recommendation string `json:"Recommendation"`
 				Stats          struct {
-					Critical  int `json:"critical"`
-					Exploited int `json:"exploited"`
-					High      int `json:"high"`
-					Low       int `json:"low"`
-					Medium    int `json:"medium"`
-					Remote    int `json:"remote"`
-					Total     int `json:"total"`
-				} `json:"stats"`
-				Summary string `json:"summary"`
-			} `json:"update_summary"`
+					Critical  int `json:"Critical"`
+					Exploited int `json:"Exploited"`
+					High      int `json:"High"`
+					Low       int `json:"Low"`
+					Medium    int `json:"Medium"`
+					Remote    int `json:"Remote"`
+					Total     int `json:"Total"`
+				} `json:"Stats"`
+				Summary string `json:"Summary"`
+			} `json:"UpdateSummary"`
 		} `json:"SecurityReleases"`
 	} `json:"OSVersions"`
-	UpdateHash string `json:"UpdateHash"`
-	Version    string `json:"Version"`
+	SchemaVersion string `json:"SchemaVersion"`
+	UpdateHash    string `json:"UpdateHash"`
+	Version       string `json:"Version"`
 }
