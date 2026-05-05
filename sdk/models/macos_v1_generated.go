@@ -32,6 +32,11 @@ type MacOSV1FeedResponse struct {
 		} `json:"LatestUMA"`
 	} `json:"InstallationApps"`
 	Models struct {
+		VmmX86_64 struct {
+			MarketingName string   `json:"MarketingName"`
+			OSVersions    []int    `json:"OSVersions"`
+			SupportedOS   []string `json:"SupportedOS"`
+		} `json:"VMM-x86_64"`
 		// "Mac13,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "Mac13,2" cannot be unmarshalled into a struct field by encoding/json.
 		// "Mac14,10" cannot be unmarshalled into a struct field by encoding/json.
@@ -71,8 +76,14 @@ type MacOSV1FeedResponse struct {
 		// "Mac16,8" cannot be unmarshalled into a struct field by encoding/json.
 		// "Mac16,9" cannot be unmarshalled into a struct field by encoding/json.
 		// "Mac17,2" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,3" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,4" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,5" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,6" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,7" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,8" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,9" cannot be unmarshalled into a struct field by encoding/json.
 		// "MacBook10,1" cannot be unmarshalled into a struct field by encoding/json.
-		// "MacBook9,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "MacBookAir10,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "MacBookAir7,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "MacBookAir7,2" cannot be unmarshalled into a struct field by encoding/json.
@@ -103,9 +114,11 @@ type MacOSV1FeedResponse struct {
 		// "MacBookPro18,4" cannot be unmarshalled into a struct field by encoding/json.
 		// "MacPro6,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "MacPro7,1" cannot be unmarshalled into a struct field by encoding/json.
+		// "MacPro7,1-Rack" cannot be unmarshalled into a struct field by encoding/json.
 		// "Macmini7,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "Macmini8,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "Macmini9,1" cannot be unmarshalled into a struct field by encoding/json.
+		// "VirtualMac2,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "iMac15,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "iMac16,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "iMac16,2" cannot be unmarshalled into a struct field by encoding/json.
@@ -177,80 +190,55 @@ type MacOSV1FeedResponse struct {
 				Cve202565082 bool `json:"CVE-2025-65082"`
 				Cve202566200 bool `json:"CVE-2025-66200"`
 				Cve202620607 bool `json:"CVE-2026-20607"`
-				Cve202620631 bool `json:"CVE-2026-20631"`
-				Cve202620632 bool `json:"CVE-2026-20632"`
 				Cve202620633 bool `json:"CVE-2026-20633"`
 				Cve202620637 bool `json:"CVE-2026-20637"`
 				Cve202620639 bool `json:"CVE-2026-20639"`
-				Cve202620643 bool `json:"CVE-2026-20643"`
 				Cve202620651 bool `json:"CVE-2026-20651"`
 				Cve202620657 bool `json:"CVE-2026-20657"`
 				Cve202620660 bool `json:"CVE-2026-20660"`
-				Cve202620664 bool `json:"CVE-2026-20664"`
-				Cve202620665 bool `json:"CVE-2026-20665"`
 				Cve202620668 bool `json:"CVE-2026-20668"`
-				Cve202620684 bool `json:"CVE-2026-20684"`
 				Cve202620687 bool `json:"CVE-2026-20687"`
 				Cve202620688 bool `json:"CVE-2026-20688"`
 				Cve202620690 bool `json:"CVE-2026-20690"`
-				Cve202620691 bool `json:"CVE-2026-20691"`
 				Cve202620692 bool `json:"CVE-2026-20692"`
 				Cve202620693 bool `json:"CVE-2026-20693"`
 				Cve202620694 bool `json:"CVE-2026-20694"`
 				Cve202620695 bool `json:"CVE-2026-20695"`
 				Cve202620697 bool `json:"CVE-2026-20697"`
-				Cve202620698 bool `json:"CVE-2026-20698"`
 				Cve202620699 bool `json:"CVE-2026-20699"`
 				Cve202620701 bool `json:"CVE-2026-20701"`
 				Cve202628816 bool `json:"CVE-2026-28816"`
 				Cve202628817 bool `json:"CVE-2026-28817"`
 				Cve202628818 bool `json:"CVE-2026-28818"`
-				Cve202628820 bool `json:"CVE-2026-28820"`
 				Cve202628821 bool `json:"CVE-2026-28821"`
 				Cve202628822 bool `json:"CVE-2026-28822"`
-				Cve202628823 bool `json:"CVE-2026-28823"`
 				Cve202628824 bool `json:"CVE-2026-28824"`
 				Cve202628825 bool `json:"CVE-2026-28825"`
-				Cve202628826 bool `json:"CVE-2026-28826"`
 				Cve202628827 bool `json:"CVE-2026-28827"`
 				Cve202628828 bool `json:"CVE-2026-28828"`
 				Cve202628829 bool `json:"CVE-2026-28829"`
 				Cve202628831 bool `json:"CVE-2026-28831"`
 				Cve202628832 bool `json:"CVE-2026-28832"`
-				Cve202628833 bool `json:"CVE-2026-28833"`
 				Cve202628834 bool `json:"CVE-2026-28834"`
 				Cve202628835 bool `json:"CVE-2026-28835"`
-				Cve202628837 bool `json:"CVE-2026-28837"`
 				Cve202628838 bool `json:"CVE-2026-28838"`
 				Cve202628839 bool `json:"CVE-2026-28839"`
-				Cve202628841 bool `json:"CVE-2026-28841"`
-				Cve202628842 bool `json:"CVE-2026-28842"`
-				Cve202628844 bool `json:"CVE-2026-28844"`
-				Cve202628845 bool `json:"CVE-2026-28845"`
 				Cve202628852 bool `json:"CVE-2026-28852"`
-				Cve202628857 bool `json:"CVE-2026-28857"`
-				Cve202628859 bool `json:"CVE-2026-28859"`
-				Cve202628861 bool `json:"CVE-2026-28861"`
 				Cve202628862 bool `json:"CVE-2026-28862"`
 				Cve202628864 bool `json:"CVE-2026-28864"`
 				Cve202628865 bool `json:"CVE-2026-28865"`
 				Cve202628866 bool `json:"CVE-2026-28866"`
 				Cve202628867 bool `json:"CVE-2026-28867"`
 				Cve202628868 bool `json:"CVE-2026-28868"`
-				Cve202628870 bool `json:"CVE-2026-28870"`
-				Cve202628871 bool `json:"CVE-2026-28871"`
 				Cve202628876 bool `json:"CVE-2026-28876"`
 				Cve202628877 bool `json:"CVE-2026-28877"`
 				Cve202628878 bool `json:"CVE-2026-28878"`
 				Cve202628879 bool `json:"CVE-2026-28879"`
 				Cve202628880 bool `json:"CVE-2026-28880"`
-				Cve202628881 bool `json:"CVE-2026-28881"`
-				Cve202628882 bool `json:"CVE-2026-28882"`
 				Cve202628886 bool `json:"CVE-2026-28886"`
 				Cve202628888 bool `json:"CVE-2026-28888"`
 				Cve202628891 bool `json:"CVE-2026-28891"`
 				Cve202628892 bool `json:"CVE-2026-28892"`
-				Cve202628893 bool `json:"CVE-2026-28893"`
 				Cve202628894 bool `json:"CVE-2026-28894"`
 			} `json:"CVEs"`
 			ExpirationDate   time.Time `json:"ExpirationDate"`
@@ -2656,6 +2644,7 @@ type MacOSV1FeedResponse struct {
 		} `json:"SecurityReleases"`
 		SupportedModels []struct {
 			Identifiers struct {
+				VmmX86_64 string `json:"VMM-x86_64,omitempty"`
 				// "Mac13,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "Mac13,2" cannot be unmarshalled into a struct field by encoding/json.
 				// "Mac14,10" cannot be unmarshalled into a struct field by encoding/json.
@@ -2695,8 +2684,14 @@ type MacOSV1FeedResponse struct {
 				// "Mac16,8" cannot be unmarshalled into a struct field by encoding/json.
 				// "Mac16,9" cannot be unmarshalled into a struct field by encoding/json.
 				// "Mac17,2" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,3" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,4" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,5" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,6" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,7" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,8" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,9" cannot be unmarshalled into a struct field by encoding/json.
 				// "MacBook10,1" cannot be unmarshalled into a struct field by encoding/json.
-				// "MacBook9,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "MacBookAir10,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "MacBookAir7,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "MacBookAir7,2" cannot be unmarshalled into a struct field by encoding/json.
@@ -2727,9 +2722,11 @@ type MacOSV1FeedResponse struct {
 				// "MacBookPro18,4" cannot be unmarshalled into a struct field by encoding/json.
 				// "MacPro6,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "MacPro7,1" cannot be unmarshalled into a struct field by encoding/json.
+				// "MacPro7,1-Rack" cannot be unmarshalled into a struct field by encoding/json.
 				// "Macmini7,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "Macmini8,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "Macmini9,1" cannot be unmarshalled into a struct field by encoding/json.
+				// "VirtualMac2,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "iMac15,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "iMac16,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "iMac16,2" cannot be unmarshalled into a struct field by encoding/json.
