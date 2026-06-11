@@ -62,46 +62,111 @@ type SafariV2FeedResponse struct {
 				} `json:"CVE-2025-6558,omitempty"`
 				Cve20257424  *struct{} `json:"CVE-2025-7424,omitempty"`
 				Cve20257425  *struct{} `json:"CVE-2025-7425,omitempty"`
-				Cve202620643 *struct {
+				Cve202628847 *struct {
 					Exploited bool     `json:"exploited"`
 					NistURL   string   `json:"nist_url"`
 					Tags      []string `json:"tags"`
-				} `json:"CVE-2026-20643,omitempty"`
-				Cve202620664 *struct {
+				} `json:"CVE-2026-28847,omitempty"`
+				Cve202628883 *struct {
 					Exploited bool     `json:"exploited"`
 					NistURL   string   `json:"nist_url"`
 					Tags      []string `json:"tags"`
-				} `json:"CVE-2026-20664,omitempty"`
-				Cve202620665 *struct {
+				} `json:"CVE-2026-28883,omitempty"`
+				Cve202628901 *struct {
 					Exploited bool     `json:"exploited"`
 					NistURL   string   `json:"nist_url"`
 					Tags      []string `json:"tags"`
-				} `json:"CVE-2026-20665,omitempty"`
-				Cve202620691 *struct {
+				} `json:"CVE-2026-28901,omitempty"`
+				Cve202628902 *struct {
 					Exploited bool     `json:"exploited"`
 					NistURL   string   `json:"nist_url"`
 					Tags      []string `json:"tags"`
-				} `json:"CVE-2026-20691,omitempty"`
-				Cve202628857 *struct {
+				} `json:"CVE-2026-28902,omitempty"`
+				Cve202628903 *struct {
 					Exploited bool     `json:"exploited"`
 					NistURL   string   `json:"nist_url"`
 					Tags      []string `json:"tags"`
-				} `json:"CVE-2026-28857,omitempty"`
-				Cve202628859 *struct {
+				} `json:"CVE-2026-28903,omitempty"`
+				Cve202628904 *struct {
 					Exploited bool     `json:"exploited"`
 					NistURL   string   `json:"nist_url"`
 					Tags      []string `json:"tags"`
-				} `json:"CVE-2026-28859,omitempty"`
-				Cve202628861 *struct {
+				} `json:"CVE-2026-28904,omitempty"`
+				Cve202628905 *struct {
 					Exploited bool     `json:"exploited"`
 					NistURL   string   `json:"nist_url"`
 					Tags      []string `json:"tags"`
-				} `json:"CVE-2026-28861,omitempty"`
-				Cve202628871 *struct {
+				} `json:"CVE-2026-28905,omitempty"`
+				Cve202628907 *struct {
 					Exploited bool     `json:"exploited"`
 					NistURL   string   `json:"nist_url"`
 					Tags      []string `json:"tags"`
-				} `json:"CVE-2026-28871,omitempty"`
+				} `json:"CVE-2026-28907,omitempty"`
+				Cve202628913 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28913,omitempty"`
+				Cve202628917 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28917,omitempty"`
+				Cve202628942 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28942,omitempty"`
+				Cve202628944 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28944,omitempty"`
+				Cve202628946 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28946,omitempty"`
+				Cve202628947 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28947,omitempty"`
+				Cve202628953 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28953,omitempty"`
+				Cve202628955 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28955,omitempty"`
+				Cve202628958 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28958,omitempty"`
+				Cve202628962 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28962,omitempty"`
+				Cve202628971 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28971,omitempty"`
+				Cve202643658 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-43658,omitempty"`
+				Cve202643660 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-43660,omitempty"`
 			} `json:"CVEs"`
 			DaysSincePreviousRelease int       `json:"DaysSincePreviousRelease"`
 			ProductName              string    `json:"ProductName"`
@@ -640,6 +705,11 @@ type SafariV2FeedResponse struct {
 					NistURL   string   `json:"nist_url"`
 					Tags      []string `json:"tags"`
 				} `json:"CVE-2026-20691,omitempty"`
+				Cve202628847 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28847,omitempty"`
 				Cve202628857 *struct {
 					Exploited bool     `json:"exploited"`
 					NistURL   string   `json:"nist_url"`
@@ -660,6 +730,106 @@ type SafariV2FeedResponse struct {
 					NistURL   string   `json:"nist_url"`
 					Tags      []string `json:"tags"`
 				} `json:"CVE-2026-28871,omitempty"`
+				Cve202628883 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28883,omitempty"`
+				Cve202628901 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28901,omitempty"`
+				Cve202628902 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28902,omitempty"`
+				Cve202628903 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28903,omitempty"`
+				Cve202628904 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28904,omitempty"`
+				Cve202628905 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28905,omitempty"`
+				Cve202628907 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28907,omitempty"`
+				Cve202628913 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28913,omitempty"`
+				Cve202628917 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28917,omitempty"`
+				Cve202628942 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28942,omitempty"`
+				Cve202628944 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28944,omitempty"`
+				Cve202628946 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28946,omitempty"`
+				Cve202628947 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28947,omitempty"`
+				Cve202628953 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28953,omitempty"`
+				Cve202628955 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28955,omitempty"`
+				Cve202628958 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28958,omitempty"`
+				Cve202628962 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28962,omitempty"`
+				Cve202628971 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-28971,omitempty"`
+				Cve202643658 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-43658,omitempty"`
+				Cve202643660 *struct {
+					Exploited bool     `json:"exploited"`
+					NistURL   string   `json:"nist_url"`
+					Tags      []string `json:"tags"`
+				} `json:"CVE-2026-43660,omitempty"`
 			} `json:"CVEs"`
 			DaysSincePreviousRelease int       `json:"DaysSincePreviousRelease,omitempty"`
 			ProductName              string    `json:"ProductName"`
