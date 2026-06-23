@@ -7,16 +7,10 @@ import (
 type MacOSV2FeedResponse struct {
 	BackgroundSecurityImprovements struct {
 		_26 []struct {
-			Build           string      `json:"Build"`
-			CvEs            []string    `json:"CVEs"`
-			DeviceScope     string      `json:"DeviceScope"`
-			DocumentationID interface{} `json:"DocumentationID"`
-			PatchesRelease  struct {
-				Build          string    `json:"Build"`
-				DaysLater      int       `json:"DaysLater"`
-				ProductVersion string    `json:"ProductVersion"`
-				ReleaseDate    time.Time `json:"ReleaseDate"`
-			} `json:"PatchesRelease"`
+			Build               string      `json:"Build"`
+			CvEs                []string    `json:"CVEs"`
+			DeviceScope         string      `json:"DeviceScope"`
+			DocumentationID     interface{} `json:"DocumentationID"`
 			PostingDate         string      `json:"PostingDate"`
 			PrerequisiteBuild   string      `json:"PrerequisiteBuild"`
 			PrerequisiteVersion interface{} `json:"PrerequisiteVersion"`
@@ -3438,22 +3432,16 @@ type MacOSV2FeedResponse struct {
 				Cve202643666 *struct{} `json:"CVE-2026-43666,omitempty"`
 				Cve202643668 *struct{} `json:"CVE-2026-43668,omitempty"`
 			} `json:"CVEs"`
-			DaysSincePreviousRelease int    `json:"DaysSincePreviousRelease,omitempty"`
-			DeviceScope              string `json:"DeviceScope"`
-			ExpirationDate           string `json:"ExpirationDate,omitempty"`
-			MergedInto               *struct {
-				Build          string    `json:"Build"`
-				DaysLater      int       `json:"DaysLater"`
-				ProductVersion string    `json:"ProductVersion"`
-				ReleaseDate    time.Time `json:"ReleaseDate"`
-			} `json:"MergedInto,omitempty"`
-			ProductName         string    `json:"ProductName"`
-			ProductVersion      string    `json:"ProductVersion"`
-			ReleaseDate         time.Time `json:"ReleaseDate"`
-			ReleaseType         string    `json:"ReleaseType"`
-			SecurityInfo        string    `json:"SecurityInfo"`
-			SecurityInfoContext string    `json:"SecurityInfoContext"`
-			SupersededBy        *struct {
+			DaysSincePreviousRelease int       `json:"DaysSincePreviousRelease,omitempty"`
+			DeviceScope              string    `json:"DeviceScope"`
+			ExpirationDate           string    `json:"ExpirationDate,omitempty"`
+			ProductName              string    `json:"ProductName"`
+			ProductVersion           string    `json:"ProductVersion"`
+			ReleaseDate              time.Time `json:"ReleaseDate"`
+			ReleaseType              string    `json:"ReleaseType"`
+			SecurityInfo             string    `json:"SecurityInfo"`
+			SecurityInfoContext      string    `json:"SecurityInfoContext"`
+			SupersededBy             *struct {
 				Build          string    `json:"Build"`
 				DaysLater      int       `json:"DaysLater"`
 				ProductVersion string    `json:"ProductVersion"`
