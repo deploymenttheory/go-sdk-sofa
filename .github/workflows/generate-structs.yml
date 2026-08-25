@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@b9e0990d219a03df7633c93f6f005a8fecbcab22 # v6.0.1
       
     - name: Set up Go
-      uses: actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c # v6.1.0
+      uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v6.1.0
       with:
         go-version-file: 'go.mod'
         
