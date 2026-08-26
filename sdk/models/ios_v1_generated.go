@@ -76,6 +76,7 @@ type IOSV1FeedResponse struct {
 				Cve202643660 bool `json:"CVE-2026-43660"`
 				Cve202643666 bool `json:"CVE-2026-43666"`
 				Cve202643668 bool `json:"CVE-2026-43668"`
+				Cve202643670 bool `json:"CVE-2026-43670"`
 				Cve202643794 bool `json:"CVE-2026-43794"`
 				Cve202643795 bool `json:"CVE-2026-43795"`
 				Cve202664715 bool `json:"CVE-2026-64715"`
@@ -105,6 +106,7 @@ type IOSV1FeedResponse struct {
 				Cve202665347 bool `json:"CVE-2026-65347"`
 				Cve202665349 bool `json:"CVE-2026-65349"`
 				Cve202665351 bool `json:"CVE-2026-65351"`
+				Cve202665367 bool `json:"CVE-2026-65367"`
 			} `json:"CVEs"`
 			ProductVersion   string        `json:"ProductVersion"`
 			ReleaseDate      time.Time     `json:"ReleaseDate"`
@@ -993,6 +995,7 @@ type IOSV1FeedResponse struct {
 				Cve202628886 bool `json:"CVE-2026-28886"`
 				Cve202628894 bool `json:"CVE-2026-28894"`
 				Cve202628895 bool `json:"CVE-2026-28895"`
+				Cve202628896 bool `json:"CVE-2026-28896"`
 				Cve202628897 bool `json:"CVE-2026-28897"`
 				Cve202628901 bool `json:"CVE-2026-28901"`
 				Cve202628902 bool `json:"CVE-2026-28902"`
@@ -1060,6 +1063,7 @@ type IOSV1FeedResponse struct {
 				Cve202643654 bool `json:"CVE-2026-43654"`
 				Cve202643655 bool `json:"CVE-2026-43655"`
 				Cve202643656 bool `json:"CVE-2026-43656"`
+				Cve202643657 bool `json:"CVE-2026-43657"`
 				Cve202643658 bool `json:"CVE-2026-43658"`
 				Cve202643659 bool `json:"CVE-2026-43659"`
 				Cve202643660 bool `json:"CVE-2026-43660"`
@@ -1068,6 +1072,7 @@ type IOSV1FeedResponse struct {
 				Cve202643666 bool `json:"CVE-2026-43666"`
 				Cve202643667 bool `json:"CVE-2026-43667"`
 				Cve202643668 bool `json:"CVE-2026-43668"`
+				Cve202643670 bool `json:"CVE-2026-43670"`
 				Cve202643673 bool `json:"CVE-2026-43673"`
 				Cve202643676 bool `json:"CVE-2026-43676"`
 				Cve202643699 bool `json:"CVE-2026-43699"`
@@ -1223,6 +1228,7 @@ type IOSV1FeedResponse struct {
 				Cve202665347 bool `json:"CVE-2026-65347"`
 				Cve202665349 bool `json:"CVE-2026-65349"`
 				Cve202665351 bool `json:"CVE-2026-65351"`
+				Cve202665367 bool `json:"CVE-2026-65367"`
 			} `json:"CVEs"`
 			DaysSincePreviousRelease int           `json:"DaysSincePreviousRelease"`
 			ProductName              string        `json:"ProductName"`
