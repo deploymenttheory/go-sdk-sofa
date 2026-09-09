@@ -140,35 +140,6 @@ type IOSFeedResponse struct {
 			Build                 string        `json:"Build"`
 			CvEs                  struct {
 				Cve202628950 *struct{} `json:"CVE-2026-28950,omitempty"`
-				Cve202643794 *struct{} `json:"CVE-2026-43794,omitempty"`
-				Cve202643795 *struct{} `json:"CVE-2026-43795,omitempty"`
-				Cve202664715 *struct{} `json:"CVE-2026-64715,omitempty"`
-				Cve202664778 *struct{} `json:"CVE-2026-64778,omitempty"`
-				Cve202664779 *struct{} `json:"CVE-2026-64779,omitempty"`
-				Cve202664780 *struct{} `json:"CVE-2026-64780,omitempty"`
-				Cve202664781 *struct{} `json:"CVE-2026-64781,omitempty"`
-				Cve202664782 *struct{} `json:"CVE-2026-64782,omitempty"`
-				Cve202664784 *struct{} `json:"CVE-2026-64784,omitempty"`
-				Cve202664787 *struct{} `json:"CVE-2026-64787,omitempty"`
-				Cve202664788 *struct{} `json:"CVE-2026-64788,omitempty"`
-				Cve202665329 *struct{} `json:"CVE-2026-65329,omitempty"`
-				Cve202665330 *struct{} `json:"CVE-2026-65330,omitempty"`
-				Cve202665331 *struct{} `json:"CVE-2026-65331,omitempty"`
-				Cve202665332 *struct{} `json:"CVE-2026-65332,omitempty"`
-				Cve202665333 *struct{} `json:"CVE-2026-65333,omitempty"`
-				Cve202665334 *struct{} `json:"CVE-2026-65334,omitempty"`
-				Cve202665335 *struct{} `json:"CVE-2026-65335,omitempty"`
-				Cve202665336 *struct{} `json:"CVE-2026-65336,omitempty"`
-				Cve202665337 *struct{} `json:"CVE-2026-65337,omitempty"`
-				Cve202665338 *struct{} `json:"CVE-2026-65338,omitempty"`
-				Cve202665339 *struct{} `json:"CVE-2026-65339,omitempty"`
-				Cve202665340 *struct{} `json:"CVE-2026-65340,omitempty"`
-				Cve202665341 *struct{} `json:"CVE-2026-65341,omitempty"`
-				Cve202665343 *struct{} `json:"CVE-2026-65343,omitempty"`
-				Cve202665346 *struct{} `json:"CVE-2026-65346,omitempty"`
-				Cve202665347 *struct{} `json:"CVE-2026-65347,omitempty"`
-				Cve202665349 *struct{} `json:"CVE-2026-65349,omitempty"`
-				Cve202665351 *struct{} `json:"CVE-2026-65351,omitempty"`
 			} `json:"CVEs"`
 			DaysSincePreviousRelease int       `json:"DaysSincePreviousRelease"`
 			DeviceScope              string    `json:"DeviceScope"`
