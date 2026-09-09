@@ -77,35 +77,6 @@ type IOSV1FeedResponse struct {
 				Cve202643666 bool `json:"CVE-2026-43666"`
 				Cve202643668 bool `json:"CVE-2026-43668"`
 				Cve202643670 bool `json:"CVE-2026-43670"`
-				Cve202643794 bool `json:"CVE-2026-43794"`
-				Cve202643795 bool `json:"CVE-2026-43795"`
-				Cve202664715 bool `json:"CVE-2026-64715"`
-				Cve202664778 bool `json:"CVE-2026-64778"`
-				Cve202664779 bool `json:"CVE-2026-64779"`
-				Cve202664780 bool `json:"CVE-2026-64780"`
-				Cve202664781 bool `json:"CVE-2026-64781"`
-				Cve202664782 bool `json:"CVE-2026-64782"`
-				Cve202664784 bool `json:"CVE-2026-64784"`
-				Cve202664787 bool `json:"CVE-2026-64787"`
-				Cve202664788 bool `json:"CVE-2026-64788"`
-				Cve202665329 bool `json:"CVE-2026-65329"`
-				Cve202665330 bool `json:"CVE-2026-65330"`
-				Cve202665331 bool `json:"CVE-2026-65331"`
-				Cve202665332 bool `json:"CVE-2026-65332"`
-				Cve202665333 bool `json:"CVE-2026-65333"`
-				Cve202665334 bool `json:"CVE-2026-65334"`
-				Cve202665335 bool `json:"CVE-2026-65335"`
-				Cve202665336 bool `json:"CVE-2026-65336"`
-				Cve202665337 bool `json:"CVE-2026-65337"`
-				Cve202665338 bool `json:"CVE-2026-65338"`
-				Cve202665339 bool `json:"CVE-2026-65339"`
-				Cve202665340 bool `json:"CVE-2026-65340"`
-				Cve202665341 bool `json:"CVE-2026-65341"`
-				Cve202665343 bool `json:"CVE-2026-65343"`
-				Cve202665346 bool `json:"CVE-2026-65346"`
-				Cve202665347 bool `json:"CVE-2026-65347"`
-				Cve202665349 bool `json:"CVE-2026-65349"`
-				Cve202665351 bool `json:"CVE-2026-65351"`
 				Cve202665367 bool `json:"CVE-2026-65367"`
 			} `json:"CVEs"`
 			ProductVersion   string        `json:"ProductVersion"`
