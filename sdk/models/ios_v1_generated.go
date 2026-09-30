@@ -10,25 +10,6 @@ type IOSV1FeedResponse struct {
 			ActivelyExploitedCvEs []string `json:"ActivelyExploitedCVEs"`
 			Build                 string   `json:"Build"`
 			CvEs                  struct {
-				Cve202524220 bool `json:"CVE-2025-24220"`
-				Cve202524224 bool `json:"CVE-2025-24224"`
-				Cve202531276 bool `json:"CVE-2025-31276"`
-				Cve202531278 bool `json:"CVE-2025-31278"`
-				Cve202531279 bool `json:"CVE-2025-31279"`
-				Cve202543209 bool `json:"CVE-2025-43209"`
-				Cve202543210 bool `json:"CVE-2025-43210"`
-				Cve202543211 bool `json:"CVE-2025-43211"`
-				Cve202543216 bool `json:"CVE-2025-43216"`
-				Cve202543217 bool `json:"CVE-2025-43217"`
-				Cve202543220 bool `json:"CVE-2025-43220"`
-				Cve202543222 bool `json:"CVE-2025-43222"`
-				Cve202543223 bool `json:"CVE-2025-43223"`
-				Cve202543225 bool `json:"CVE-2025-43225"`
-				Cve202543226 bool `json:"CVE-2025-43226"`
-				Cve202543230 bool `json:"CVE-2025-43230"`
-				Cve202543282 bool `json:"CVE-2025-43282"`
-				Cve20256558  bool `json:"CVE-2025-6558,omitempty"`
-				Cve20257424  bool `json:"CVE-2025-7424"`
 				Cve202628819 bool `json:"CVE-2026-28819"`
 				Cve202628846 bool `json:"CVE-2026-28846"`
 				Cve202628847 bool `json:"CVE-2026-28847"`
@@ -78,315 +59,29 @@ type IOSV1FeedResponse struct {
 				Cve202643668 bool `json:"CVE-2026-43668"`
 				Cve202643670 bool `json:"CVE-2026-43670"`
 				Cve202665367 bool `json:"CVE-2026-65367"`
+				Cve202686950 bool `json:"CVE-2026-86950,omitempty"`
 			} `json:"CVEs"`
-			ProductVersion   string        `json:"ProductVersion"`
-			ReleaseDate      time.Time     `json:"ReleaseDate"`
-			SecurityInfo     string        `json:"SecurityInfo"`
-			SupportedDevices []interface{} `json:"SupportedDevices"`
-			UniqueCvEsCount  int           `json:"UniqueCVEsCount"`
+			ExpirationDate   time.Time `json:"ExpirationDate"`
+			ProductVersion   string    `json:"ProductVersion"`
+			ReleaseDate      time.Time `json:"ReleaseDate"`
+			SecurityInfo     string    `json:"SecurityInfo"`
+			SupportedDevices []string  `json:"SupportedDevices"`
+			UniqueCvEsCount  int       `json:"UniqueCVEsCount"`
 		} `json:"Latest"`
 		OSVersion        string `json:"OSVersion"`
 		SecurityReleases []struct {
 			ActivelyExploitedCvEs []string `json:"ActivelyExploitedCVEs"`
 			CvEs                  struct {
-				Cve202248554 bool `json:"CVE-2022-48554"`
-				Cve202332359 bool `json:"CVE-2023-32359"`
-				Cve202332361 bool `json:"CVE-2023-32361"`
-				Cve202332396 bool `json:"CVE-2023-32396"`
-				Cve202335074 bool `json:"CVE-2023-35074"`
-				Cve202335984 bool `json:"CVE-2023-35984"`
-				Cve202335990 bool `json:"CVE-2023-35990"`
-				Cve202338596 bool `json:"CVE-2023-38596"`
-				Cve202338610 bool `json:"CVE-2023-38610"`
-				Cve202338612 bool `json:"CVE-2023-38612"`
-				Cve202338614 bool `json:"CVE-2023-38614"`
-				Cve202339434 bool `json:"CVE-2023-39434"`
-				Cve202340384 bool `json:"CVE-2023-40384"`
-				Cve202340385 bool `json:"CVE-2023-40385"`
-				Cve202340389 bool `json:"CVE-2023-40389"`
-				Cve202340391 bool `json:"CVE-2023-40391"`
-				Cve202340393 bool `json:"CVE-2023-40393"`
-				Cve202340395 bool `json:"CVE-2023-40395"`
-				Cve202340396 bool `json:"CVE-2023-40396"`
-				Cve202340399 bool `json:"CVE-2023-40399"`
-				Cve202340400 bool `json:"CVE-2023-40400"`
-				Cve202340401 bool `json:"CVE-2023-40401"`
-				Cve202340403 bool `json:"CVE-2023-40403"`
-				Cve202340408 bool `json:"CVE-2023-40408"`
-				Cve202340409 bool `json:"CVE-2023-40409"`
-				Cve202340410 bool `json:"CVE-2023-40410"`
-				Cve202340412 bool `json:"CVE-2023-40412"`
-				Cve202340413 bool `json:"CVE-2023-40413"`
-				Cve202340414 bool `json:"CVE-2023-40414"`
-				Cve202340416 bool `json:"CVE-2023-40416"`
-				Cve202340417 bool `json:"CVE-2023-40417"`
-				Cve202340419 bool `json:"CVE-2023-40419"`
-				Cve202340420 bool `json:"CVE-2023-40420"`
-				Cve202340422 bool `json:"CVE-2023-40422"`
-				Cve202340423 bool `json:"CVE-2023-40423"`
-				Cve202340424 bool `json:"CVE-2023-40424"`
-				Cve202340427 bool `json:"CVE-2023-40427"`
-				Cve202340428 bool `json:"CVE-2023-40428"`
-				Cve202340429 bool `json:"CVE-2023-40429"`
-				Cve202340431 bool `json:"CVE-2023-40431"`
-				Cve202340432 bool `json:"CVE-2023-40432"`
-				Cve202340434 bool `json:"CVE-2023-40434"`
-				Cve202340441 bool `json:"CVE-2023-40441"`
-				Cve202340445 bool `json:"CVE-2023-40445"`
-				Cve202340446 bool `json:"CVE-2023-40446"`
-				Cve202340447 bool `json:"CVE-2023-40447"`
-				Cve202340448 bool `json:"CVE-2023-40448"`
-				Cve202340449 bool `json:"CVE-2023-40449"`
-				Cve202340452 bool `json:"CVE-2023-40452"`
-				Cve202340454 bool `json:"CVE-2023-40454"`
-				Cve202340456 bool `json:"CVE-2023-40456"`
-				Cve202340520 bool `json:"CVE-2023-40520"`
-				Cve202340528 bool `json:"CVE-2023-40528"`
-				Cve202340529 bool `json:"CVE-2023-40529"`
-				Cve202341060 bool `json:"CVE-2023-41060"`
-				Cve202341063 bool `json:"CVE-2023-41063"`
-				Cve202341065 bool `json:"CVE-2023-41065"`
-				Cve202341068 bool `json:"CVE-2023-41068"`
-				Cve202341069 bool `json:"CVE-2023-41069"`
-				Cve202341070 bool `json:"CVE-2023-41070"`
-				Cve202341071 bool `json:"CVE-2023-41071"`
-				Cve202341072 bool `json:"CVE-2023-41072"`
-				Cve202341073 bool `json:"CVE-2023-41073"`
-				Cve202341074 bool `json:"CVE-2023-41074"`
-				Cve202341174 bool `json:"CVE-2023-41174"`
-				Cve202341232 bool `json:"CVE-2023-41232"`
-				Cve202341254 bool `json:"CVE-2023-41254"`
-				Cve202341968 bool `json:"CVE-2023-41968"`
-				Cve202341974 bool `json:"CVE-2023-41974,omitempty"`
-				Cve202341976 bool `json:"CVE-2023-41976"`
-				Cve202341980 bool `json:"CVE-2023-41980"`
-				Cve202341981 bool `json:"CVE-2023-41981"`
-				Cve202341982 bool `json:"CVE-2023-41982"`
-				Cve202341983 bool `json:"CVE-2023-41983"`
-				Cve202341984 bool `json:"CVE-2023-41984"`
-				Cve202341986 bool `json:"CVE-2023-41986"`
-				Cve202341988 bool `json:"CVE-2023-41988"`
-				Cve202341991 bool `json:"CVE-2023-41991,omitempty"`
-				Cve202341992 bool `json:"CVE-2023-41992,omitempty"`
-				Cve202341993 bool `json:"CVE-2023-41993,omitempty"`
-				Cve202341995 bool `json:"CVE-2023-41995"`
-				Cve202341997 bool `json:"CVE-2023-41997"`
-				Cve202342823 bool `json:"CVE-2023-42823"`
-				Cve202342824 bool `json:"CVE-2023-42824,omitempty"`
-				Cve202342833 bool `json:"CVE-2023-42833"`
-				Cve202342834 bool `json:"CVE-2023-42834"`
-				Cve202342836 bool `json:"CVE-2023-42836"`
-				Cve202342839 bool `json:"CVE-2023-42839"`
-				Cve202342841 bool `json:"CVE-2023-42841"`
-				Cve202342843 bool `json:"CVE-2023-42843"`
-				Cve202342845 bool `json:"CVE-2023-42845"`
-				Cve202342846 bool `json:"CVE-2023-42846"`
-				Cve202342847 bool `json:"CVE-2023-42847"`
-				Cve202342848 bool `json:"CVE-2023-42848"`
-				Cve202342849 bool `json:"CVE-2023-42849"`
-				Cve202342852 bool `json:"CVE-2023-42852"`
-				Cve202342855 bool `json:"CVE-2023-42855"`
-				Cve202342857 bool `json:"CVE-2023-42857"`
-				Cve202342870 bool `json:"CVE-2023-42870"`
-				Cve202342871 bool `json:"CVE-2023-42871"`
-				Cve202342872 bool `json:"CVE-2023-42872"`
-				Cve202342873 bool `json:"CVE-2023-42873"`
-				Cve202342875 bool `json:"CVE-2023-42875"`
-				Cve202342878 bool `json:"CVE-2023-42878"`
-				Cve202342883 bool `json:"CVE-2023-42883"`
-				Cve202342884 bool `json:"CVE-2023-42884"`
-				Cve202342888 bool `json:"CVE-2023-42888"`
-				Cve202342890 bool `json:"CVE-2023-42890"`
-				Cve202342893 bool `json:"CVE-2023-42893"`
-				Cve202342896 bool `json:"CVE-2023-42896"`
-				Cve202342897 bool `json:"CVE-2023-42897"`
-				Cve202342898 bool `json:"CVE-2023-42898"`
-				Cve202342899 bool `json:"CVE-2023-42899"`
-				Cve202342914 bool `json:"CVE-2023-42914"`
-				Cve202342916 bool `json:"CVE-2023-42916,omitempty"`
-				Cve202342917 bool `json:"CVE-2023-42917,omitempty"`
-				Cve202342919 bool `json:"CVE-2023-42919"`
-				Cve202342922 bool `json:"CVE-2023-42922"`
-				Cve202342923 bool `json:"CVE-2023-42923"`
-				Cve202342925 bool `json:"CVE-2023-42925"`
-				Cve202342928 bool `json:"CVE-2023-42928"`
-				Cve202342934 bool `json:"CVE-2023-42934"`
-				Cve202342936 bool `json:"CVE-2023-42936"`
-				Cve202342937 bool `json:"CVE-2023-42937"`
-				Cve202342939 bool `json:"CVE-2023-42939"`
-				Cve202342941 bool `json:"CVE-2023-42941"`
-				Cve202342942 bool `json:"CVE-2023-42942"`
-				Cve202342946 bool `json:"CVE-2023-42946"`
-				Cve202342947 bool `json:"CVE-2023-42947"`
-				Cve202342949 bool `json:"CVE-2023-42949"`
-				Cve202342950 bool `json:"CVE-2023-42950"`
-				Cve202342951 bool `json:"CVE-2023-42951"`
-				Cve202342952 bool `json:"CVE-2023-42952"`
-				Cve202342953 bool `json:"CVE-2023-42953"`
-				Cve202342956 bool `json:"CVE-2023-42956"`
-				Cve202342957 bool `json:"CVE-2023-42957"`
-				Cve202342961 bool `json:"CVE-2023-42961"`
-				Cve202342962 bool `json:"CVE-2023-42962"`
-				Cve202342969 bool `json:"CVE-2023-42969"`
-				Cve202342970 bool `json:"CVE-2023-42970"`
-				Cve202342973 bool `json:"CVE-2023-42973"`
-				Cve202342974 bool `json:"CVE-2023-42974"`
-				Cve202342977 bool `json:"CVE-2023-42977"`
-				Cve202343010 bool `json:"CVE-2023-43010"`
-				Cve202345866 bool `json:"CVE-2023-45866"`
-				Cve20235217  bool `json:"CVE-2023-5217,omitempty"`
-				Cve202352356 bool `json:"CVE-2023-52356"`
 				Cve20235841  bool `json:"CVE-2023-5841"`
-				Cve20236277  bool `json:"CVE-2023-6277"`
-				Cve20240258  bool `json:"CVE-2024-0258"`
-				Cve20241580  bool `json:"CVE-2024-1580"`
-				Cve202423201 bool `json:"CVE-2024-23201"`
-				Cve202423203 bool `json:"CVE-2024-23203"`
-				Cve202423204 bool `json:"CVE-2024-23204"`
-				Cve202423205 bool `json:"CVE-2024-23205"`
-				Cve202423206 bool `json:"CVE-2024-23206"`
-				Cve202423207 bool `json:"CVE-2024-23207"`
-				Cve202423208 bool `json:"CVE-2024-23208"`
-				Cve202423210 bool `json:"CVE-2024-23210"`
-				Cve202423211 bool `json:"CVE-2024-23211"`
-				Cve202423212 bool `json:"CVE-2024-23212"`
-				Cve202423213 bool `json:"CVE-2024-23213"`
-				Cve202423214 bool `json:"CVE-2024-23214"`
-				Cve202423215 bool `json:"CVE-2024-23215"`
-				Cve202423217 bool `json:"CVE-2024-23217"`
-				Cve202423218 bool `json:"CVE-2024-23218"`
-				Cve202423219 bool `json:"CVE-2024-23219"`
-				Cve202423220 bool `json:"CVE-2024-23220"`
-				Cve202423222 bool `json:"CVE-2024-23222,omitempty"`
-				Cve202423223 bool `json:"CVE-2024-23223"`
-				Cve202423225 bool `json:"CVE-2024-23225,omitempty"`
-				Cve202423226 bool `json:"CVE-2024-23226"`
-				Cve202423228 bool `json:"CVE-2024-23228"`
-				Cve202423231 bool `json:"CVE-2024-23231"`
-				Cve202423235 bool `json:"CVE-2024-23235"`
-				Cve202423239 bool `json:"CVE-2024-23239"`
-				Cve202423240 bool `json:"CVE-2024-23240"`
-				Cve202423241 bool `json:"CVE-2024-23241"`
-				Cve202423242 bool `json:"CVE-2024-23242"`
-				Cve202423243 bool `json:"CVE-2024-23243"`
-				Cve202423246 bool `json:"CVE-2024-23246"`
-				Cve202423250 bool `json:"CVE-2024-23250"`
-				Cve202423251 bool `json:"CVE-2024-23251"`
-				Cve202423254 bool `json:"CVE-2024-23254"`
-				Cve202423255 bool `json:"CVE-2024-23255"`
-				Cve202423256 bool `json:"CVE-2024-23256"`
-				Cve202423259 bool `json:"CVE-2024-23259"`
-				Cve202423262 bool `json:"CVE-2024-23262"`
-				Cve202423263 bool `json:"CVE-2024-23263"`
-				Cve202423264 bool `json:"CVE-2024-23264"`
-				Cve202423265 bool `json:"CVE-2024-23265"`
-				Cve202423270 bool `json:"CVE-2024-23270"`
-				Cve202423271 bool `json:"CVE-2024-23271"`
-				Cve202423273 bool `json:"CVE-2024-23273"`
-				Cve202423277 bool `json:"CVE-2024-23277"`
-				Cve202423278 bool `json:"CVE-2024-23278"`
-				Cve202423280 bool `json:"CVE-2024-23280"`
-				Cve202423282 bool `json:"CVE-2024-23282"`
-				Cve202423284 bool `json:"CVE-2024-23284"`
-				Cve202423286 bool `json:"CVE-2024-23286"`
-				Cve202423287 bool `json:"CVE-2024-23287"`
-				Cve202423288 bool `json:"CVE-2024-23288"`
-				Cve202423289 bool `json:"CVE-2024-23289"`
-				Cve202423290 bool `json:"CVE-2024-23290"`
-				Cve202423291 bool `json:"CVE-2024-23291"`
-				Cve202423292 bool `json:"CVE-2024-23292"`
-				Cve202423293 bool `json:"CVE-2024-23293"`
-				Cve202423296 bool `json:"CVE-2024-23296,omitempty"`
-				Cve202423297 bool `json:"CVE-2024-23297"`
-				Cve202427791 bool `json:"CVE-2024-27791"`
-				Cve202427796 bool `json:"CVE-2024-27796"`
-				Cve202427800 bool `json:"CVE-2024-27800"`
-				Cve202427801 bool `json:"CVE-2024-27801"`
-				Cve202427802 bool `json:"CVE-2024-27802"`
-				Cve202427803 bool `json:"CVE-2024-27803"`
-				Cve202427804 bool `json:"CVE-2024-27804"`
-				Cve202427805 bool `json:"CVE-2024-27805"`
-				Cve202427806 bool `json:"CVE-2024-27806"`
-				Cve202427807 bool `json:"CVE-2024-27807"`
-				Cve202427808 bool `json:"CVE-2024-27808"`
-				Cve202427810 bool `json:"CVE-2024-27810"`
-				Cve202427811 bool `json:"CVE-2024-27811"`
-				Cve202427815 bool `json:"CVE-2024-27815"`
-				Cve202427816 bool `json:"CVE-2024-27816"`
-				Cve202427817 bool `json:"CVE-2024-27817"`
-				Cve202427818 bool `json:"CVE-2024-27818"`
-				Cve202427819 bool `json:"CVE-2024-27819"`
-				Cve202427820 bool `json:"CVE-2024-27820"`
-				Cve202427821 bool `json:"CVE-2024-27821"`
-				Cve202427823 bool `json:"CVE-2024-27823"`
-				Cve202427826 bool `json:"CVE-2024-27826"`
-				Cve202427828 bool `json:"CVE-2024-27828"`
-				Cve202427830 bool `json:"CVE-2024-27830"`
-				Cve202427831 bool `json:"CVE-2024-27831"`
-				Cve202427832 bool `json:"CVE-2024-27832"`
-				Cve202427833 bool `json:"CVE-2024-27833"`
-				Cve202427834 bool `json:"CVE-2024-27834"`
-				Cve202427835 bool `json:"CVE-2024-27835"`
-				Cve202427836 bool `json:"CVE-2024-27836"`
-				Cve202427838 bool `json:"CVE-2024-27838"`
-				Cve202427839 bool `json:"CVE-2024-27839"`
-				Cve202427840 bool `json:"CVE-2024-27840"`
-				Cve202427841 bool `json:"CVE-2024-27841"`
-				Cve202427845 bool `json:"CVE-2024-27845"`
-				Cve202427847 bool `json:"CVE-2024-27847"`
-				Cve202427848 bool `json:"CVE-2024-27848"`
-				Cve202427850 bool `json:"CVE-2024-27850"`
-				Cve202427851 bool `json:"CVE-2024-27851"`
-				Cve202427852 bool `json:"CVE-2024-27852"`
-				Cve202427855 bool `json:"CVE-2024-27855"`
-				Cve202427856 bool `json:"CVE-2024-27856"`
-				Cve202427857 bool `json:"CVE-2024-27857"`
-				Cve202427859 bool `json:"CVE-2024-27859"`
-				Cve202427863 bool `json:"CVE-2024-27863"`
 				Cve202427869 bool `json:"CVE-2024-27869"`
-				Cve202427871 bool `json:"CVE-2024-27871"`
-				Cve202427873 bool `json:"CVE-2024-27873"`
 				Cve202427874 bool `json:"CVE-2024-27874"`
 				Cve202427876 bool `json:"CVE-2024-27876"`
 				Cve202427879 bool `json:"CVE-2024-27879"`
 				Cve202427880 bool `json:"CVE-2024-27880"`
-				Cve202427884 bool `json:"CVE-2024-27884"`
-				Cve202440771 bool `json:"CVE-2024-40771"`
-				Cve202440774 bool `json:"CVE-2024-40774"`
-				Cve202440776 bool `json:"CVE-2024-40776"`
-				Cve202440777 bool `json:"CVE-2024-40777"`
-				Cve202440778 bool `json:"CVE-2024-40778"`
-				Cve202440779 bool `json:"CVE-2024-40779"`
-				Cve202440780 bool `json:"CVE-2024-40780"`
-				Cve202440782 bool `json:"CVE-2024-40782"`
-				Cve202440784 bool `json:"CVE-2024-40784"`
-				Cve202440785 bool `json:"CVE-2024-40785"`
-				Cve202440786 bool `json:"CVE-2024-40786"`
-				Cve202440787 bool `json:"CVE-2024-40787"`
-				Cve202440788 bool `json:"CVE-2024-40788"`
-				Cve202440789 bool `json:"CVE-2024-40789"`
 				Cve202440791 bool `json:"CVE-2024-40791"`
-				Cve202440793 bool `json:"CVE-2024-40793"`
-				Cve202440794 bool `json:"CVE-2024-40794"`
-				Cve202440795 bool `json:"CVE-2024-40795"`
-				Cve202440799 bool `json:"CVE-2024-40799"`
-				Cve202440805 bool `json:"CVE-2024-40805"`
-				Cve202440806 bool `json:"CVE-2024-40806"`
-				Cve202440809 bool `json:"CVE-2024-40809"`
-				Cve202440812 bool `json:"CVE-2024-40812"`
-				Cve202440813 bool `json:"CVE-2024-40813"`
-				Cve202440815 bool `json:"CVE-2024-40815"`
-				Cve202440818 bool `json:"CVE-2024-40818"`
-				Cve202440822 bool `json:"CVE-2024-40822"`
-				Cve202440824 bool `json:"CVE-2024-40824"`
 				Cve202440826 bool `json:"CVE-2024-40826"`
-				Cve202440829 bool `json:"CVE-2024-40829"`
 				Cve202440830 bool `json:"CVE-2024-40830"`
-				Cve202440835 bool `json:"CVE-2024-40835"`
-				Cve202440836 bool `json:"CVE-2024-40836"`
-				Cve202440839 bool `json:"CVE-2024-40839"`
 				Cve202440840 bool `json:"CVE-2024-40840"`
-				Cve202440844 bool `json:"CVE-2024-40844"`
 				Cve202440850 bool `json:"CVE-2024-40850"`
 				Cve202440851 bool `json:"CVE-2024-40851"`
 				Cve202440852 bool `json:"CVE-2024-40852"`
@@ -403,14 +98,11 @@ type IOSV1FeedResponse struct {
 				Cve202444126 bool `json:"CVE-2024-44126"`
 				Cve202444127 bool `json:"CVE-2024-44127"`
 				Cve202444131 bool `json:"CVE-2024-44131"`
-				Cve202444136 bool `json:"CVE-2024-44136"`
 				Cve202444139 bool `json:"CVE-2024-44139"`
 				Cve202444144 bool `json:"CVE-2024-44144"`
 				Cve202444145 bool `json:"CVE-2024-44145"`
 				Cve202444147 bool `json:"CVE-2024-44147"`
 				Cve202444155 bool `json:"CVE-2024-44155"`
-				Cve202444158 bool `json:"CVE-2024-44158"`
-				Cve202444164 bool `json:"CVE-2024-44164"`
 				Cve202444165 bool `json:"CVE-2024-44165"`
 				Cve202444167 bool `json:"CVE-2024-44167"`
 				Cve202444169 bool `json:"CVE-2024-44169"`
@@ -421,7 +113,6 @@ type IOSV1FeedResponse struct {
 				Cve202444180 bool `json:"CVE-2024-44180"`
 				Cve202444183 bool `json:"CVE-2024-44183"`
 				Cve202444184 bool `json:"CVE-2024-44184"`
-				Cve202444185 bool `json:"CVE-2024-44185"`
 				Cve202444187 bool `json:"CVE-2024-44187"`
 				Cve202444191 bool `json:"CVE-2024-44191"`
 				Cve202444192 bool `json:"CVE-2024-44192"`
@@ -431,8 +122,6 @@ type IOSV1FeedResponse struct {
 				Cve202444201 bool `json:"CVE-2024-44201"`
 				Cve202444202 bool `json:"CVE-2024-44202"`
 				Cve202444204 bool `json:"CVE-2024-44204"`
-				Cve202444205 bool `json:"CVE-2024-44205"`
-				Cve202444206 bool `json:"CVE-2024-44206"`
 				Cve202444207 bool `json:"CVE-2024-44207"`
 				Cve202444212 bool `json:"CVE-2024-44212"`
 				Cve202444215 bool `json:"CVE-2024-44215"`
@@ -478,7 +167,6 @@ type IOSV1FeedResponse struct {
 				Cve202444309 bool `json:"CVE-2024-44309,omitempty"`
 				Cve202445306 bool `json:"CVE-2024-45306"`
 				Cve202445490 bool `json:"CVE-2024-45490"`
-				Cve20244558  bool `json:"CVE-2024-4558"`
 				Cve202448958 bool `json:"CVE-2024-48958"`
 				Cve202454467 bool `json:"CVE-2024-54467"`
 				Cve202454468 bool `json:"CVE-2024-54468"`
@@ -519,12 +207,9 @@ type IOSV1FeedResponse struct {
 				Cve202454542 bool `json:"CVE-2024-54542"`
 				Cve202454543 bool `json:"CVE-2024-54543"`
 				Cve202454550 bool `json:"CVE-2024-54550"`
-				Cve202454551 bool `json:"CVE-2024-54551"`
 				Cve202454556 bool `json:"CVE-2024-54556"`
 				Cve202454558 bool `json:"CVE-2024-54558"`
 				Cve202454560 bool `json:"CVE-2024-54560"`
-				Cve202454564 bool `json:"CVE-2024-54564"`
-				Cve202454658 bool `json:"CVE-2024-54658"`
 				Cve202455549 bool `json:"CVE-2024-55549"`
 				Cve202456171 bool `json:"CVE-2024-56171"`
 				Cve20247264  bool `json:"CVE-2024-7264"`
@@ -540,13 +225,11 @@ type IOSV1FeedResponse struct {
 				Cve202524091 bool `json:"CVE-2025-24091"`
 				Cve202524095 bool `json:"CVE-2025-24095"`
 				Cve202524097 bool `json:"CVE-2025-24097"`
-				Cve202524102 bool `json:"CVE-2025-24102"`
 				Cve202524104 bool `json:"CVE-2025-24104"`
 				Cve202524107 bool `json:"CVE-2025-24107"`
 				Cve202524111 bool `json:"CVE-2025-24111"`
 				Cve202524113 bool `json:"CVE-2025-24113"`
 				Cve202524117 bool `json:"CVE-2025-24117"`
-				Cve202524118 bool `json:"CVE-2025-24118"`
 				Cve202524123 bool `json:"CVE-2025-24123"`
 				Cve202524124 bool `json:"CVE-2025-24124"`
 				Cve202524126 bool `json:"CVE-2025-24126"`
@@ -595,7 +278,6 @@ type IOSV1FeedResponse struct {
 				Cve202524212 bool `json:"CVE-2025-24212"`
 				Cve202524213 bool `json:"CVE-2025-24213"`
 				Cve202524214 bool `json:"CVE-2025-24214"`
-				Cve202524215 bool `json:"CVE-2025-24215"`
 				Cve202524216 bool `json:"CVE-2025-24216"`
 				Cve202524217 bool `json:"CVE-2025-24217"`
 				Cve202524220 bool `json:"CVE-2025-24220"`
@@ -611,7 +293,6 @@ type IOSV1FeedResponse struct {
 				Cve202524251 bool `json:"CVE-2025-24251"`
 				Cve202524252 bool `json:"CVE-2025-24252"`
 				Cve202524257 bool `json:"CVE-2025-24257"`
-				Cve202524259 bool `json:"CVE-2025-24259"`
 				Cve202524264 bool `json:"CVE-2025-24264"`
 				Cve202524270 bool `json:"CVE-2025-24270"`
 				Cve202524271 bool `json:"CVE-2025-24271"`
@@ -636,7 +317,6 @@ type IOSV1FeedResponse struct {
 				Cve202530454 bool `json:"CVE-2025-30454"`
 				Cve202530456 bool `json:"CVE-2025-30456"`
 				Cve202530463 bool `json:"CVE-2025-30463"`
-				Cve202530465 bool `json:"CVE-2025-30465"`
 				Cve202530466 bool `json:"CVE-2025-30466"`
 				Cve202530467 bool `json:"CVE-2025-30467"`
 				Cve202530468 bool `json:"CVE-2025-30468"`
@@ -664,13 +344,11 @@ type IOSV1FeedResponse struct {
 				Cve202531209 bool `json:"CVE-2025-31209"`
 				Cve202531210 bool `json:"CVE-2025-31210"`
 				Cve202531212 bool `json:"CVE-2025-31212"`
-				Cve202531213 bool `json:"CVE-2025-31213"`
 				Cve202531214 bool `json:"CVE-2025-31214"`
 				Cve202531215 bool `json:"CVE-2025-31215"`
 				Cve202531216 bool `json:"CVE-2025-31216"`
 				Cve202531217 bool `json:"CVE-2025-31217"`
 				Cve202531219 bool `json:"CVE-2025-31219"`
-				Cve202531220 bool `json:"CVE-2025-31220"`
 				Cve202531221 bool `json:"CVE-2025-31221"`
 				Cve202531222 bool `json:"CVE-2025-31222"`
 				Cve202531223 bool `json:"CVE-2025-31223"`
@@ -681,7 +359,6 @@ type IOSV1FeedResponse struct {
 				Cve202531229 bool `json:"CVE-2025-31229"`
 				Cve202531233 bool `json:"CVE-2025-31233"`
 				Cve202531234 bool `json:"CVE-2025-31234"`
-				Cve202531235 bool `json:"CVE-2025-31235"`
 				Cve202531238 bool `json:"CVE-2025-31238"`
 				Cve202531239 bool `json:"CVE-2025-31239"`
 				Cve202531241 bool `json:"CVE-2025-31241"`
@@ -697,7 +374,6 @@ type IOSV1FeedResponse struct {
 				Cve202531276 bool `json:"CVE-2025-31276"`
 				Cve202531277 bool `json:"CVE-2025-31277,omitempty"`
 				Cve202531278 bool `json:"CVE-2025-31278"`
-				Cve202531279 bool `json:"CVE-2025-31279"`
 				Cve202531281 bool `json:"CVE-2025-31281"`
 				Cve202543186 bool `json:"CVE-2025-43186"`
 				Cve202543190 bool `json:"CVE-2025-43190"`
@@ -713,12 +389,9 @@ type IOSV1FeedResponse struct {
 				Cve202543214 bool `json:"CVE-2025-43214"`
 				Cve202543216 bool `json:"CVE-2025-43216"`
 				Cve202543217 bool `json:"CVE-2025-43217"`
-				Cve202543220 bool `json:"CVE-2025-43220"`
 				Cve202543221 bool `json:"CVE-2025-43221"`
-				Cve202543222 bool `json:"CVE-2025-43222"`
 				Cve202543223 bool `json:"CVE-2025-43223"`
 				Cve202543224 bool `json:"CVE-2025-43224"`
-				Cve202543225 bool `json:"CVE-2025-43225"`
 				Cve202543226 bool `json:"CVE-2025-43226"`
 				Cve202543227 bool `json:"CVE-2025-43227"`
 				Cve202543228 bool `json:"CVE-2025-43228"`
@@ -922,6 +595,7 @@ type IOSV1FeedResponse struct {
 				Cve202620678 bool `json:"CVE-2026-20678"`
 				Cve202620680 bool `json:"CVE-2026-20680"`
 				Cve202620682 bool `json:"CVE-2026-20682"`
+				Cve202620683 bool `json:"CVE-2026-20683"`
 				Cve202620686 bool `json:"CVE-2026-20686"`
 				Cve202620687 bool `json:"CVE-2026-20687"`
 				Cve202620688 bool `json:"CVE-2026-20688"`
@@ -982,7 +656,9 @@ type IOSV1FeedResponse struct {
 				Cve202628928 bool `json:"CVE-2026-28928"`
 				Cve202628929 bool `json:"CVE-2026-28929"`
 				Cve202628931 bool `json:"CVE-2026-28931"`
+				Cve202628935 bool `json:"CVE-2026-28935"`
 				Cve202628936 bool `json:"CVE-2026-28936"`
+				Cve202628938 bool `json:"CVE-2026-28938"`
 				Cve202628940 bool `json:"CVE-2026-28940"`
 				Cve202628941 bool `json:"CVE-2026-28941"`
 				Cve202628942 bool `json:"CVE-2026-28942"`
@@ -999,11 +675,14 @@ type IOSV1FeedResponse struct {
 				Cve202628957 bool `json:"CVE-2026-28957"`
 				Cve202628958 bool `json:"CVE-2026-28958"`
 				Cve202628959 bool `json:"CVE-2026-28959"`
+				Cve202628960 bool `json:"CVE-2026-28960"`
 				Cve202628962 bool `json:"CVE-2026-28962"`
 				Cve202628963 bool `json:"CVE-2026-28963"`
 				Cve202628964 bool `json:"CVE-2026-28964"`
 				Cve202628965 bool `json:"CVE-2026-28965"`
+				Cve202628966 bool `json:"CVE-2026-28966"`
 				Cve202628967 bool `json:"CVE-2026-28967"`
+				Cve202628968 bool `json:"CVE-2026-28968"`
 				Cve202628969 bool `json:"CVE-2026-28969"`
 				Cve202628971 bool `json:"CVE-2026-28971"`
 				Cve202628972 bool `json:"CVE-2026-28972"`
@@ -1040,15 +719,24 @@ type IOSV1FeedResponse struct {
 				Cve202643660 bool `json:"CVE-2026-43660"`
 				Cve202643661 bool `json:"CVE-2026-43661"`
 				Cve202643663 bool `json:"CVE-2026-43663"`
+				Cve202643664 bool `json:"CVE-2026-43664"`
 				Cve202643666 bool `json:"CVE-2026-43666"`
 				Cve202643667 bool `json:"CVE-2026-43667"`
 				Cve202643668 bool `json:"CVE-2026-43668"`
 				Cve202643670 bool `json:"CVE-2026-43670"`
 				Cve202643673 bool `json:"CVE-2026-43673"`
+				Cve202643674 bool `json:"CVE-2026-43674"`
 				Cve202643676 bool `json:"CVE-2026-43676"`
+				Cve202643684 bool `json:"CVE-2026-43684"`
+				Cve202643686 bool `json:"CVE-2026-43686"`
+				Cve202643687 bool `json:"CVE-2026-43687"`
+				Cve202643688 bool `json:"CVE-2026-43688"`
+				Cve202643689 bool `json:"CVE-2026-43689"`
+				Cve202643695 bool `json:"CVE-2026-43695"`
 				Cve202643699 bool `json:"CVE-2026-43699"`
 				Cve202643700 bool `json:"CVE-2026-43700"`
 				Cve202643701 bool `json:"CVE-2026-43701"`
+				Cve202643702 bool `json:"CVE-2026-43702"`
 				Cve202643703 bool `json:"CVE-2026-43703"`
 				Cve202643704 bool `json:"CVE-2026-43704"`
 				Cve202643705 bool `json:"CVE-2026-43705"`
@@ -1079,6 +767,7 @@ type IOSV1FeedResponse struct {
 				Cve202643733 bool `json:"CVE-2026-43733"`
 				Cve202643734 bool `json:"CVE-2026-43734"`
 				Cve202643735 bool `json:"CVE-2026-43735"`
+				Cve202643737 bool `json:"CVE-2026-43737"`
 				Cve202643738 bool `json:"CVE-2026-43738"`
 				Cve202643739 bool `json:"CVE-2026-43739"`
 				Cve202643740 bool `json:"CVE-2026-43740"`
@@ -1087,13 +776,16 @@ type IOSV1FeedResponse struct {
 				Cve202643744 bool `json:"CVE-2026-43744"`
 				Cve202643745 bool `json:"CVE-2026-43745"`
 				Cve202643746 bool `json:"CVE-2026-43746"`
+				Cve202643748 bool `json:"CVE-2026-43748"`
 				Cve202643753 bool `json:"CVE-2026-43753"`
 				Cve202643754 bool `json:"CVE-2026-43754"`
 				Cve202643757 bool `json:"CVE-2026-43757"`
+				Cve202643762 bool `json:"CVE-2026-43762"`
 				Cve202643769 bool `json:"CVE-2026-43769"`
 				Cve202643776 bool `json:"CVE-2026-43776"`
 				Cve202643778 bool `json:"CVE-2026-43778"`
 				Cve202643780 bool `json:"CVE-2026-43780"`
+				Cve202643785 bool `json:"CVE-2026-43785"`
 				Cve202643794 bool `json:"CVE-2026-43794"`
 				Cve202643795 bool `json:"CVE-2026-43795"`
 				Cve202643796 bool `json:"CVE-2026-43796"`
@@ -1106,6 +798,7 @@ type IOSV1FeedResponse struct {
 				Cve202643804 bool `json:"CVE-2026-43804"`
 				Cve202643805 bool `json:"CVE-2026-43805"`
 				Cve202643807 bool `json:"CVE-2026-43807"`
+				Cve202643808 bool `json:"CVE-2026-43808"`
 				Cve202643809 bool `json:"CVE-2026-43809"`
 				Cve202643810 bool `json:"CVE-2026-43810"`
 				Cve202643811 bool `json:"CVE-2026-43811"`
@@ -1122,12 +815,15 @@ type IOSV1FeedResponse struct {
 				Cve202664693 bool `json:"CVE-2026-64693"`
 				Cve202664695 bool `json:"CVE-2026-64695"`
 				Cve202664700 bool `json:"CVE-2026-64700"`
+				Cve202664705 bool `json:"CVE-2026-64705"`
 				Cve202664707 bool `json:"CVE-2026-64707"`
 				Cve202664709 bool `json:"CVE-2026-64709"`
 				Cve202664711 bool `json:"CVE-2026-64711"`
 				Cve202664713 bool `json:"CVE-2026-64713"`
+				Cve202664714 bool `json:"CVE-2026-64714"`
 				Cve202664715 bool `json:"CVE-2026-64715"`
 				Cve202664716 bool `json:"CVE-2026-64716"`
+				Cve202664717 bool `json:"CVE-2026-64717"`
 				Cve202664718 bool `json:"CVE-2026-64718"`
 				Cve202664719 bool `json:"CVE-2026-64719"`
 				Cve202664720 bool `json:"CVE-2026-64720"`
@@ -1144,6 +840,7 @@ type IOSV1FeedResponse struct {
 				Cve202664733 bool `json:"CVE-2026-64733"`
 				Cve202664734 bool `json:"CVE-2026-64734"`
 				Cve202664735 bool `json:"CVE-2026-64735"`
+				Cve202664736 bool `json:"CVE-2026-64736"`
 				Cve202664738 bool `json:"CVE-2026-64738"`
 				Cve202664739 bool `json:"CVE-2026-64739"`
 				Cve202664740 bool `json:"CVE-2026-64740"`
@@ -1155,11 +852,15 @@ type IOSV1FeedResponse struct {
 				Cve202664747 bool `json:"CVE-2026-64747"`
 				Cve202664749 bool `json:"CVE-2026-64749"`
 				Cve202664751 bool `json:"CVE-2026-64751"`
+				Cve202664752 bool `json:"CVE-2026-64752"`
+				Cve202664753 bool `json:"CVE-2026-64753"`
 				Cve202664754 bool `json:"CVE-2026-64754"`
 				Cve202664755 bool `json:"CVE-2026-64755"`
+				Cve202664756 bool `json:"CVE-2026-64756"`
 				Cve202664757 bool `json:"CVE-2026-64757"`
 				Cve202664758 bool `json:"CVE-2026-64758"`
 				Cve202664760 bool `json:"CVE-2026-64760"`
+				Cve202664761 bool `json:"CVE-2026-64761"`
 				Cve202664762 bool `json:"CVE-2026-64762"`
 				Cve202664763 bool `json:"CVE-2026-64763"`
 				Cve202664764 bool `json:"CVE-2026-64764"`
@@ -1195,21 +896,135 @@ type IOSV1FeedResponse struct {
 				Cve202665340 bool `json:"CVE-2026-65340"`
 				Cve202665341 bool `json:"CVE-2026-65341"`
 				Cve202665343 bool `json:"CVE-2026-65343"`
+				Cve202665344 bool `json:"CVE-2026-65344"`
+				Cve202665345 bool `json:"CVE-2026-65345"`
 				Cve202665346 bool `json:"CVE-2026-65346"`
 				Cve202665347 bool `json:"CVE-2026-65347"`
+				Cve202665348 bool `json:"CVE-2026-65348"`
 				Cve202665349 bool `json:"CVE-2026-65349"`
 				Cve202665351 bool `json:"CVE-2026-65351"`
+				Cve202665352 bool `json:"CVE-2026-65352"`
+				Cve202665353 bool `json:"CVE-2026-65353"`
+				Cve202665354 bool `json:"CVE-2026-65354"`
+				Cve202665355 bool `json:"CVE-2026-65355"`
+				Cve202665357 bool `json:"CVE-2026-65357"`
+				Cve202665358 bool `json:"CVE-2026-65358"`
+				Cve202665359 bool `json:"CVE-2026-65359"`
+				Cve202665360 bool `json:"CVE-2026-65360"`
 				Cve202665367 bool `json:"CVE-2026-65367"`
+				Cve202665371 bool `json:"CVE-2026-65371"`
+				Cve202665377 bool `json:"CVE-2026-65377"`
+				Cve202665390 bool `json:"CVE-2026-65390"`
+				Cve202665391 bool `json:"CVE-2026-65391"`
+				Cve202665395 bool `json:"CVE-2026-65395"`
+				Cve202665398 bool `json:"CVE-2026-65398"`
+				Cve202665399 bool `json:"CVE-2026-65399"`
+				Cve202665402 bool `json:"CVE-2026-65402"`
+				Cve202665403 bool `json:"CVE-2026-65403"`
+				Cve202665404 bool `json:"CVE-2026-65404"`
+				Cve202665405 bool `json:"CVE-2026-65405"`
+				Cve202665406 bool `json:"CVE-2026-65406"`
+				Cve202665407 bool `json:"CVE-2026-65407"`
+				Cve202665408 bool `json:"CVE-2026-65408"`
+				Cve202665409 bool `json:"CVE-2026-65409"`
+				Cve202665410 bool `json:"CVE-2026-65410"`
+				Cve202665411 bool `json:"CVE-2026-65411"`
+				Cve202665412 bool `json:"CVE-2026-65412"`
+				Cve202665414 bool `json:"CVE-2026-65414"`
+				Cve202665415 bool `json:"CVE-2026-65415"`
+				Cve202684487 bool `json:"CVE-2026-84487"`
+				Cve202684489 bool `json:"CVE-2026-84489"`
+				Cve202684491 bool `json:"CVE-2026-84491"`
+				Cve202684492 bool `json:"CVE-2026-84492"`
+				Cve202684497 bool `json:"CVE-2026-84497"`
+				Cve202684507 bool `json:"CVE-2026-84507"`
+				Cve202684510 bool `json:"CVE-2026-84510"`
+				Cve202684511 bool `json:"CVE-2026-84511"`
+				Cve202684513 bool `json:"CVE-2026-84513"`
+				Cve202684518 bool `json:"CVE-2026-84518"`
+				Cve202684519 bool `json:"CVE-2026-84519"`
+				Cve202684521 bool `json:"CVE-2026-84521"`
+				Cve202684523 bool `json:"CVE-2026-84523"`
+				Cve202684524 bool `json:"CVE-2026-84524"`
+				Cve202684526 bool `json:"CVE-2026-84526"`
+				Cve202684527 bool `json:"CVE-2026-84527"`
+				Cve202684530 bool `json:"CVE-2026-84530"`
+				Cve202684531 bool `json:"CVE-2026-84531"`
+				Cve202684532 bool `json:"CVE-2026-84532"`
+				Cve202684533 bool `json:"CVE-2026-84533"`
+				Cve202684534 bool `json:"CVE-2026-84534"`
+				Cve202684546 bool `json:"CVE-2026-84546"`
+				Cve202684551 bool `json:"CVE-2026-84551"`
+				Cve202684552 bool `json:"CVE-2026-84552"`
+				Cve202684560 bool `json:"CVE-2026-84560"`
+				Cve202684561 bool `json:"CVE-2026-84561"`
+				Cve202684564 bool `json:"CVE-2026-84564"`
+				Cve202684566 bool `json:"CVE-2026-84566"`
+				Cve202684571 bool `json:"CVE-2026-84571"`
+				Cve202684575 bool `json:"CVE-2026-84575"`
+				Cve202684583 bool `json:"CVE-2026-84583"`
+				Cve202684593 bool `json:"CVE-2026-84593"`
+				Cve202684596 bool `json:"CVE-2026-84596"`
+				Cve202684597 bool `json:"CVE-2026-84597"`
+				Cve202684598 bool `json:"CVE-2026-84598"`
+				Cve202684600 bool `json:"CVE-2026-84600"`
+				Cve202684602 bool `json:"CVE-2026-84602"`
+				Cve202684603 bool `json:"CVE-2026-84603"`
+				Cve202684606 bool `json:"CVE-2026-84606"`
+				Cve202684607 bool `json:"CVE-2026-84607"`
+				Cve202684609 bool `json:"CVE-2026-84609"`
+				Cve202684611 bool `json:"CVE-2026-84611"`
+				Cve202684612 bool `json:"CVE-2026-84612"`
+				Cve202684615 bool `json:"CVE-2026-84615"`
+				Cve202684616 bool `json:"CVE-2026-84616"`
+				Cve202684617 bool `json:"CVE-2026-84617"`
+				Cve202684620 bool `json:"CVE-2026-84620"`
+				Cve202684621 bool `json:"CVE-2026-84621"`
+				Cve202684622 bool `json:"CVE-2026-84622"`
+				Cve202684623 bool `json:"CVE-2026-84623"`
+				Cve202684624 bool `json:"CVE-2026-84624"`
+				Cve202684625 bool `json:"CVE-2026-84625"`
+				Cve202684626 bool `json:"CVE-2026-84626"`
+				Cve202684628 bool `json:"CVE-2026-84628"`
+				Cve202684629 bool `json:"CVE-2026-84629"`
+				Cve202684630 bool `json:"CVE-2026-84630"`
+				Cve202684632 bool `json:"CVE-2026-84632"`
+				Cve202684635 bool `json:"CVE-2026-84635"`
+				Cve202684636 bool `json:"CVE-2026-84636"`
+				Cve202686869 bool `json:"CVE-2026-86869"`
+				Cve202686870 bool `json:"CVE-2026-86870"`
+				Cve202686876 bool `json:"CVE-2026-86876"`
+				Cve202686878 bool `json:"CVE-2026-86878"`
+				Cve202686879 bool `json:"CVE-2026-86879"`
+				Cve202686881 bool `json:"CVE-2026-86881"`
+				Cve202686882 bool `json:"CVE-2026-86882"`
+				Cve202686883 bool `json:"CVE-2026-86883"`
+				Cve202686884 bool `json:"CVE-2026-86884"`
+				Cve202686885 bool `json:"CVE-2026-86885"`
+				Cve202686886 bool `json:"CVE-2026-86886"`
+				Cve202686887 bool `json:"CVE-2026-86887"`
+				Cve202686888 bool `json:"CVE-2026-86888"`
+				Cve202686890 bool `json:"CVE-2026-86890"`
+				Cve202686892 bool `json:"CVE-2026-86892"`
+				Cve202686893 bool `json:"CVE-2026-86893"`
+				Cve202686895 bool `json:"CVE-2026-86895"`
+				Cve202686897 bool `json:"CVE-2026-86897"`
+				Cve202686898 bool `json:"CVE-2026-86898"`
+				Cve202686903 bool `json:"CVE-2026-86903"`
+				Cve202686904 bool `json:"CVE-2026-86904"`
+				Cve202686905 bool `json:"CVE-2026-86905"`
+				Cve202686924 bool `json:"CVE-2026-86924"`
+				Cve202686950 bool `json:"CVE-2026-86950,omitempty"`
 			} `json:"CVEs"`
-			DaysSincePreviousRelease int           `json:"DaysSincePreviousRelease"`
-			ProductName              string        `json:"ProductName"`
-			ProductVersion           string        `json:"ProductVersion"`
-			ReleaseDate              time.Time     `json:"ReleaseDate"`
-			ReleaseType              string        `json:"ReleaseType"`
-			SecurityInfo             string        `json:"SecurityInfo"`
-			SupportedDevices         []interface{} `json:"SupportedDevices"`
-			UniqueCvEsCount          int           `json:"UniqueCVEsCount"`
-			UpdateName               string        `json:"UpdateName"`
+			DaysSincePreviousRelease int       `json:"DaysSincePreviousRelease"`
+			ProductName              string    `json:"ProductName"`
+			ProductVersion           string    `json:"ProductVersion"`
+			ReleaseDate              time.Time `json:"ReleaseDate"`
+			ReleaseType              string    `json:"ReleaseType"`
+			SecurityInfo             string    `json:"SecurityInfo"`
+			SupportedDevices         []string  `json:"SupportedDevices"`
+			UniqueCvEsCount          int       `json:"UniqueCVEsCount"`
+			UpdateName               string    `json:"UpdateName"`
 		} `json:"SecurityReleases"`
 	} `json:"OSVersions"`
 	UpdateHash string `json:"UpdateHash"`
