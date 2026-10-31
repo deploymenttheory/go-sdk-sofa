@@ -18,6 +18,7 @@ type VisionOSV2FeedResponse struct {
 			AllBuilds             []string `json:"AllBuilds"`
 			Build                 string   `json:"Build"`
 			CvEs                  struct {
+				Cve202226704 *struct{} `json:"CVE-2022-26704,omitempty"`
 				Cve202531273 *struct{} `json:"CVE-2025-31273,omitempty"`
 				Cve202531277 *struct {
 					InKev    bool   `json:"InKEV"`
@@ -49,9 +50,135 @@ type VisionOSV2FeedResponse struct {
 					Nisturl  string `json:"NISTURL"`
 					Severity string `json:"Severity"`
 				} `json:"CVE-2025-6558,omitempty"`
-				Cve20256965 *struct{} `json:"CVE-2025-6965,omitempty"`
-				Cve20257424 *struct{} `json:"CVE-2025-7424,omitempty"`
-				Cve20257425 *struct{} `json:"CVE-2025-7425,omitempty"`
+				Cve20256965   *struct{} `json:"CVE-2025-6965,omitempty"`
+				Cve20257424   *struct{} `json:"CVE-2025-7424,omitempty"`
+				Cve20257425   *struct{} `json:"CVE-2025-7425,omitempty"`
+				Cve2026112413 *struct{} `json:"CVE-2026-112413,omitempty"`
+				Cve2026112414 *struct{} `json:"CVE-2026-112414,omitempty"`
+				Cve2026112415 *struct{} `json:"CVE-2026-112415,omitempty"`
+				Cve2026112416 *struct{} `json:"CVE-2026-112416,omitempty"`
+				Cve2026112417 *struct{} `json:"CVE-2026-112417,omitempty"`
+				Cve2026112423 *struct{} `json:"CVE-2026-112423,omitempty"`
+				Cve2026112425 *struct{} `json:"CVE-2026-112425,omitempty"`
+				Cve2026112432 *struct{} `json:"CVE-2026-112432,omitempty"`
+				Cve2026112446 *struct{} `json:"CVE-2026-112446,omitempty"`
+				Cve2026112449 *struct{} `json:"CVE-2026-112449,omitempty"`
+				Cve2026112454 *struct{} `json:"CVE-2026-112454,omitempty"`
+				Cve2026112455 *struct{} `json:"CVE-2026-112455,omitempty"`
+				Cve2026112461 *struct{} `json:"CVE-2026-112461,omitempty"`
+				Cve2026112464 *struct{} `json:"CVE-2026-112464,omitempty"`
+				Cve2026112466 *struct{} `json:"CVE-2026-112466,omitempty"`
+				Cve2026112468 *struct{} `json:"CVE-2026-112468,omitempty"`
+				Cve2026112469 *struct{} `json:"CVE-2026-112469,omitempty"`
+				Cve2026112470 *struct{} `json:"CVE-2026-112470,omitempty"`
+				Cve2026112474 *struct{} `json:"CVE-2026-112474,omitempty"`
+				Cve2026112476 *struct{} `json:"CVE-2026-112476,omitempty"`
+				Cve2026112477 *struct{} `json:"CVE-2026-112477,omitempty"`
+				Cve2026112485 *struct{} `json:"CVE-2026-112485,omitempty"`
+				Cve2026112486 *struct{} `json:"CVE-2026-112486,omitempty"`
+				Cve2026112488 *struct{} `json:"CVE-2026-112488,omitempty"`
+				Cve2026112491 *struct{} `json:"CVE-2026-112491,omitempty"`
+				Cve2026112500 *struct{} `json:"CVE-2026-112500,omitempty"`
+				Cve2026112501 *struct{} `json:"CVE-2026-112501,omitempty"`
+				Cve2026112514 *struct{} `json:"CVE-2026-112514,omitempty"`
+				Cve2026112515 *struct{} `json:"CVE-2026-112515,omitempty"`
+				Cve2026112516 *struct{} `json:"CVE-2026-112516,omitempty"`
+				Cve2026112517 *struct{} `json:"CVE-2026-112517,omitempty"`
+				Cve2026112518 *struct{} `json:"CVE-2026-112518,omitempty"`
+				Cve2026112546 *struct{} `json:"CVE-2026-112546,omitempty"`
+				Cve2026112559 *struct{} `json:"CVE-2026-112559,omitempty"`
+				Cve2026112560 *struct{} `json:"CVE-2026-112560,omitempty"`
+				Cve2026112561 *struct{} `json:"CVE-2026-112561,omitempty"`
+				Cve2026112563 *struct{} `json:"CVE-2026-112563,omitempty"`
+				Cve2026112565 *struct{} `json:"CVE-2026-112565,omitempty"`
+				Cve2026112566 *struct{} `json:"CVE-2026-112566,omitempty"`
+				Cve2026112567 *struct{} `json:"CVE-2026-112567,omitempty"`
+				Cve2026112571 *struct{} `json:"CVE-2026-112571,omitempty"`
+				Cve2026112576 *struct{} `json:"CVE-2026-112576,omitempty"`
+				Cve2026112596 *struct{} `json:"CVE-2026-112596,omitempty"`
+				Cve2026112599 *struct{} `json:"CVE-2026-112599,omitempty"`
+				Cve2026112606 *struct{} `json:"CVE-2026-112606,omitempty"`
+				Cve2026112615 *struct{} `json:"CVE-2026-112615,omitempty"`
+				Cve2026112616 *struct{} `json:"CVE-2026-112616,omitempty"`
+				Cve2026112618 *struct{} `json:"CVE-2026-112618,omitempty"`
+				Cve2026112619 *struct{} `json:"CVE-2026-112619,omitempty"`
+				Cve2026112620 *struct{} `json:"CVE-2026-112620,omitempty"`
+				Cve2026112621 *struct{} `json:"CVE-2026-112621,omitempty"`
+				Cve2026112623 *struct{} `json:"CVE-2026-112623,omitempty"`
+				Cve2026112624 *struct{} `json:"CVE-2026-112624,omitempty"`
+				Cve2026112626 *struct{} `json:"CVE-2026-112626,omitempty"`
+				Cve2026112627 *struct{} `json:"CVE-2026-112627,omitempty"`
+				Cve2026112628 *struct{} `json:"CVE-2026-112628,omitempty"`
+				Cve2026112629 *struct{} `json:"CVE-2026-112629,omitempty"`
+				Cve2026112632 *struct{} `json:"CVE-2026-112632,omitempty"`
+				Cve2026112634 *struct{} `json:"CVE-2026-112634,omitempty"`
+				Cve2026112637 *struct{} `json:"CVE-2026-112637,omitempty"`
+				Cve2026112638 *struct{} `json:"CVE-2026-112638,omitempty"`
+				Cve2026112639 *struct{} `json:"CVE-2026-112639,omitempty"`
+				Cve2026112640 *struct{} `json:"CVE-2026-112640,omitempty"`
+				Cve2026112642 *struct{} `json:"CVE-2026-112642,omitempty"`
+				Cve2026112646 *struct{} `json:"CVE-2026-112646,omitempty"`
+				Cve2026112651 *struct{} `json:"CVE-2026-112651,omitempty"`
+				Cve2026112652 *struct{} `json:"CVE-2026-112652,omitempty"`
+				Cve2026112653 *struct{} `json:"CVE-2026-112653,omitempty"`
+				Cve2026112654 *struct{} `json:"CVE-2026-112654,omitempty"`
+				Cve2026112655 *struct{} `json:"CVE-2026-112655,omitempty"`
+				Cve2026112656 *struct{} `json:"CVE-2026-112656,omitempty"`
+				Cve2026112659 *struct{} `json:"CVE-2026-112659,omitempty"`
+				Cve2026112660 *struct{} `json:"CVE-2026-112660,omitempty"`
+				Cve2026112665 *struct{} `json:"CVE-2026-112665,omitempty"`
+				Cve2026112671 *struct{} `json:"CVE-2026-112671,omitempty"`
+				Cve2026112673 *struct{} `json:"CVE-2026-112673,omitempty"`
+				Cve2026112676 *struct{} `json:"CVE-2026-112676,omitempty"`
+				Cve2026112678 *struct{} `json:"CVE-2026-112678,omitempty"`
+				Cve2026112679 *struct{} `json:"CVE-2026-112679,omitempty"`
+				Cve2026112680 *struct{} `json:"CVE-2026-112680,omitempty"`
+				Cve2026112682 *struct{} `json:"CVE-2026-112682,omitempty"`
+				Cve2026112683 *struct{} `json:"CVE-2026-112683,omitempty"`
+				Cve2026112684 *struct{} `json:"CVE-2026-112684,omitempty"`
+				Cve2026112685 *struct{} `json:"CVE-2026-112685,omitempty"`
+				Cve2026112686 *struct{} `json:"CVE-2026-112686,omitempty"`
+				Cve2026112690 *struct{} `json:"CVE-2026-112690,omitempty"`
+				Cve2026112691 *struct{} `json:"CVE-2026-112691,omitempty"`
+				Cve2026112692 *struct{} `json:"CVE-2026-112692,omitempty"`
+				Cve2026112693 *struct{} `json:"CVE-2026-112693,omitempty"`
+				Cve2026112695 *struct{} `json:"CVE-2026-112695,omitempty"`
+				Cve2026112696 *struct{} `json:"CVE-2026-112696,omitempty"`
+				Cve2026112697 *struct{} `json:"CVE-2026-112697,omitempty"`
+				Cve2026112699 *struct{} `json:"CVE-2026-112699,omitempty"`
+				Cve2026112706 *struct{} `json:"CVE-2026-112706,omitempty"`
+				Cve2026113896 *struct{} `json:"CVE-2026-113896,omitempty"`
+				Cve2026113897 *struct{} `json:"CVE-2026-113897,omitempty"`
+				Cve2026113898 *struct{} `json:"CVE-2026-113898,omitempty"`
+				Cve2026113901 *struct{} `json:"CVE-2026-113901,omitempty"`
+				Cve2026113903 *struct{} `json:"CVE-2026-113903,omitempty"`
+				Cve2026113904 *struct{} `json:"CVE-2026-113904,omitempty"`
+				Cve2026113907 *struct{} `json:"CVE-2026-113907,omitempty"`
+				Cve2026113909 *struct{} `json:"CVE-2026-113909,omitempty"`
+				Cve2026113910 *struct{} `json:"CVE-2026-113910,omitempty"`
+				Cve2026113912 *struct{} `json:"CVE-2026-113912,omitempty"`
+				Cve2026113913 *struct{} `json:"CVE-2026-113913,omitempty"`
+				Cve2026113915 *struct{} `json:"CVE-2026-113915,omitempty"`
+				Cve2026113949 *struct{} `json:"CVE-2026-113949,omitempty"`
+				Cve2026113950 *struct{} `json:"CVE-2026-113950,omitempty"`
+				Cve202665350  *struct{} `json:"CVE-2026-65350,omitempty"`
+				Cve202665352  *struct{} `json:"CVE-2026-65352,omitempty"`
+				Cve202665355  *struct{} `json:"CVE-2026-65355,omitempty"`
+				Cve202665385  *struct{} `json:"CVE-2026-65385,omitempty"`
+				Cve202665397  *struct{} `json:"CVE-2026-65397,omitempty"`
+				Cve202684494  *struct{} `json:"CVE-2026-84494,omitempty"`
+				Cve202684495  *struct{} `json:"CVE-2026-84495,omitempty"`
+				Cve202686925  *struct{} `json:"CVE-2026-86925,omitempty"`
+				Cve202686968  *struct{} `json:"CVE-2026-86968,omitempty"`
+				Cve202686970  *struct{} `json:"CVE-2026-86970,omitempty"`
+				Cve202686971  *struct{} `json:"CVE-2026-86971,omitempty"`
+				Cve202686972  *struct{} `json:"CVE-2026-86972,omitempty"`
+				Cve202686974  *struct{} `json:"CVE-2026-86974,omitempty"`
+				Cve202686986  *struct{} `json:"CVE-2026-86986,omitempty"`
+				Cve202686988  *struct{} `json:"CVE-2026-86988,omitempty"`
+				Cve202686990  *struct{} `json:"CVE-2026-86990,omitempty"`
+				Cve202686991  *struct{} `json:"CVE-2026-86991,omitempty"`
+				Cve202686992  *struct{} `json:"CVE-2026-86992,omitempty"`
 			} `json:"CVEs"`
 			DaysSincePreviousRelease int      `json:"DaysSincePreviousRelease"`
 			ExpirationDate           string   `json:"ExpirationDate,omitempty"`
@@ -85,6 +212,7 @@ type VisionOSV2FeedResponse struct {
 			AllBuilds             []string `json:"AllBuilds"`
 			Build                 string   `json:"Build"`
 			CvEs                  struct {
+				Cve202226704 *struct{} `json:"CVE-2022-26704,omitempty"`
 				Cve20235841  *struct{} `json:"CVE-2023-5841,omitempty"`
 				Cve202427876 *struct{} `json:"CVE-2024-27876,omitempty"`
 				Cve202427880 *struct{} `json:"CVE-2024-27880,omitempty"`
@@ -440,47 +568,157 @@ type VisionOSV2FeedResponse struct {
 					Nisturl  string `json:"NISTURL"`
 					Severity string `json:"Severity"`
 				} `json:"CVE-2025-6558,omitempty"`
-				Cve20256965  *struct{} `json:"CVE-2025-6965,omitempty"`
-				Cve20257424  *struct{} `json:"CVE-2025-7424,omitempty"`
-				Cve20257425  *struct{} `json:"CVE-2025-7425,omitempty"`
-				Cve20259086  *struct{} `json:"CVE-2025-9086,omitempty"`
-				Cve20261837  *struct{} `json:"CVE-2026-1837,omitempty"`
-				Cve202620608 *struct{} `json:"CVE-2026-20608,omitempty"`
-				Cve202620609 *struct{} `json:"CVE-2026-20609,omitempty"`
-				Cve202620611 *struct{} `json:"CVE-2026-20611,omitempty"`
-				Cve202620615 *struct{} `json:"CVE-2026-20615,omitempty"`
-				Cve202620616 *struct{} `json:"CVE-2026-20616,omitempty"`
-				Cve202620617 *struct{} `json:"CVE-2026-20617,omitempty"`
-				Cve202620621 *struct{} `json:"CVE-2026-20621,omitempty"`
-				Cve202620625 *struct{} `json:"CVE-2026-20625,omitempty"`
-				Cve202620626 *struct{} `json:"CVE-2026-20626,omitempty"`
-				Cve202620627 *struct{} `json:"CVE-2026-20627,omitempty"`
-				Cve202620628 *struct{} `json:"CVE-2026-20628,omitempty"`
-				Cve202620634 *struct{} `json:"CVE-2026-20634,omitempty"`
-				Cve202620635 *struct{} `json:"CVE-2026-20635,omitempty"`
-				Cve202620636 *struct{} `json:"CVE-2026-20636,omitempty"`
-				Cve202620637 *struct{} `json:"CVE-2026-20637,omitempty"`
-				Cve202620641 *struct{} `json:"CVE-2026-20641,omitempty"`
-				Cve202620643 *struct{} `json:"CVE-2026-20643,omitempty"`
-				Cve202620644 *struct{} `json:"CVE-2026-20644,omitempty"`
-				Cve202620650 *struct{} `json:"CVE-2026-20650,omitempty"`
-				Cve202620652 *struct{} `json:"CVE-2026-20652,omitempty"`
-				Cve202620653 *struct{} `json:"CVE-2026-20653,omitempty"`
-				Cve202620654 *struct{} `json:"CVE-2026-20654,omitempty"`
-				Cve202620657 *struct{} `json:"CVE-2026-20657,omitempty"`
-				Cve202620660 *struct{} `json:"CVE-2026-20660,omitempty"`
-				Cve202620664 *struct{} `json:"CVE-2026-20664,omitempty"`
-				Cve202620665 *struct{} `json:"CVE-2026-20665,omitempty"`
-				Cve202620668 *struct{} `json:"CVE-2026-20668,omitempty"`
-				Cve202620671 *struct{} `json:"CVE-2026-20671,omitempty"`
-				Cve202620675 *struct{} `json:"CVE-2026-20675,omitempty"`
-				Cve202620676 *struct{} `json:"CVE-2026-20676,omitempty"`
-				Cve202620677 *struct{} `json:"CVE-2026-20677,omitempty"`
-				Cve202620688 *struct{} `json:"CVE-2026-20688,omitempty"`
-				Cve202620690 *struct{} `json:"CVE-2026-20690,omitempty"`
-				Cve202620691 *struct{} `json:"CVE-2026-20691,omitempty"`
-				Cve202620698 *struct{} `json:"CVE-2026-20698,omitempty"`
-				Cve202620700 *struct {
+				Cve20256965   *struct{} `json:"CVE-2025-6965,omitempty"`
+				Cve20257424   *struct{} `json:"CVE-2025-7424,omitempty"`
+				Cve20257425   *struct{} `json:"CVE-2025-7425,omitempty"`
+				Cve20259086   *struct{} `json:"CVE-2025-9086,omitempty"`
+				Cve2026112413 *struct{} `json:"CVE-2026-112413,omitempty"`
+				Cve2026112414 *struct{} `json:"CVE-2026-112414,omitempty"`
+				Cve2026112415 *struct{} `json:"CVE-2026-112415,omitempty"`
+				Cve2026112416 *struct{} `json:"CVE-2026-112416,omitempty"`
+				Cve2026112417 *struct{} `json:"CVE-2026-112417,omitempty"`
+				Cve2026112423 *struct{} `json:"CVE-2026-112423,omitempty"`
+				Cve2026112425 *struct{} `json:"CVE-2026-112425,omitempty"`
+				Cve2026112432 *struct{} `json:"CVE-2026-112432,omitempty"`
+				Cve2026112446 *struct{} `json:"CVE-2026-112446,omitempty"`
+				Cve2026112449 *struct{} `json:"CVE-2026-112449,omitempty"`
+				Cve2026112454 *struct{} `json:"CVE-2026-112454,omitempty"`
+				Cve2026112455 *struct{} `json:"CVE-2026-112455,omitempty"`
+				Cve2026112461 *struct{} `json:"CVE-2026-112461,omitempty"`
+				Cve2026112464 *struct{} `json:"CVE-2026-112464,omitempty"`
+				Cve2026112466 *struct{} `json:"CVE-2026-112466,omitempty"`
+				Cve2026112468 *struct{} `json:"CVE-2026-112468,omitempty"`
+				Cve2026112469 *struct{} `json:"CVE-2026-112469,omitempty"`
+				Cve2026112470 *struct{} `json:"CVE-2026-112470,omitempty"`
+				Cve2026112474 *struct{} `json:"CVE-2026-112474,omitempty"`
+				Cve2026112476 *struct{} `json:"CVE-2026-112476,omitempty"`
+				Cve2026112477 *struct{} `json:"CVE-2026-112477,omitempty"`
+				Cve2026112485 *struct{} `json:"CVE-2026-112485,omitempty"`
+				Cve2026112486 *struct{} `json:"CVE-2026-112486,omitempty"`
+				Cve2026112488 *struct{} `json:"CVE-2026-112488,omitempty"`
+				Cve2026112491 *struct{} `json:"CVE-2026-112491,omitempty"`
+				Cve2026112500 *struct{} `json:"CVE-2026-112500,omitempty"`
+				Cve2026112501 *struct{} `json:"CVE-2026-112501,omitempty"`
+				Cve2026112514 *struct{} `json:"CVE-2026-112514,omitempty"`
+				Cve2026112515 *struct{} `json:"CVE-2026-112515,omitempty"`
+				Cve2026112516 *struct{} `json:"CVE-2026-112516,omitempty"`
+				Cve2026112517 *struct{} `json:"CVE-2026-112517,omitempty"`
+				Cve2026112518 *struct{} `json:"CVE-2026-112518,omitempty"`
+				Cve2026112546 *struct{} `json:"CVE-2026-112546,omitempty"`
+				Cve2026112559 *struct{} `json:"CVE-2026-112559,omitempty"`
+				Cve2026112560 *struct{} `json:"CVE-2026-112560,omitempty"`
+				Cve2026112561 *struct{} `json:"CVE-2026-112561,omitempty"`
+				Cve2026112563 *struct{} `json:"CVE-2026-112563,omitempty"`
+				Cve2026112565 *struct{} `json:"CVE-2026-112565,omitempty"`
+				Cve2026112566 *struct{} `json:"CVE-2026-112566,omitempty"`
+				Cve2026112567 *struct{} `json:"CVE-2026-112567,omitempty"`
+				Cve2026112571 *struct{} `json:"CVE-2026-112571,omitempty"`
+				Cve2026112576 *struct{} `json:"CVE-2026-112576,omitempty"`
+				Cve2026112596 *struct{} `json:"CVE-2026-112596,omitempty"`
+				Cve2026112599 *struct{} `json:"CVE-2026-112599,omitempty"`
+				Cve2026112606 *struct{} `json:"CVE-2026-112606,omitempty"`
+				Cve2026112608 *struct{} `json:"CVE-2026-112608,omitempty"`
+				Cve2026112615 *struct{} `json:"CVE-2026-112615,omitempty"`
+				Cve2026112616 *struct{} `json:"CVE-2026-112616,omitempty"`
+				Cve2026112618 *struct{} `json:"CVE-2026-112618,omitempty"`
+				Cve2026112619 *struct{} `json:"CVE-2026-112619,omitempty"`
+				Cve2026112620 *struct{} `json:"CVE-2026-112620,omitempty"`
+				Cve2026112621 *struct{} `json:"CVE-2026-112621,omitempty"`
+				Cve2026112623 *struct{} `json:"CVE-2026-112623,omitempty"`
+				Cve2026112624 *struct{} `json:"CVE-2026-112624,omitempty"`
+				Cve2026112626 *struct{} `json:"CVE-2026-112626,omitempty"`
+				Cve2026112627 *struct{} `json:"CVE-2026-112627,omitempty"`
+				Cve2026112628 *struct{} `json:"CVE-2026-112628,omitempty"`
+				Cve2026112629 *struct{} `json:"CVE-2026-112629,omitempty"`
+				Cve2026112632 *struct{} `json:"CVE-2026-112632,omitempty"`
+				Cve2026112634 *struct{} `json:"CVE-2026-112634,omitempty"`
+				Cve2026112637 *struct{} `json:"CVE-2026-112637,omitempty"`
+				Cve2026112638 *struct{} `json:"CVE-2026-112638,omitempty"`
+				Cve2026112639 *struct{} `json:"CVE-2026-112639,omitempty"`
+				Cve2026112640 *struct{} `json:"CVE-2026-112640,omitempty"`
+				Cve2026112642 *struct{} `json:"CVE-2026-112642,omitempty"`
+				Cve2026112646 *struct{} `json:"CVE-2026-112646,omitempty"`
+				Cve2026112651 *struct{} `json:"CVE-2026-112651,omitempty"`
+				Cve2026112652 *struct{} `json:"CVE-2026-112652,omitempty"`
+				Cve2026112653 *struct{} `json:"CVE-2026-112653,omitempty"`
+				Cve2026112654 *struct{} `json:"CVE-2026-112654,omitempty"`
+				Cve2026112655 *struct{} `json:"CVE-2026-112655,omitempty"`
+				Cve2026112656 *struct{} `json:"CVE-2026-112656,omitempty"`
+				Cve2026112659 *struct{} `json:"CVE-2026-112659,omitempty"`
+				Cve2026112660 *struct{} `json:"CVE-2026-112660,omitempty"`
+				Cve2026112665 *struct{} `json:"CVE-2026-112665,omitempty"`
+				Cve2026112671 *struct{} `json:"CVE-2026-112671,omitempty"`
+				Cve2026112673 *struct{} `json:"CVE-2026-112673,omitempty"`
+				Cve2026112676 *struct{} `json:"CVE-2026-112676,omitempty"`
+				Cve2026112678 *struct{} `json:"CVE-2026-112678,omitempty"`
+				Cve2026112679 *struct{} `json:"CVE-2026-112679,omitempty"`
+				Cve2026112680 *struct{} `json:"CVE-2026-112680,omitempty"`
+				Cve2026112682 *struct{} `json:"CVE-2026-112682,omitempty"`
+				Cve2026112683 *struct{} `json:"CVE-2026-112683,omitempty"`
+				Cve2026112684 *struct{} `json:"CVE-2026-112684,omitempty"`
+				Cve2026112685 *struct{} `json:"CVE-2026-112685,omitempty"`
+				Cve2026112686 *struct{} `json:"CVE-2026-112686,omitempty"`
+				Cve2026112690 *struct{} `json:"CVE-2026-112690,omitempty"`
+				Cve2026112691 *struct{} `json:"CVE-2026-112691,omitempty"`
+				Cve2026112692 *struct{} `json:"CVE-2026-112692,omitempty"`
+				Cve2026112693 *struct{} `json:"CVE-2026-112693,omitempty"`
+				Cve2026112695 *struct{} `json:"CVE-2026-112695,omitempty"`
+				Cve2026112696 *struct{} `json:"CVE-2026-112696,omitempty"`
+				Cve2026112697 *struct{} `json:"CVE-2026-112697,omitempty"`
+				Cve2026112699 *struct{} `json:"CVE-2026-112699,omitempty"`
+				Cve2026112706 *struct{} `json:"CVE-2026-112706,omitempty"`
+				Cve2026113896 *struct{} `json:"CVE-2026-113896,omitempty"`
+				Cve2026113897 *struct{} `json:"CVE-2026-113897,omitempty"`
+				Cve2026113898 *struct{} `json:"CVE-2026-113898,omitempty"`
+				Cve2026113901 *struct{} `json:"CVE-2026-113901,omitempty"`
+				Cve2026113903 *struct{} `json:"CVE-2026-113903,omitempty"`
+				Cve2026113904 *struct{} `json:"CVE-2026-113904,omitempty"`
+				Cve2026113907 *struct{} `json:"CVE-2026-113907,omitempty"`
+				Cve2026113909 *struct{} `json:"CVE-2026-113909,omitempty"`
+				Cve2026113910 *struct{} `json:"CVE-2026-113910,omitempty"`
+				Cve2026113912 *struct{} `json:"CVE-2026-113912,omitempty"`
+				Cve2026113913 *struct{} `json:"CVE-2026-113913,omitempty"`
+				Cve2026113915 *struct{} `json:"CVE-2026-113915,omitempty"`
+				Cve2026113949 *struct{} `json:"CVE-2026-113949,omitempty"`
+				Cve2026113950 *struct{} `json:"CVE-2026-113950,omitempty"`
+				Cve20261837   *struct{} `json:"CVE-2026-1837,omitempty"`
+				Cve202620608  *struct{} `json:"CVE-2026-20608,omitempty"`
+				Cve202620609  *struct{} `json:"CVE-2026-20609,omitempty"`
+				Cve202620611  *struct{} `json:"CVE-2026-20611,omitempty"`
+				Cve202620615  *struct{} `json:"CVE-2026-20615,omitempty"`
+				Cve202620616  *struct{} `json:"CVE-2026-20616,omitempty"`
+				Cve202620617  *struct{} `json:"CVE-2026-20617,omitempty"`
+				Cve202620621  *struct{} `json:"CVE-2026-20621,omitempty"`
+				Cve202620625  *struct{} `json:"CVE-2026-20625,omitempty"`
+				Cve202620626  *struct{} `json:"CVE-2026-20626,omitempty"`
+				Cve202620627  *struct{} `json:"CVE-2026-20627,omitempty"`
+				Cve202620628  *struct{} `json:"CVE-2026-20628,omitempty"`
+				Cve202620634  *struct{} `json:"CVE-2026-20634,omitempty"`
+				Cve202620635  *struct{} `json:"CVE-2026-20635,omitempty"`
+				Cve202620636  *struct{} `json:"CVE-2026-20636,omitempty"`
+				Cve202620637  *struct{} `json:"CVE-2026-20637,omitempty"`
+				Cve202620641  *struct{} `json:"CVE-2026-20641,omitempty"`
+				Cve202620643  *struct{} `json:"CVE-2026-20643,omitempty"`
+				Cve202620644  *struct{} `json:"CVE-2026-20644,omitempty"`
+				Cve202620650  *struct{} `json:"CVE-2026-20650,omitempty"`
+				Cve202620652  *struct{} `json:"CVE-2026-20652,omitempty"`
+				Cve202620653  *struct{} `json:"CVE-2026-20653,omitempty"`
+				Cve202620654  *struct{} `json:"CVE-2026-20654,omitempty"`
+				Cve202620657  *struct{} `json:"CVE-2026-20657,omitempty"`
+				Cve202620660  *struct{} `json:"CVE-2026-20660,omitempty"`
+				Cve202620664  *struct{} `json:"CVE-2026-20664,omitempty"`
+				Cve202620665  *struct{} `json:"CVE-2026-20665,omitempty"`
+				Cve202620668  *struct{} `json:"CVE-2026-20668,omitempty"`
+				Cve202620671  *struct{} `json:"CVE-2026-20671,omitempty"`
+				Cve202620675  *struct{} `json:"CVE-2026-20675,omitempty"`
+				Cve202620676  *struct{} `json:"CVE-2026-20676,omitempty"`
+				Cve202620677  *struct{} `json:"CVE-2026-20677,omitempty"`
+				Cve202620683  *struct{} `json:"CVE-2026-20683,omitempty"`
+				Cve202620688  *struct{} `json:"CVE-2026-20688,omitempty"`
+				Cve202620690  *struct{} `json:"CVE-2026-20690,omitempty"`
+				Cve202620691  *struct{} `json:"CVE-2026-20691,omitempty"`
+				Cve202620698  *struct{} `json:"CVE-2026-20698,omitempty"`
+				Cve202620700  *struct {
 					InKev    bool   `json:"InKEV"`
 					Nisturl  string `json:"NISTURL"`
 					Severity string `json:"Severity"`
@@ -489,6 +727,7 @@ type VisionOSV2FeedResponse struct {
 				Cve202628833 *struct{} `json:"CVE-2026-28833,omitempty"`
 				Cve202628846 *struct{} `json:"CVE-2026-28846,omitempty"`
 				Cve202628847 *struct{} `json:"CVE-2026-28847,omitempty"`
+				Cve202628850 *struct{} `json:"CVE-2026-28850,omitempty"`
 				Cve202628852 *struct{} `json:"CVE-2026-28852,omitempty"`
 				Cve202628856 *struct{} `json:"CVE-2026-28856,omitempty"`
 				Cve202628857 *struct{} `json:"CVE-2026-28857,omitempty"`
@@ -521,6 +760,7 @@ type VisionOSV2FeedResponse struct {
 				Cve202628917 *struct{} `json:"CVE-2026-28917,omitempty"`
 				Cve202628918 *struct{} `json:"CVE-2026-28918,omitempty"`
 				Cve202628920 *struct{} `json:"CVE-2026-28920,omitempty"`
+				Cve202628935 *struct{} `json:"CVE-2026-28935,omitempty"`
 				Cve202628936 *struct{} `json:"CVE-2026-28936,omitempty"`
 				Cve202628940 *struct{} `json:"CVE-2026-28940,omitempty"`
 				Cve202628942 *struct{} `json:"CVE-2026-28942,omitempty"`
@@ -534,6 +774,8 @@ type VisionOSV2FeedResponse struct {
 				Cve202628959 *struct{} `json:"CVE-2026-28959,omitempty"`
 				Cve202628962 *struct{} `json:"CVE-2026-28962,omitempty"`
 				Cve202628964 *struct{} `json:"CVE-2026-28964,omitempty"`
+				Cve202628966 *struct{} `json:"CVE-2026-28966,omitempty"`
+				Cve202628968 *struct{} `json:"CVE-2026-28968,omitempty"`
 				Cve202628969 *struct{} `json:"CVE-2026-28969,omitempty"`
 				Cve202628971 *struct{} `json:"CVE-2026-28971,omitempty"`
 				Cve202628972 *struct{} `json:"CVE-2026-28972,omitempty"`
@@ -563,6 +805,10 @@ type VisionOSV2FeedResponse struct {
 				Cve202643668 *struct{} `json:"CVE-2026-43668,omitempty"`
 				Cve202643673 *struct{} `json:"CVE-2026-43673,omitempty"`
 				Cve202643676 *struct{} `json:"CVE-2026-43676,omitempty"`
+				Cve202643686 *struct{} `json:"CVE-2026-43686,omitempty"`
+				Cve202643687 *struct{} `json:"CVE-2026-43687,omitempty"`
+				Cve202643689 *struct{} `json:"CVE-2026-43689,omitempty"`
+				Cve202643695 *struct{} `json:"CVE-2026-43695,omitempty"`
 				Cve202643699 *struct{} `json:"CVE-2026-43699,omitempty"`
 				Cve202643700 *struct{} `json:"CVE-2026-43700,omitempty"`
 				Cve202643701 *struct{} `json:"CVE-2026-43701,omitempty"`
@@ -597,9 +843,13 @@ type VisionOSV2FeedResponse struct {
 				Cve202643742 *struct{} `json:"CVE-2026-43742,omitempty"`
 				Cve202643744 *struct{} `json:"CVE-2026-43744,omitempty"`
 				Cve202643745 *struct{} `json:"CVE-2026-43745,omitempty"`
+				Cve202643762 *struct{} `json:"CVE-2026-43762,omitempty"`
 				Cve202643769 *struct{} `json:"CVE-2026-43769,omitempty"`
 				Cve202643778 *struct{} `json:"CVE-2026-43778,omitempty"`
 				Cve202643780 *struct{} `json:"CVE-2026-43780,omitempty"`
+				Cve202643785 *struct{} `json:"CVE-2026-43785,omitempty"`
+				Cve202643794 *struct{} `json:"CVE-2026-43794,omitempty"`
+				Cve202643795 *struct{} `json:"CVE-2026-43795,omitempty"`
 				Cve202643796 *struct{} `json:"CVE-2026-43796,omitempty"`
 				Cve202643799 *struct{} `json:"CVE-2026-43799,omitempty"`
 				Cve202643801 *struct{} `json:"CVE-2026-43801,omitempty"`
@@ -620,7 +870,9 @@ type VisionOSV2FeedResponse struct {
 				Cve202664707 *struct{} `json:"CVE-2026-64707,omitempty"`
 				Cve202664709 *struct{} `json:"CVE-2026-64709,omitempty"`
 				Cve202664713 *struct{} `json:"CVE-2026-64713,omitempty"`
+				Cve202664715 *struct{} `json:"CVE-2026-64715,omitempty"`
 				Cve202664716 *struct{} `json:"CVE-2026-64716,omitempty"`
+				Cve202664717 *struct{} `json:"CVE-2026-64717,omitempty"`
 				Cve202664718 *struct{} `json:"CVE-2026-64718,omitempty"`
 				Cve202664719 *struct{} `json:"CVE-2026-64719,omitempty"`
 				Cve202664721 *struct{} `json:"CVE-2026-64721,omitempty"`
@@ -633,6 +885,7 @@ type VisionOSV2FeedResponse struct {
 				Cve202664733 *struct{} `json:"CVE-2026-64733,omitempty"`
 				Cve202664734 *struct{} `json:"CVE-2026-64734,omitempty"`
 				Cve202664735 *struct{} `json:"CVE-2026-64735,omitempty"`
+				Cve202664736 *struct{} `json:"CVE-2026-64736,omitempty"`
 				Cve202664739 *struct{} `json:"CVE-2026-64739,omitempty"`
 				Cve202664741 *struct{} `json:"CVE-2026-64741,omitempty"`
 				Cve202664742 *struct{} `json:"CVE-2026-64742,omitempty"`
@@ -641,9 +894,12 @@ type VisionOSV2FeedResponse struct {
 				Cve202664747 *struct{} `json:"CVE-2026-64747,omitempty"`
 				Cve202664749 *struct{} `json:"CVE-2026-64749,omitempty"`
 				Cve202664751 *struct{} `json:"CVE-2026-64751,omitempty"`
+				Cve202664752 *struct{} `json:"CVE-2026-64752,omitempty"`
+				Cve202664753 *struct{} `json:"CVE-2026-64753,omitempty"`
 				Cve202664754 *struct{} `json:"CVE-2026-64754,omitempty"`
 				Cve202664757 *struct{} `json:"CVE-2026-64757,omitempty"`
 				Cve202664758 *struct{} `json:"CVE-2026-64758,omitempty"`
+				Cve202664760 *struct{} `json:"CVE-2026-64760,omitempty"`
 				Cve202664763 *struct{} `json:"CVE-2026-64763,omitempty"`
 				Cve202664764 *struct{} `json:"CVE-2026-64764,omitempty"`
 				Cve202664765 *struct{} `json:"CVE-2026-64765,omitempty"`
@@ -655,7 +911,155 @@ type VisionOSV2FeedResponse struct {
 				Cve202664772 *struct{} `json:"CVE-2026-64772,omitempty"`
 				Cve202664774 *struct{} `json:"CVE-2026-64774,omitempty"`
 				Cve202664775 *struct{} `json:"CVE-2026-64775,omitempty"`
+				Cve202664778 *struct{} `json:"CVE-2026-64778,omitempty"`
+				Cve202664779 *struct{} `json:"CVE-2026-64779,omitempty"`
+				Cve202664780 *struct{} `json:"CVE-2026-64780,omitempty"`
+				Cve202664781 *struct{} `json:"CVE-2026-64781,omitempty"`
+				Cve202664782 *struct{} `json:"CVE-2026-64782,omitempty"`
 				Cve202664783 *struct{} `json:"CVE-2026-64783,omitempty"`
+				Cve202664784 *struct{} `json:"CVE-2026-64784,omitempty"`
+				Cve202664787 *struct{} `json:"CVE-2026-64787,omitempty"`
+				Cve202664788 *struct{} `json:"CVE-2026-64788,omitempty"`
+				Cve202665330 *struct{} `json:"CVE-2026-65330,omitempty"`
+				Cve202665331 *struct{} `json:"CVE-2026-65331,omitempty"`
+				Cve202665332 *struct{} `json:"CVE-2026-65332,omitempty"`
+				Cve202665333 *struct{} `json:"CVE-2026-65333,omitempty"`
+				Cve202665334 *struct{} `json:"CVE-2026-65334,omitempty"`
+				Cve202665335 *struct{} `json:"CVE-2026-65335,omitempty"`
+				Cve202665336 *struct{} `json:"CVE-2026-65336,omitempty"`
+				Cve202665337 *struct{} `json:"CVE-2026-65337,omitempty"`
+				Cve202665338 *struct{} `json:"CVE-2026-65338,omitempty"`
+				Cve202665339 *struct{} `json:"CVE-2026-65339,omitempty"`
+				Cve202665340 *struct{} `json:"CVE-2026-65340,omitempty"`
+				Cve202665341 *struct{} `json:"CVE-2026-65341,omitempty"`
+				Cve202665343 *struct{} `json:"CVE-2026-65343,omitempty"`
+				Cve202665344 *struct{} `json:"CVE-2026-65344,omitempty"`
+				Cve202665346 *struct{} `json:"CVE-2026-65346,omitempty"`
+				Cve202665347 *struct{} `json:"CVE-2026-65347,omitempty"`
+				Cve202665349 *struct{} `json:"CVE-2026-65349,omitempty"`
+				Cve202665350 *struct{} `json:"CVE-2026-65350,omitempty"`
+				Cve202665351 *struct{} `json:"CVE-2026-65351,omitempty"`
+				Cve202665352 *struct{} `json:"CVE-2026-65352,omitempty"`
+				Cve202665355 *struct{} `json:"CVE-2026-65355,omitempty"`
+				Cve202665357 *struct{} `json:"CVE-2026-65357,omitempty"`
+				Cve202665358 *struct{} `json:"CVE-2026-65358,omitempty"`
+				Cve202665359 *struct{} `json:"CVE-2026-65359,omitempty"`
+				Cve202665360 *struct{} `json:"CVE-2026-65360,omitempty"`
+				Cve202665371 *struct{} `json:"CVE-2026-65371,omitempty"`
+				Cve202665377 *struct{} `json:"CVE-2026-65377,omitempty"`
+				Cve202665385 *struct{} `json:"CVE-2026-65385,omitempty"`
+				Cve202665390 *struct{} `json:"CVE-2026-65390,omitempty"`
+				Cve202665391 *struct{} `json:"CVE-2026-65391,omitempty"`
+				Cve202665395 *struct{} `json:"CVE-2026-65395,omitempty"`
+				Cve202665397 *struct{} `json:"CVE-2026-65397,omitempty"`
+				Cve202665398 *struct{} `json:"CVE-2026-65398,omitempty"`
+				Cve202665399 *struct{} `json:"CVE-2026-65399,omitempty"`
+				Cve202665402 *struct{} `json:"CVE-2026-65402,omitempty"`
+				Cve202665403 *struct{} `json:"CVE-2026-65403,omitempty"`
+				Cve202665405 *struct{} `json:"CVE-2026-65405,omitempty"`
+				Cve202665406 *struct{} `json:"CVE-2026-65406,omitempty"`
+				Cve202665407 *struct{} `json:"CVE-2026-65407,omitempty"`
+				Cve202665409 *struct{} `json:"CVE-2026-65409,omitempty"`
+				Cve202665410 *struct{} `json:"CVE-2026-65410,omitempty"`
+				Cve202665411 *struct{} `json:"CVE-2026-65411,omitempty"`
+				Cve202665412 *struct{} `json:"CVE-2026-65412,omitempty"`
+				Cve202665414 *struct{} `json:"CVE-2026-65414,omitempty"`
+				Cve202665415 *struct{} `json:"CVE-2026-65415,omitempty"`
+				Cve202684487 *struct{} `json:"CVE-2026-84487,omitempty"`
+				Cve202684491 *struct{} `json:"CVE-2026-84491,omitempty"`
+				Cve202684492 *struct{} `json:"CVE-2026-84492,omitempty"`
+				Cve202684494 *struct{} `json:"CVE-2026-84494,omitempty"`
+				Cve202684495 *struct{} `json:"CVE-2026-84495,omitempty"`
+				Cve202684497 *struct{} `json:"CVE-2026-84497,omitempty"`
+				Cve202684507 *struct{} `json:"CVE-2026-84507,omitempty"`
+				Cve202684508 *struct{} `json:"CVE-2026-84508,omitempty"`
+				Cve202684511 *struct{} `json:"CVE-2026-84511,omitempty"`
+				Cve202684513 *struct{} `json:"CVE-2026-84513,omitempty"`
+				Cve202684521 *struct{} `json:"CVE-2026-84521,omitempty"`
+				Cve202684523 *struct{} `json:"CVE-2026-84523,omitempty"`
+				Cve202684524 *struct{} `json:"CVE-2026-84524,omitempty"`
+				Cve202684526 *struct{} `json:"CVE-2026-84526,omitempty"`
+				Cve202684527 *struct{} `json:"CVE-2026-84527,omitempty"`
+				Cve202684530 *struct{} `json:"CVE-2026-84530,omitempty"`
+				Cve202684532 *struct{} `json:"CVE-2026-84532,omitempty"`
+				Cve202684534 *struct{} `json:"CVE-2026-84534,omitempty"`
+				Cve202684546 *struct{} `json:"CVE-2026-84546,omitempty"`
+				Cve202684551 *struct{} `json:"CVE-2026-84551,omitempty"`
+				Cve202684560 *struct{} `json:"CVE-2026-84560,omitempty"`
+				Cve202684561 *struct{} `json:"CVE-2026-84561,omitempty"`
+				Cve202684564 *struct{} `json:"CVE-2026-84564,omitempty"`
+				Cve202684571 *struct{} `json:"CVE-2026-84571,omitempty"`
+				Cve202684575 *struct{} `json:"CVE-2026-84575,omitempty"`
+				Cve202684582 *struct{} `json:"CVE-2026-84582,omitempty"`
+				Cve202684583 *struct{} `json:"CVE-2026-84583,omitempty"`
+				Cve202684595 *struct{} `json:"CVE-2026-84595,omitempty"`
+				Cve202684596 *struct{} `json:"CVE-2026-84596,omitempty"`
+				Cve202684597 *struct{} `json:"CVE-2026-84597,omitempty"`
+				Cve202684599 *struct{} `json:"CVE-2026-84599,omitempty"`
+				Cve202684600 *struct{} `json:"CVE-2026-84600,omitempty"`
+				Cve202684602 *struct{} `json:"CVE-2026-84602,omitempty"`
+				Cve202684603 *struct{} `json:"CVE-2026-84603,omitempty"`
+				Cve202684606 *struct{} `json:"CVE-2026-84606,omitempty"`
+				Cve202684607 *struct{} `json:"CVE-2026-84607,omitempty"`
+				Cve202684609 *struct{} `json:"CVE-2026-84609,omitempty"`
+				Cve202684611 *struct{} `json:"CVE-2026-84611,omitempty"`
+				Cve202684612 *struct{} `json:"CVE-2026-84612,omitempty"`
+				Cve202684613 *struct{} `json:"CVE-2026-84613,omitempty"`
+				Cve202684615 *struct{} `json:"CVE-2026-84615,omitempty"`
+				Cve202684616 *struct{} `json:"CVE-2026-84616,omitempty"`
+				Cve202684620 *struct{} `json:"CVE-2026-84620,omitempty"`
+				Cve202684622 *struct{} `json:"CVE-2026-84622,omitempty"`
+				Cve202684624 *struct{} `json:"CVE-2026-84624,omitempty"`
+				Cve202684625 *struct{} `json:"CVE-2026-84625,omitempty"`
+				Cve202684626 *struct{} `json:"CVE-2026-84626,omitempty"`
+				Cve202684627 *struct{} `json:"CVE-2026-84627,omitempty"`
+				Cve202684628 *struct{} `json:"CVE-2026-84628,omitempty"`
+				Cve202684629 *struct{} `json:"CVE-2026-84629,omitempty"`
+				Cve202684630 *struct{} `json:"CVE-2026-84630,omitempty"`
+				Cve202684632 *struct{} `json:"CVE-2026-84632,omitempty"`
+				Cve202684634 *struct{} `json:"CVE-2026-84634,omitempty"`
+				Cve202684635 *struct{} `json:"CVE-2026-84635,omitempty"`
+				Cve202684636 *struct{} `json:"CVE-2026-84636,omitempty"`
+				Cve202686870 *struct{} `json:"CVE-2026-86870,omitempty"`
+				Cve202686872 *struct{} `json:"CVE-2026-86872,omitempty"`
+				Cve202686876 *struct{} `json:"CVE-2026-86876,omitempty"`
+				Cve202686881 *struct{} `json:"CVE-2026-86881,omitempty"`
+				Cve202686882 *struct{} `json:"CVE-2026-86882,omitempty"`
+				Cve202686883 *struct{} `json:"CVE-2026-86883,omitempty"`
+				Cve202686887 *struct{} `json:"CVE-2026-86887,omitempty"`
+				Cve202686888 *struct{} `json:"CVE-2026-86888,omitempty"`
+				Cve202686892 *struct{} `json:"CVE-2026-86892,omitempty"`
+				Cve202686893 *struct{} `json:"CVE-2026-86893,omitempty"`
+				Cve202686895 *struct{} `json:"CVE-2026-86895,omitempty"`
+				Cve202686897 *struct{} `json:"CVE-2026-86897,omitempty"`
+				Cve202686898 *struct{} `json:"CVE-2026-86898,omitempty"`
+				Cve202686903 *struct{} `json:"CVE-2026-86903,omitempty"`
+				Cve202686905 *struct{} `json:"CVE-2026-86905,omitempty"`
+				Cve202686913 *struct{} `json:"CVE-2026-86913,omitempty"`
+				Cve202686918 *struct{} `json:"CVE-2026-86918,omitempty"`
+				Cve202686919 *struct{} `json:"CVE-2026-86919,omitempty"`
+				Cve202686920 *struct{} `json:"CVE-2026-86920,omitempty"`
+				Cve202686921 *struct{} `json:"CVE-2026-86921,omitempty"`
+				Cve202686922 *struct{} `json:"CVE-2026-86922,omitempty"`
+				Cve202686925 *struct{} `json:"CVE-2026-86925,omitempty"`
+				Cve202686942 *struct{} `json:"CVE-2026-86942,omitempty"`
+				Cve202686953 *struct{} `json:"CVE-2026-86953,omitempty"`
+				Cve202686954 *struct{} `json:"CVE-2026-86954,omitempty"`
+				Cve202686957 *struct{} `json:"CVE-2026-86957,omitempty"`
+				Cve202686962 *struct{} `json:"CVE-2026-86962,omitempty"`
+				Cve202686964 *struct{} `json:"CVE-2026-86964,omitempty"`
+				Cve202686966 *struct{} `json:"CVE-2026-86966,omitempty"`
+				Cve202686968 *struct{} `json:"CVE-2026-86968,omitempty"`
+				Cve202686970 *struct{} `json:"CVE-2026-86970,omitempty"`
+				Cve202686971 *struct{} `json:"CVE-2026-86971,omitempty"`
+				Cve202686972 *struct{} `json:"CVE-2026-86972,omitempty"`
+				Cve202686974 *struct{} `json:"CVE-2026-86974,omitempty"`
+				Cve202686975 *struct{} `json:"CVE-2026-86975,omitempty"`
+				Cve202686986 *struct{} `json:"CVE-2026-86986,omitempty"`
+				Cve202686988 *struct{} `json:"CVE-2026-86988,omitempty"`
+				Cve202686990 *struct{} `json:"CVE-2026-86990,omitempty"`
+				Cve202686991 *struct{} `json:"CVE-2026-86991,omitempty"`
+				Cve202686992 *struct{} `json:"CVE-2026-86992,omitempty"`
 			} `json:"CVEs"`
 			DaysSincePreviousRelease int    `json:"DaysSincePreviousRelease"`
 			ExpirationDate           string `json:"ExpirationDate,omitempty"`
