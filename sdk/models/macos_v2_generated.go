@@ -26,6 +26,3332 @@ type MacOSV2FeedResponse struct {
 			VersionExtra     string   `json:"VersionExtra"`
 		} `json:"26"`
 	} `json:"BackgroundSecurityImprovements"`
+	CveDetails struct {
+		Cve20195598 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2019-5598"`
+		Cve202130883 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2021-30883"`
+		Cve202130952 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2021-30952"`
+		Cve202222587 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2022-22587"`
+		Cve202222620 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2022-22620"`
+		Cve202222674 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2022-22674"`
+		Cve202222675 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2022-22675"`
+		Cve20222294 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2022-2294"`
+		Cve202232893 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2022-32893"`
+		Cve202232894 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2022-32894"`
+		Cve202232917 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2022-32917"`
+		Cve20223437 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2022-3437"`
+		Cve202242856 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2022-42856"`
+		Cve202248503 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2022-48503"`
+		Cve202248618 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2022-48618"`
+		Cve202323529 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-23529"`
+		Cve202328204 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-28204"`
+		Cve202328205 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-28205"`
+		Cve202328206 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-28206"`
+		Cve202332373 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-32373"`
+		Cve202332409 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-32409"`
+		Cve202332434 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-32434"`
+		Cve202332435 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-32435"`
+		Cve202332439 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-32439"`
+		Cve202337450 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-37450"`
+		Cve202338606 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-38606"`
+		Cve202341064 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-41064"`
+		Cve202341990 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-41990"`
+		Cve202341991 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-41991"`
+		Cve202341992 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-41992"`
+		Cve202341993 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-41993"`
+		Cve202342916 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-42916"`
+		Cve202342917 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-42917"`
+		Cve202343000 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2023-43000"`
+		Cve202423222 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2024-23222"`
+		Cve202423225 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2024-23225"`
+		Cve202423296 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2024-23296"`
+		Cve202427834 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2024-27834"`
+		Cve202444308 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2024-44308"`
+		Cve202444309 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2024-44309"`
+		Cve202514174 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2025-14174"`
+		Cve202524085 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2025-24085"`
+		Cve202524201 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2025-24201"`
+		Cve202531200 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2025-31200"`
+		Cve202531201 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2025-31201"`
+		Cve202531277 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2025-31277"`
+		Cve202543200 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2025-43200"`
+		Cve202543300 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2025-43300"`
+		Cve202543510 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2025-43510"`
+		Cve202543520 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2025-43520"`
+		Cve202543529 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2025-43529"`
+		Cve20256558 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2025-6558"`
+		Cve2026111497 struct {
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2026-111497"`
+		Cve2026112446 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-112446"`
+		Cve2026112608 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-112608"`
+		Cve202620683 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-20683"`
+		Cve202620700 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2026-20700"`
+		Cve202628854 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-28854"`
+		Cve202628899 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-28899"`
+		Cve202628934 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-28934"`
+		Cve202628937 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-28937"`
+		Cve202628966 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-28966"`
+		Cve202628968 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-28968"`
+		Cve202628969 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-28969"`
+		Cve202634979 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-34979"`
+		Cve202643664 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43664"`
+		Cve202643677 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43677"`
+		Cve202643683 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43683"`
+		Cve202643684 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43684"`
+		Cve202643686 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43686"`
+		Cve202643687 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43687"`
+		Cve202643688 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43688"`
+		Cve202643689 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43689"`
+		Cve202643690 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43690"`
+		Cve202643691 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43691"`
+		Cve202643692 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43692"`
+		Cve202643695 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43695"`
+		Cve202643696 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43696"`
+		Cve202643697 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43697"`
+		Cve202643698 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43698"`
+		Cve202643719 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43719"`
+		Cve202643736 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43736"`
+		Cve202643737 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43737"`
+		Cve202643738 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43738"`
+		Cve202643741 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43741"`
+		Cve202643785 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43785"`
+		Cve202643786 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43786"`
+		Cve202643787 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43787"`
+		Cve202643788 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43788"`
+		Cve202643789 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43789"`
+		Cve202643790 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43790"`
+		Cve202643791 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-43791"`
+		Cve202664712 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-64712"`
+		Cve202664714 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-64714"`
+		Cve202664718 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-64718"`
+		Cve202664750 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-64750"`
+		Cve202664752 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-64752"`
+		Cve202664753 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-64753"`
+		Cve202664756 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-64756"`
+		Cve202664759 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-64759"`
+		Cve202664760 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-64760"`
+		Cve202664789 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-64789"`
+		Cve202664790 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-64790"`
+		Cve202665342 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65342"`
+		Cve202665344 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65344"`
+		Cve202665345 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65345"`
+		Cve202665348 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65348"`
+		Cve202665354 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65354"`
+		Cve202665356 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65356"`
+		Cve202665358 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65358"`
+		Cve202665359 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65359"`
+		Cve202665360 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65360"`
+		Cve202665361 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65361"`
+		Cve202665362 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65362"`
+		Cve202665363 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65363"`
+		Cve202665364 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65364"`
+		Cve202665365 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65365"`
+		Cve202665368 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65368"`
+		Cve202665369 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65369"`
+		Cve202665372 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65372"`
+		Cve202665373 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65373"`
+		Cve202665374 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65374"`
+		Cve202665375 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65375"`
+		Cve202665376 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65376"`
+		Cve202665377 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65377"`
+		Cve202665378 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65378"`
+		Cve202665379 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65379"`
+		Cve202665380 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65380"`
+		Cve202665381 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65381"`
+		Cve202665382 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65382"`
+		Cve202665383 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65383"`
+		Cve202665392 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65392"`
+		Cve202665393 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65393"`
+		Cve202665395 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65395"`
+		Cve202665396 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65396"`
+		Cve202665398 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65398"`
+		Cve202665399 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65399"`
+		Cve202665400 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2026-65400"`
+		Cve202665401 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65401"`
+		Cve202665402 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65402"`
+		Cve202665403 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65403"`
+		Cve202665404 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65404"`
+		Cve202665405 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65405"`
+		Cve202665406 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65406"`
+		Cve202665407 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65407"`
+		Cve202665408 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65408"`
+		Cve202665409 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65409"`
+		Cve202665410 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65410"`
+		Cve202665412 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65412"`
+		Cve202665413 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65413"`
+		Cve202665414 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65414"`
+		Cve202665415 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-65415"`
+		Cve202684487 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84487"`
+		Cve202684489 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84489"`
+		Cve202684491 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84491"`
+		Cve202684492 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84492"`
+		Cve202684497 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84497"`
+		Cve202684498 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84498"`
+		Cve202684505 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84505"`
+		Cve202684506 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84506"`
+		Cve202684507 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84507"`
+		Cve202684508 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84508"`
+		Cve202684509 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84509"`
+		Cve202684510 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84510"`
+		Cve202684511 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84511"`
+		Cve202684512 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84512"`
+		Cve202684513 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84513"`
+		Cve202684514 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84514"`
+		Cve202684515 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84515"`
+		Cve202684516 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84516"`
+		Cve202684517 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84517"`
+		Cve202684518 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84518"`
+		Cve202684519 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84519"`
+		Cve202684520 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84520"`
+		Cve202684521 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84521"`
+		Cve202684522 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84522"`
+		Cve202684523 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84523"`
+		Cve202684524 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84524"`
+		Cve202684525 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84525"`
+		Cve202684526 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84526"`
+		Cve202684527 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84527"`
+		Cve202684528 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84528"`
+		Cve202684530 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84530"`
+		Cve202684531 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84531"`
+		Cve202684532 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84532"`
+		Cve202684533 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84533"`
+		Cve202684534 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84534"`
+		Cve202684535 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84535"`
+		Cve202684536 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84536"`
+		Cve202684537 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84537"`
+		Cve202684538 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84538"`
+		Cve202684539 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84539"`
+		Cve202684540 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84540"`
+		Cve202684541 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84541"`
+		Cve202684542 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84542"`
+		Cve202684543 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84543"`
+		Cve202684544 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84544"`
+		Cve202684545 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84545"`
+		Cve202684546 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84546"`
+		Cve202684547 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84547"`
+		Cve202684548 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84548"`
+		Cve202684549 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84549"`
+		Cve202684550 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84550"`
+		Cve202684551 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84551"`
+		Cve202684552 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84552"`
+		Cve202684553 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84553"`
+		Cve202684554 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84554"`
+		Cve202684555 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84555"`
+		Cve202684556 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84556"`
+		Cve202684558 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84558"`
+		Cve202684559 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84559"`
+		Cve202684560 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84560"`
+		Cve202684561 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84561"`
+		Cve202684563 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84563"`
+		Cve202684564 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84564"`
+		Cve202684565 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84565"`
+		Cve202684566 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84566"`
+		Cve202684567 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84567"`
+		Cve202684568 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84568"`
+		Cve202684569 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84569"`
+		Cve202684570 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84570"`
+		Cve202684571 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84571"`
+		Cve202684572 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84572"`
+		Cve202684573 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84573"`
+		Cve202684574 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84574"`
+		Cve202684575 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84575"`
+		Cve202684576 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84576"`
+		Cve202684577 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84577"`
+		Cve202684578 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84578"`
+		Cve202684579 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84579"`
+		Cve202684580 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84580"`
+		Cve202684581 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84581"`
+		Cve202684582 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84582"`
+		Cve202684583 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84583"`
+		Cve202684584 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84584"`
+		Cve202684585 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84585"`
+		Cve202684586 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84586"`
+		Cve202684587 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84587"`
+		Cve202684588 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84588"`
+		Cve202684589 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84589"`
+		Cve202684595 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84595"`
+		Cve202684596 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84596"`
+		Cve202684597 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84597"`
+		Cve202684599 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84599"`
+		Cve202684600 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84600"`
+		Cve202684601 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84601"`
+		Cve202684602 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84602"`
+		Cve202684604 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84604"`
+		Cve202684606 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84606"`
+		Cve202684607 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84607"`
+		Cve202684609 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84609"`
+		Cve202684610 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84610"`
+		Cve202684611 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84611"`
+		Cve202684612 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84612"`
+		Cve202684613 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84613"`
+		Cve202684616 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84616"`
+		Cve202684617 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84617"`
+		Cve202684618 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84618"`
+		Cve202684619 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84619"`
+		Cve202684620 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84620"`
+		Cve202684621 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84621"`
+		Cve202684622 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84622"`
+		Cve202684624 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84624"`
+		Cve202684625 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84625"`
+		Cve202684626 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84626"`
+		Cve202684627 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84627"`
+		Cve202684628 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84628"`
+		Cve202684630 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84630"`
+		Cve202684631 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84631"`
+		Cve202684632 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84632"`
+		Cve202684633 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84633"`
+		Cve202684634 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84634"`
+		Cve202684635 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-84635"`
+		Cve202686868 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86868"`
+		Cve202686869 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86869"`
+		Cve202686870 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86870"`
+		Cve202686871 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86871"`
+		Cve202686876 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86876"`
+		Cve202686877 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86877"`
+		Cve202686881 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86881"`
+		Cve202686882 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86882"`
+		Cve202686884 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86884"`
+		Cve202686888 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86888"`
+		Cve202686889 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86889"`
+		Cve202686891 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86891"`
+		Cve202686894 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86894"`
+		Cve202686897 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86897"`
+		Cve202686898 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86898"`
+		Cve202686900 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86900"`
+		Cve202686901 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86901"`
+		Cve202686902 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86902"`
+		Cve202686903 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86903"`
+		Cve202686905 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86905"`
+		Cve202686909 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86909"`
+		Cve202686910 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86910"`
+		Cve202686911 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86911"`
+		Cve202686913 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86913"`
+		Cve202686914 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86914"`
+		Cve202686915 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86915"`
+		Cve202686916 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86916"`
+		Cve202686917 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86917"`
+		Cve202686918 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86918"`
+		Cve202686919 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86919"`
+		Cve202686920 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86920"`
+		Cve202686921 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86921"`
+		Cve202686922 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86922"`
+		Cve202686923 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86923"`
+		Cve202686924 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86924"`
+		Cve202686928 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86928"`
+		Cve202686929 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86929"`
+		Cve202686931 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86931"`
+		Cve202686932 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86932"`
+		Cve202686933 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86933"`
+		Cve202686935 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86935"`
+		Cve202686940 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86940"`
+		Cve202686942 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86942"`
+		Cve202686950 struct {
+			Apple struct {
+				ExploitedStatement string `json:"ExploitedStatement"`
+			} `json:"Apple"`
+			Exploited        bool     `json:"Exploited"`
+			ExploitedSources []string `json:"ExploitedSources"`
+			Kev              struct {
+				DateAdded                  string `json:"DateAdded"`
+				DueDate                    string `json:"DueDate"`
+				KnownRansomwareCampaignUse string `json:"KnownRansomwareCampaignUse"`
+			} `json:"KEV"`
+		} `json:"CVE-2026-86950"`
+		Cve202686953 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86953"`
+		Cve202686954 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86954"`
+		Cve202686957 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86957"`
+		Cve202686958 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86958"`
+		Cve202686959 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86959"`
+		Cve202686961 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86961"`
+		Cve202686962 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86962"`
+		Cve202686964 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86964"`
+		Cve202686966 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86966"`
+		Cve202686975 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86975"`
+		Cve202686976 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86976"`
+		Cve202686979 struct {
+			Apple struct {
+				Advisory     string `json:"Advisory"`
+				AvailableFor string `json:"AvailableFor"`
+				Component    string `json:"Component"`
+				Description  string `json:"Description"`
+				Impact       string `json:"Impact"`
+			} `json:"Apple"`
+			Exploited bool `json:"Exploited"`
+		} `json:"CVE-2026-86979"`
+	} `json:"CVEDetails"`
 	Devices struct {
 		J132Ap struct {
 			DeviceID      string `json:"DeviceID"`
@@ -299,10 +3625,22 @@ type MacOSV2FeedResponse struct {
 			DeviceID      string `json:"DeviceID"`
 			MarketingName string `json:"MarketingName"`
 		} `json:"J773sAP"`
+		J775CAp struct {
+			DeviceID      string `json:"DeviceID"`
+			MarketingName string `json:"MarketingName"`
+		} `json:"J775cAP"`
+		J775DAp struct {
+			DeviceID      string `json:"DeviceID"`
+			MarketingName string `json:"MarketingName"`
+		} `json:"J775dAP"`
 		J780Ap struct {
 			DeviceID      string `json:"DeviceID"`
 			MarketingName string `json:"MarketingName"`
 		} `json:"J780AP"`
+		J804Ap struct {
+			DeviceID      string `json:"DeviceID"`
+			MarketingName string `json:"MarketingName"`
+		} `json:"J804AP"`
 		J813Ap struct {
 			DeviceID      string `json:"DeviceID"`
 			MarketingName string `json:"MarketingName"`
@@ -311,6 +3649,34 @@ type MacOSV2FeedResponse struct {
 			DeviceID      string `json:"DeviceID"`
 			MarketingName string `json:"MarketingName"`
 		} `json:"J815AP"`
+		J833CtAp struct {
+			DeviceID      string `json:"DeviceID"`
+			MarketingName string `json:"MarketingName"`
+		} `json:"J833ctAP"`
+		J873GAp struct {
+			DeviceID      string `json:"DeviceID"`
+			MarketingName string `json:"MarketingName"`
+		} `json:"J873gAP"`
+		J873SAp struct {
+			DeviceID      string `json:"DeviceID"`
+			MarketingName string `json:"MarketingName"`
+		} `json:"J873sAP"`
+		K114CAp struct {
+			DeviceID      string `json:"DeviceID"`
+			MarketingName string `json:"MarketingName"`
+		} `json:"K114cAP"`
+		K114SAp struct {
+			DeviceID      string `json:"DeviceID"`
+			MarketingName string `json:"MarketingName"`
+		} `json:"K114sAP"`
+		K116CAp struct {
+			DeviceID      string `json:"DeviceID"`
+			MarketingName string `json:"MarketingName"`
+		} `json:"K116cAP"`
+		K116SAp struct {
+			DeviceID      string `json:"DeviceID"`
+			MarketingName string `json:"MarketingName"`
+		} `json:"K116sAP"`
 		Mac06f11f11946d27c5 struct {
 			DeviceID      string `json:"DeviceID"`
 			MarketingName string `json:"MarketingName"`
@@ -498,6 +3864,13 @@ type MacOSV2FeedResponse struct {
 		// "Mac16,7" cannot be unmarshalled into a struct field by encoding/json.
 		// "Mac16,8" cannot be unmarshalled into a struct field by encoding/json.
 		// "Mac16,9" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,10" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,11" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,12" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,13" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,14" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,15" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac17,16" cannot be unmarshalled into a struct field by encoding/json.
 		// "Mac17,2" cannot be unmarshalled into a struct field by encoding/json.
 		// "Mac17,3" cannot be unmarshalled into a struct field by encoding/json.
 		// "Mac17,4" cannot be unmarshalled into a struct field by encoding/json.
@@ -506,6 +3879,9 @@ type MacOSV2FeedResponse struct {
 		// "Mac17,7" cannot be unmarshalled into a struct field by encoding/json.
 		// "Mac17,8" cannot be unmarshalled into a struct field by encoding/json.
 		// "Mac17,9" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac18,1" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac18,2" cannot be unmarshalled into a struct field by encoding/json.
+		// "Mac18,5" cannot be unmarshalled into a struct field by encoding/json.
 		// "MacBook10,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "MacBook9,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "MacBookAir10,1" cannot be unmarshalled into a struct field by encoding/json.
@@ -543,7 +3919,6 @@ type MacOSV2FeedResponse struct {
 		// "Macmini8,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "Macmini9,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "VirtualMac2,1" cannot be unmarshalled into a struct field by encoding/json.
-		// "iMac15,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "iMac16,1" cannot be unmarshalled into a struct field by encoding/json.
 		// "iMac16,2" cannot be unmarshalled into a struct field by encoding/json.
 		// "iMac17,1" cannot be unmarshalled into a struct field by encoding/json.
@@ -563,16 +3938,20 @@ type MacOSV2FeedResponse struct {
 			ActivelyExploitedCvEs []string `json:"ActivelyExploitedCVEs"`
 			AllBuilds             []string `json:"AllBuilds"`
 			Build                 string   `json:"Build"`
-			CvEs                  struct {
+			Builds                []struct {
+				Build            string   `json:"Build"`
+				SupportedDevices []string `json:"SupportedDevices"`
+			} `json:"Builds"`
+			CvEs struct {
 				Cve202352356 *struct{} `json:"CVE-2023-52356,omitempty"`
 				Cve20236277  *struct{} `json:"CVE-2023-6277,omitempty"`
 				Cve20242004  *struct{} `json:"CVE-2024-2004,omitempty"`
 				Cve202423261 *struct{} `json:"CVE-2024-23261,omitempty"`
 				Cve202423296 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2024-23296,omitempty"`
 				Cve20242379  *struct{} `json:"CVE-2024-2379,omitempty"`
 				Cve20242398  *struct{} `json:"CVE-2024-2398,omitempty"`
@@ -612,44 +3991,27 @@ type MacOSV2FeedResponse struct {
 				Cve202444205 *struct{} `json:"CVE-2024-44205,omitempty"`
 				Cve20246387  *struct{} `json:"CVE-2024-6387,omitempty"`
 				Cve202543300 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2025-43300,omitempty"`
-				Cve202643794 *struct{} `json:"CVE-2026-43794,omitempty"`
-				Cve202643795 *struct{} `json:"CVE-2026-43795,omitempty"`
-				Cve202664715 *struct{} `json:"CVE-2026-64715,omitempty"`
-				Cve202664778 *struct{} `json:"CVE-2026-64778,omitempty"`
-				Cve202664779 *struct{} `json:"CVE-2026-64779,omitempty"`
-				Cve202664780 *struct{} `json:"CVE-2026-64780,omitempty"`
-				Cve202664781 *struct{} `json:"CVE-2026-64781,omitempty"`
-				Cve202664782 *struct{} `json:"CVE-2026-64782,omitempty"`
-				Cve202664784 *struct{} `json:"CVE-2026-64784,omitempty"`
-				Cve202664787 *struct{} `json:"CVE-2026-64787,omitempty"`
-				Cve202664788 *struct{} `json:"CVE-2026-64788,omitempty"`
-				Cve202665330 *struct{} `json:"CVE-2026-65330,omitempty"`
-				Cve202665331 *struct{} `json:"CVE-2026-65331,omitempty"`
-				Cve202665332 *struct{} `json:"CVE-2026-65332,omitempty"`
-				Cve202665333 *struct{} `json:"CVE-2026-65333,omitempty"`
-				Cve202665334 *struct{} `json:"CVE-2026-65334,omitempty"`
-				Cve202665335 *struct{} `json:"CVE-2026-65335,omitempty"`
-				Cve202665336 *struct{} `json:"CVE-2026-65336,omitempty"`
-				Cve202665337 *struct{} `json:"CVE-2026-65337,omitempty"`
-				Cve202665338 *struct{} `json:"CVE-2026-65338,omitempty"`
-				Cve202665339 *struct{} `json:"CVE-2026-65339,omitempty"`
-				Cve202665340 *struct{} `json:"CVE-2026-65340,omitempty"`
-				Cve202665341 *struct{} `json:"CVE-2026-65341,omitempty"`
-				Cve202665343 *struct{} `json:"CVE-2026-65343,omitempty"`
-				Cve202665346 *struct{} `json:"CVE-2026-65346,omitempty"`
-				Cve202665347 *struct{} `json:"CVE-2026-65347,omitempty"`
-				Cve202665349 *struct{} `json:"CVE-2026-65349,omitempty"`
-				Cve202665351 *struct{} `json:"CVE-2026-65351,omitempty"`
-				Cve202665400 *struct {
+				Cve2026111497 *struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+				} `json:"CVE-2026-111497,omitempty"`
+				Cve2026113960 *struct{} `json:"CVE-2026-113960,omitempty"`
+				Cve2026113961 *struct{} `json:"CVE-2026-113961,omitempty"`
+				Cve2026113964 *struct{} `json:"CVE-2026-113964,omitempty"`
+				Cve2026113965 *struct{} `json:"CVE-2026-113965,omitempty"`
+				Cve2026113968 *struct{} `json:"CVE-2026-113968,omitempty"`
+				Cve2026113969 *struct{} `json:"CVE-2026-113969,omitempty"`
+				Cve2026113970 *struct{} `json:"CVE-2026-113970,omitempty"`
+				Cve202665400  *struct {
+					ActivelyExploited bool   `json:"ActivelyExploited"`
+					InKev             bool   `json:"InKEV"`
+					Nisturl           string `json:"NISTURL"`
 				} `json:"CVE-2026-65400,omitempty"`
 			} `json:"CVEs"`
 			DaysSincePreviousRelease int       `json:"DaysSincePreviousRelease"`
@@ -682,12 +4044,28 @@ type MacOSV2FeedResponse struct {
 		OSVersion        string `json:"OSVersion"`
 		SecurityReleases []struct {
 			ActivelyExploitedCvEs []string `json:"ActivelyExploitedCVEs"`
-			AllBuilds             []string `json:"AllBuilds"`
-			Build                 string   `json:"Build"`
-			CvEs                  struct {
+			Advisory              *struct {
+				AvailableFor string    `json:"AvailableFor"`
+				Csaf         string    `json:"CSAF"`
+				ID           string    `json:"ID"`
+				Number       string    `json:"Number"`
+				Revision     string    `json:"Revision"`
+				Severity     string    `json:"Severity"`
+				Source       string    `json:"Source"`
+				URL          string    `json:"URL"`
+				Updated      time.Time `json:"Updated"`
+			} `json:"Advisory,omitempty"`
+			AllBuilds []string `json:"AllBuilds"`
+			Build     string   `json:"Build"`
+			Builds    []struct {
+				Build            string   `json:"Build"`
+				SupportedDevices []string `json:"SupportedDevices"`
+			} `json:"Builds,omitempty"`
+			CvEs struct {
 				Cve20141745  *struct{} `json:"CVE-2014-1745,omitempty"`
 				Cve20161246  *struct{} `json:"CVE-2016-1246,omitempty"`
 				Cve201825032 *struct{} `json:"CVE-2018-25032,omitempty"`
+				Cve20195598  *struct{} `json:"CVE-2019-5598,omitempty"`
 				Cve202019185 *struct{} `json:"CVE-2020-19185,omitempty"`
 				Cve202019186 *struct{} `json:"CVE-2020-19186,omitempty"`
 				Cve202019187 *struct{} `json:"CVE-2020-19187,omitempty"`
@@ -730,10 +4108,10 @@ type MacOSV2FeedResponse struct {
 				Cve202130880 *struct{} `json:"CVE-2021-30880,omitempty"`
 				Cve202130881 *struct{} `json:"CVE-2021-30881,omitempty"`
 				Cve202130883 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2021-30883,omitempty"`
 				Cve202130884 *struct{} `json:"CVE-2021-30884,omitempty"`
 				Cve202130886 *struct{} `json:"CVE-2021-30886,omitempty"`
@@ -794,7 +4172,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2021-30952,omitempty"`
 				Cve202130953 *struct{} `json:"CVE-2021-30953,omitempty"`
 				Cve202130954 *struct{} `json:"CVE-2021-30954,omitempty"`
@@ -906,7 +4283,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2022-22587,omitempty"`
 				Cve202222589 *struct{} `json:"CVE-2022-22589,omitempty"`
 				Cve202222590 *struct{} `json:"CVE-2022-22590,omitempty"`
@@ -927,10 +4303,10 @@ type MacOSV2FeedResponse struct {
 				Cve202222616 *struct{} `json:"CVE-2022-22616,omitempty"`
 				Cve202222617 *struct{} `json:"CVE-2022-22617,omitempty"`
 				Cve202222620 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2022-22620,omitempty"`
 				Cve202222621 *struct{} `json:"CVE-2022-22621,omitempty"`
 				Cve202222624 *struct{} `json:"CVE-2022-22624,omitempty"`
@@ -971,13 +4347,11 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2022-22674,omitempty"`
 				Cve202222675 *struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2022-22675,omitempty"`
 				Cve202222676 *struct{} `json:"CVE-2022-22676,omitempty"`
 				Cve202222677 *struct{} `json:"CVE-2022-22677,omitempty"`
@@ -988,7 +4362,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2022-2294,omitempty"`
 				Cve202223308 *struct{} `json:"CVE-2022-23308,omitempty"`
 				Cve202224070 *struct{} `json:"CVE-2022-24070,omitempty"`
@@ -1160,13 +4533,11 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2022-32893,omitempty"`
 				Cve202232894 *struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2022-32894,omitempty"`
 				Cve202232895 *struct{} `json:"CVE-2022-32895,omitempty"`
 				Cve202232896 *struct{} `json:"CVE-2022-32896,omitempty"`
@@ -1189,7 +4560,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2022-32917,omitempty"`
 				Cve202232918 *struct{} `json:"CVE-2022-32918,omitempty"`
 				Cve202232919 *struct{} `json:"CVE-2022-32919,omitempty"`
@@ -1275,7 +4645,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2022-42856,omitempty"`
 				Cve202242857 *struct{} `json:"CVE-2022-42857,omitempty"`
 				Cve202242858 *struct{} `json:"CVE-2022-42858,omitempty"`
@@ -1328,7 +4697,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2022-48503,omitempty"`
 				Cve202248504 *struct{} `json:"CVE-2022-48504,omitempty"`
 				Cve202248505 *struct{} `json:"CVE-2022-48505,omitempty"`
@@ -1341,7 +4709,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2022-48618,omitempty"`
 				Cve202248683 *struct{} `json:"CVE-2022-48683,omitempty"`
 				Cve20230049  *struct{} `json:"CVE-2023-0049,omitempty"`
@@ -1388,7 +4755,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2023-23529,omitempty"`
 				Cve202323530 *struct{} `json:"CVE-2023-23530,omitempty"`
 				Cve202323531 *struct{} `json:"CVE-2023-23531,omitempty"`
@@ -1466,19 +4832,18 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2023-28204,omitempty"`
 				Cve202328205 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2023-28205,omitempty"`
 				Cve202328206 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2023-28206,omitempty"`
 				Cve202328207 *struct{} `json:"CVE-2023-28207,omitempty"`
 				Cve202328208 *struct{} `json:"CVE-2023-28208,omitempty"`
@@ -1523,7 +4888,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2023-32373,omitempty"`
 				Cve202332375 *struct{} `json:"CVE-2023-32375,omitempty"`
 				Cve202332376 *struct{} `json:"CVE-2023-32376,omitempty"`
@@ -1559,10 +4923,10 @@ type MacOSV2FeedResponse struct {
 				Cve202332407 *struct{} `json:"CVE-2023-32407,omitempty"`
 				Cve202332408 *struct{} `json:"CVE-2023-32408,omitempty"`
 				Cve202332409 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2023-32409,omitempty"`
 				Cve202332410 *struct{} `json:"CVE-2023-32410,omitempty"`
 				Cve202332411 *struct{} `json:"CVE-2023-32411,omitempty"`
@@ -1586,13 +4950,12 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2023-32434,omitempty"`
 				Cve202332435 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2023-32435,omitempty"`
 				Cve202332436 *struct{} `json:"CVE-2023-32436,omitempty"`
 				Cve202332437 *struct{} `json:"CVE-2023-32437,omitempty"`
@@ -1601,7 +4964,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2023-32439,omitempty"`
 				Cve202332441 *struct{} `json:"CVE-2023-32441,omitempty"`
 				Cve202332442 *struct{} `json:"CVE-2023-32442,omitempty"`
@@ -1626,10 +4988,10 @@ type MacOSV2FeedResponse struct {
 				Cve202337285 *struct{} `json:"CVE-2023-37285,omitempty"`
 				Cve202337448 *struct{} `json:"CVE-2023-37448,omitempty"`
 				Cve202337450 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2023-37450,omitempty"`
 				Cve202338039 *struct{} `json:"CVE-2023-38039,omitempty"`
 				Cve202338133 *struct{} `json:"CVE-2023-38133,omitempty"`
@@ -1666,10 +5028,10 @@ type MacOSV2FeedResponse struct {
 				Cve202338604 *struct{} `json:"CVE-2023-38604,omitempty"`
 				Cve202338605 *struct{} `json:"CVE-2023-38605,omitempty"`
 				Cve202338606 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2023-38606,omitempty"`
 				Cve202338607 *struct{} `json:"CVE-2023-38607,omitempty"`
 				Cve202338608 *struct{} `json:"CVE-2023-38608,omitempty"`
@@ -1750,10 +5112,10 @@ type MacOSV2FeedResponse struct {
 				Cve202341060 *struct{} `json:"CVE-2023-41060,omitempty"`
 				Cve202341063 *struct{} `json:"CVE-2023-41063,omitempty"`
 				Cve202341064 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2023-41064,omitempty"`
 				Cve202341065 *struct{} `json:"CVE-2023-41065,omitempty"`
 				Cve202341066 *struct{} `json:"CVE-2023-41066,omitempty"`
@@ -1785,28 +5147,25 @@ type MacOSV2FeedResponse struct {
 				Cve202341988 *struct{} `json:"CVE-2023-41988,omitempty"`
 				Cve202341989 *struct{} `json:"CVE-2023-41989,omitempty"`
 				Cve202341990 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2023-41990,omitempty"`
 				Cve202341991 *struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2023-41991,omitempty"`
 				Cve202341992 *struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2023-41992,omitempty"`
 				Cve202341993 *struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2023-41993,omitempty"`
 				Cve202341994 *struct{} `json:"CVE-2023-41994,omitempty"`
 				Cve202341995 *struct{} `json:"CVE-2023-41995,omitempty"`
@@ -1890,16 +5249,16 @@ type MacOSV2FeedResponse struct {
 				Cve202342913 *struct{} `json:"CVE-2023-42913,omitempty"`
 				Cve202342914 *struct{} `json:"CVE-2023-42914,omitempty"`
 				Cve202342916 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2023-42916,omitempty"`
 				Cve202342917 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2023-42917,omitempty"`
 				Cve202342918 *struct{} `json:"CVE-2023-42918,omitempty"`
 				Cve202342919 *struct{} `json:"CVE-2023-42919,omitempty"`
@@ -1943,7 +5302,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2023-43000,omitempty"`
 				Cve202343010 *struct{} `json:"CVE-2023-43010,omitempty"`
 				Cve20234504  *struct{} `json:"CVE-2023-4504,omitempty"`
@@ -1986,18 +5344,18 @@ type MacOSV2FeedResponse struct {
 				Cve202423217 *struct{} `json:"CVE-2024-23217,omitempty"`
 				Cve202423218 *struct{} `json:"CVE-2024-23218,omitempty"`
 				Cve202423222 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2024-23222,omitempty"`
 				Cve202423223 *struct{} `json:"CVE-2024-23223,omitempty"`
 				Cve202423224 *struct{} `json:"CVE-2024-23224,omitempty"`
 				Cve202423225 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2024-23225,omitempty"`
 				Cve202423226 *struct{} `json:"CVE-2024-23226,omitempty"`
 				Cve202423227 *struct{} `json:"CVE-2024-23227,omitempty"`
@@ -2063,10 +5421,10 @@ type MacOSV2FeedResponse struct {
 				Cve202423293 *struct{} `json:"CVE-2024-23293,omitempty"`
 				Cve202423294 *struct{} `json:"CVE-2024-23294,omitempty"`
 				Cve202423296 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2024-23296,omitempty"`
 				Cve202423299 *struct{} `json:"CVE-2024-23299,omitempty"`
 				Cve20242379  *struct{} `json:"CVE-2024-2379,omitempty"`
@@ -2109,7 +5467,11 @@ type MacOSV2FeedResponse struct {
 				Cve202427830 *struct{} `json:"CVE-2024-27830,omitempty"`
 				Cve202427831 *struct{} `json:"CVE-2024-27831,omitempty"`
 				Cve202427832 *struct{} `json:"CVE-2024-27832,omitempty"`
-				Cve202427834 *struct{} `json:"CVE-2024-27834,omitempty"`
+				Cve202427834 *struct {
+					ActivelyExploited bool   `json:"ActivelyExploited"`
+					InKev             bool   `json:"InKEV"`
+					Nisturl           string `json:"NISTURL"`
+				} `json:"CVE-2024-27834,omitempty"`
 				Cve202427836 *struct{} `json:"CVE-2024-27836,omitempty"`
 				Cve202427837 *struct{} `json:"CVE-2024-27837,omitempty"`
 				Cve202427838 *struct{} `json:"CVE-2024-27838,omitempty"`
@@ -2383,16 +5745,16 @@ type MacOSV2FeedResponse struct {
 				Cve202444306 *struct{} `json:"CVE-2024-44306,omitempty"`
 				Cve202444307 *struct{} `json:"CVE-2024-44307,omitempty"`
 				Cve202444308 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2024-44308,omitempty"`
 				Cve202444309 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2024-44309,omitempty"`
 				Cve202445306 *struct{} `json:"CVE-2024-45306,omitempty"`
 				Cve202445490 *struct{} `json:"CVE-2024-45490,omitempty"`
@@ -2488,18 +5850,18 @@ type MacOSV2FeedResponse struct {
 				Cve20249681  *struct{} `json:"CVE-2024-9681,omitempty"`
 				Cve202514017 *struct{} `json:"CVE-2025-14017,omitempty"`
 				Cve202514174 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2025-14174,omitempty"`
 				Cve202514524 *struct{} `json:"CVE-2025-14524,omitempty"`
 				Cve202514819 *struct{} `json:"CVE-2025-14819,omitempty"`
 				Cve202524085 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2025-24085,omitempty"`
 				Cve202524086 *struct{} `json:"CVE-2025-24086,omitempty"`
 				Cve202524087 *struct{} `json:"CVE-2025-24087,omitempty"`
@@ -2596,10 +5958,10 @@ type MacOSV2FeedResponse struct {
 				Cve202524198 *struct{} `json:"CVE-2025-24198,omitempty"`
 				Cve202524199 *struct{} `json:"CVE-2025-24199,omitempty"`
 				Cve202524201 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2025-24201,omitempty"`
 				Cve202524202 *struct{} `json:"CVE-2025-24202,omitempty"`
 				Cve202524203 *struct{} `json:"CVE-2025-24203,omitempty"`
@@ -2737,16 +6099,16 @@ type MacOSV2FeedResponse struct {
 				Cve202531198 *struct{} `json:"CVE-2025-31198,omitempty"`
 				Cve202531199 *struct{} `json:"CVE-2025-31199,omitempty"`
 				Cve202531200 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2025-31200,omitempty"`
 				Cve202531201 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2025-31201,omitempty"`
 				Cve202531202 *struct{} `json:"CVE-2025-31202,omitempty"`
 				Cve202531203 *struct{} `json:"CVE-2025-31203,omitempty"`
@@ -2810,7 +6172,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2025-31277,omitempty"`
 				Cve202531278 *struct{} `json:"CVE-2025-31278,omitempty"`
 				Cve202531279 *struct{} `json:"CVE-2025-31279,omitempty"`
@@ -2835,10 +6196,10 @@ type MacOSV2FeedResponse struct {
 				Cve202543198 *struct{} `json:"CVE-2025-43198,omitempty"`
 				Cve202543199 *struct{} `json:"CVE-2025-43199,omitempty"`
 				Cve202543200 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2025-43200,omitempty"`
 				Cve202543202 *struct{} `json:"CVE-2025-43202,omitempty"`
 				Cve202543204 *struct{} `json:"CVE-2025-43204,omitempty"`
@@ -2930,10 +6291,10 @@ type MacOSV2FeedResponse struct {
 				Cve202543298 *struct{} `json:"CVE-2025-43298,omitempty"`
 				Cve202543299 *struct{} `json:"CVE-2025-43299,omitempty"`
 				Cve202543300 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2025-43300,omitempty"`
 				Cve202543301 *struct{} `json:"CVE-2025-43301,omitempty"`
 				Cve202543302 *struct{} `json:"CVE-2025-43302,omitempty"`
@@ -3109,7 +6470,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2025-43510,omitempty"`
 				Cve202543511 *struct{} `json:"CVE-2025-43511,omitempty"`
 				Cve202543512 *struct{} `json:"CVE-2025-43512,omitempty"`
@@ -3123,7 +6483,6 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2025-43520,omitempty"`
 				Cve202543521 *struct{} `json:"CVE-2025-43521,omitempty"`
 				Cve202543522 *struct{} `json:"CVE-2025-43522,omitempty"`
@@ -3132,10 +6491,10 @@ type MacOSV2FeedResponse struct {
 				Cve202543526 *struct{} `json:"CVE-2025-43526,omitempty"`
 				Cve202543527 *struct{} `json:"CVE-2025-43527,omitempty"`
 				Cve202543529 *struct {
-					ActivelyExploited bool   `json:"ActivelyExploited"`
-					InKev             bool   `json:"InKEV"`
-					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2025-43529,omitempty"`
 				Cve202543530 *struct{} `json:"CVE-2025-43530,omitempty"`
 				Cve202543531 *struct{} `json:"CVE-2025-43531,omitempty"`
@@ -3192,101 +6551,349 @@ type MacOSV2FeedResponse struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2025-6558,omitempty"`
-				Cve202566200 *struct{} `json:"CVE-2025-66200,omitempty"`
-				Cve20256965  *struct{} `json:"CVE-2025-6965,omitempty"`
-				Cve20257424  *struct{} `json:"CVE-2025-7424,omitempty"`
-				Cve20257425  *struct{} `json:"CVE-2025-7425,omitempty"`
-				Cve20259086  *struct{} `json:"CVE-2025-9086,omitempty"`
-				Cve20261837  *struct{} `json:"CVE-2026-1837,omitempty"`
-				Cve202620601 *struct{} `json:"CVE-2026-20601,omitempty"`
-				Cve202620602 *struct{} `json:"CVE-2026-20602,omitempty"`
-				Cve202620603 *struct{} `json:"CVE-2026-20603,omitempty"`
-				Cve202620605 *struct{} `json:"CVE-2026-20605,omitempty"`
-				Cve202620606 *struct{} `json:"CVE-2026-20606,omitempty"`
-				Cve202620607 *struct{} `json:"CVE-2026-20607,omitempty"`
-				Cve202620608 *struct{} `json:"CVE-2026-20608,omitempty"`
-				Cve202620609 *struct{} `json:"CVE-2026-20609,omitempty"`
-				Cve202620610 *struct{} `json:"CVE-2026-20610,omitempty"`
-				Cve202620611 *struct{} `json:"CVE-2026-20611,omitempty"`
-				Cve202620612 *struct{} `json:"CVE-2026-20612,omitempty"`
-				Cve202620614 *struct{} `json:"CVE-2026-20614,omitempty"`
-				Cve202620615 *struct{} `json:"CVE-2026-20615,omitempty"`
-				Cve202620616 *struct{} `json:"CVE-2026-20616,omitempty"`
-				Cve202620617 *struct{} `json:"CVE-2026-20617,omitempty"`
-				Cve202620618 *struct{} `json:"CVE-2026-20618,omitempty"`
-				Cve202620619 *struct{} `json:"CVE-2026-20619,omitempty"`
-				Cve202620620 *struct{} `json:"CVE-2026-20620,omitempty"`
-				Cve202620621 *struct{} `json:"CVE-2026-20621,omitempty"`
-				Cve202620622 *struct{} `json:"CVE-2026-20622,omitempty"`
-				Cve202620623 *struct{} `json:"CVE-2026-20623,omitempty"`
-				Cve202620624 *struct{} `json:"CVE-2026-20624,omitempty"`
-				Cve202620625 *struct{} `json:"CVE-2026-20625,omitempty"`
-				Cve202620626 *struct{} `json:"CVE-2026-20626,omitempty"`
-				Cve202620627 *struct{} `json:"CVE-2026-20627,omitempty"`
-				Cve202620628 *struct{} `json:"CVE-2026-20628,omitempty"`
-				Cve202620629 *struct{} `json:"CVE-2026-20629,omitempty"`
-				Cve202620630 *struct{} `json:"CVE-2026-20630,omitempty"`
-				Cve202620631 *struct{} `json:"CVE-2026-20631,omitempty"`
-				Cve202620632 *struct{} `json:"CVE-2026-20632,omitempty"`
-				Cve202620633 *struct{} `json:"CVE-2026-20633,omitempty"`
-				Cve202620634 *struct{} `json:"CVE-2026-20634,omitempty"`
-				Cve202620635 *struct{} `json:"CVE-2026-20635,omitempty"`
-				Cve202620636 *struct{} `json:"CVE-2026-20636,omitempty"`
-				Cve202620637 *struct{} `json:"CVE-2026-20637,omitempty"`
-				Cve202620639 *struct{} `json:"CVE-2026-20639,omitempty"`
-				Cve202620641 *struct{} `json:"CVE-2026-20641,omitempty"`
-				Cve202620643 *struct{} `json:"CVE-2026-20643,omitempty"`
-				Cve202620644 *struct{} `json:"CVE-2026-20644,omitempty"`
-				Cve202620646 *struct{} `json:"CVE-2026-20646,omitempty"`
-				Cve202620647 *struct{} `json:"CVE-2026-20647,omitempty"`
-				Cve202620648 *struct{} `json:"CVE-2026-20648,omitempty"`
-				Cve202620649 *struct{} `json:"CVE-2026-20649,omitempty"`
-				Cve202620650 *struct{} `json:"CVE-2026-20650,omitempty"`
-				Cve202620651 *struct{} `json:"CVE-2026-20651,omitempty"`
-				Cve202620652 *struct{} `json:"CVE-2026-20652,omitempty"`
-				Cve202620653 *struct{} `json:"CVE-2026-20653,omitempty"`
-				Cve202620654 *struct{} `json:"CVE-2026-20654,omitempty"`
-				Cve202620656 *struct{} `json:"CVE-2026-20656,omitempty"`
-				Cve202620657 *struct{} `json:"CVE-2026-20657,omitempty"`
-				Cve202620658 *struct{} `json:"CVE-2026-20658,omitempty"`
-				Cve202620660 *struct{} `json:"CVE-2026-20660,omitempty"`
-				Cve202620662 *struct{} `json:"CVE-2026-20662,omitempty"`
-				Cve202620664 *struct{} `json:"CVE-2026-20664,omitempty"`
-				Cve202620665 *struct{} `json:"CVE-2026-20665,omitempty"`
-				Cve202620666 *struct{} `json:"CVE-2026-20666,omitempty"`
-				Cve202620667 *struct{} `json:"CVE-2026-20667,omitempty"`
-				Cve202620668 *struct{} `json:"CVE-2026-20668,omitempty"`
-				Cve202620669 *struct{} `json:"CVE-2026-20669,omitempty"`
-				Cve202620670 *struct{} `json:"CVE-2026-20670,omitempty"`
-				Cve202620671 *struct{} `json:"CVE-2026-20671,omitempty"`
-				Cve202620672 *struct{} `json:"CVE-2026-20672,omitempty"`
-				Cve202620673 *struct{} `json:"CVE-2026-20673,omitempty"`
-				Cve202620675 *struct{} `json:"CVE-2026-20675,omitempty"`
-				Cve202620676 *struct{} `json:"CVE-2026-20676,omitempty"`
-				Cve202620677 *struct{} `json:"CVE-2026-20677,omitempty"`
-				Cve202620679 *struct{} `json:"CVE-2026-20679,omitempty"`
-				Cve202620680 *struct{} `json:"CVE-2026-20680,omitempty"`
-				Cve202620681 *struct{} `json:"CVE-2026-20681,omitempty"`
-				Cve202620684 *struct{} `json:"CVE-2026-20684,omitempty"`
-				Cve202620687 *struct{} `json:"CVE-2026-20687,omitempty"`
-				Cve202620688 *struct{} `json:"CVE-2026-20688,omitempty"`
-				Cve202620690 *struct{} `json:"CVE-2026-20690,omitempty"`
-				Cve202620691 *struct{} `json:"CVE-2026-20691,omitempty"`
-				Cve202620692 *struct{} `json:"CVE-2026-20692,omitempty"`
-				Cve202620693 *struct{} `json:"CVE-2026-20693,omitempty"`
-				Cve202620694 *struct{} `json:"CVE-2026-20694,omitempty"`
-				Cve202620695 *struct{} `json:"CVE-2026-20695,omitempty"`
-				Cve202620696 *struct{} `json:"CVE-2026-20696,omitempty"`
-				Cve202620697 *struct{} `json:"CVE-2026-20697,omitempty"`
-				Cve202620698 *struct{} `json:"CVE-2026-20698,omitempty"`
-				Cve202620699 *struct{} `json:"CVE-2026-20699,omitempty"`
-				Cve202620700 *struct {
+				Cve202566200  *struct{} `json:"CVE-2025-66200,omitempty"`
+				Cve20256965   *struct{} `json:"CVE-2025-6965,omitempty"`
+				Cve20257424   *struct{} `json:"CVE-2025-7424,omitempty"`
+				Cve20257425   *struct{} `json:"CVE-2025-7425,omitempty"`
+				Cve20259086   *struct{} `json:"CVE-2025-9086,omitempty"`
+				Cve2026111497 *struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
+				} `json:"CVE-2026-111497,omitempty"`
+				Cve2026112410 *struct{} `json:"CVE-2026-112410,omitempty"`
+				Cve2026112413 *struct{} `json:"CVE-2026-112413,omitempty"`
+				Cve2026112414 *struct{} `json:"CVE-2026-112414,omitempty"`
+				Cve2026112415 *struct{} `json:"CVE-2026-112415,omitempty"`
+				Cve2026112416 *struct{} `json:"CVE-2026-112416,omitempty"`
+				Cve2026112421 *struct{} `json:"CVE-2026-112421,omitempty"`
+				Cve2026112423 *struct{} `json:"CVE-2026-112423,omitempty"`
+				Cve2026112424 *struct{} `json:"CVE-2026-112424,omitempty"`
+				Cve2026112425 *struct{} `json:"CVE-2026-112425,omitempty"`
+				Cve2026112427 *struct{} `json:"CVE-2026-112427,omitempty"`
+				Cve2026112428 *struct{} `json:"CVE-2026-112428,omitempty"`
+				Cve2026112429 *struct{} `json:"CVE-2026-112429,omitempty"`
+				Cve2026112430 *struct{} `json:"CVE-2026-112430,omitempty"`
+				Cve2026112432 *struct{} `json:"CVE-2026-112432,omitempty"`
+				Cve2026112434 *struct{} `json:"CVE-2026-112434,omitempty"`
+				Cve2026112437 *struct{} `json:"CVE-2026-112437,omitempty"`
+				Cve2026112438 *struct{} `json:"CVE-2026-112438,omitempty"`
+				Cve2026112441 *struct{} `json:"CVE-2026-112441,omitempty"`
+				Cve2026112442 *struct{} `json:"CVE-2026-112442,omitempty"`
+				Cve2026112443 *struct{} `json:"CVE-2026-112443,omitempty"`
+				Cve2026112444 *struct{} `json:"CVE-2026-112444,omitempty"`
+				Cve2026112446 *struct{} `json:"CVE-2026-112446,omitempty"`
+				Cve2026112447 *struct{} `json:"CVE-2026-112447,omitempty"`
+				Cve2026112449 *struct{} `json:"CVE-2026-112449,omitempty"`
+				Cve2026112451 *struct{} `json:"CVE-2026-112451,omitempty"`
+				Cve2026112453 *struct{} `json:"CVE-2026-112453,omitempty"`
+				Cve2026112454 *struct{} `json:"CVE-2026-112454,omitempty"`
+				Cve2026112455 *struct{} `json:"CVE-2026-112455,omitempty"`
+				Cve2026112456 *struct{} `json:"CVE-2026-112456,omitempty"`
+				Cve2026112457 *struct{} `json:"CVE-2026-112457,omitempty"`
+				Cve2026112459 *struct{} `json:"CVE-2026-112459,omitempty"`
+				Cve2026112461 *struct{} `json:"CVE-2026-112461,omitempty"`
+				Cve2026112462 *struct{} `json:"CVE-2026-112462,omitempty"`
+				Cve2026112464 *struct{} `json:"CVE-2026-112464,omitempty"`
+				Cve2026112466 *struct{} `json:"CVE-2026-112466,omitempty"`
+				Cve2026112467 *struct{} `json:"CVE-2026-112467,omitempty"`
+				Cve2026112468 *struct{} `json:"CVE-2026-112468,omitempty"`
+				Cve2026112469 *struct{} `json:"CVE-2026-112469,omitempty"`
+				Cve2026112470 *struct{} `json:"CVE-2026-112470,omitempty"`
+				Cve2026112471 *struct{} `json:"CVE-2026-112471,omitempty"`
+				Cve2026112473 *struct{} `json:"CVE-2026-112473,omitempty"`
+				Cve2026112474 *struct{} `json:"CVE-2026-112474,omitempty"`
+				Cve2026112475 *struct{} `json:"CVE-2026-112475,omitempty"`
+				Cve2026112476 *struct{} `json:"CVE-2026-112476,omitempty"`
+				Cve2026112477 *struct{} `json:"CVE-2026-112477,omitempty"`
+				Cve2026112478 *struct{} `json:"CVE-2026-112478,omitempty"`
+				Cve2026112479 *struct{} `json:"CVE-2026-112479,omitempty"`
+				Cve2026112480 *struct{} `json:"CVE-2026-112480,omitempty"`
+				Cve2026112481 *struct{} `json:"CVE-2026-112481,omitempty"`
+				Cve2026112482 *struct{} `json:"CVE-2026-112482,omitempty"`
+				Cve2026112483 *struct{} `json:"CVE-2026-112483,omitempty"`
+				Cve2026112484 *struct{} `json:"CVE-2026-112484,omitempty"`
+				Cve2026112485 *struct{} `json:"CVE-2026-112485,omitempty"`
+				Cve2026112486 *struct{} `json:"CVE-2026-112486,omitempty"`
+				Cve2026112487 *struct{} `json:"CVE-2026-112487,omitempty"`
+				Cve2026112488 *struct{} `json:"CVE-2026-112488,omitempty"`
+				Cve2026112491 *struct{} `json:"CVE-2026-112491,omitempty"`
+				Cve2026112492 *struct{} `json:"CVE-2026-112492,omitempty"`
+				Cve2026112493 *struct{} `json:"CVE-2026-112493,omitempty"`
+				Cve2026112494 *struct{} `json:"CVE-2026-112494,omitempty"`
+				Cve2026112495 *struct{} `json:"CVE-2026-112495,omitempty"`
+				Cve2026112497 *struct{} `json:"CVE-2026-112497,omitempty"`
+				Cve2026112498 *struct{} `json:"CVE-2026-112498,omitempty"`
+				Cve2026112500 *struct{} `json:"CVE-2026-112500,omitempty"`
+				Cve2026112501 *struct{} `json:"CVE-2026-112501,omitempty"`
+				Cve2026112502 *struct{} `json:"CVE-2026-112502,omitempty"`
+				Cve2026112504 *struct{} `json:"CVE-2026-112504,omitempty"`
+				Cve2026112505 *struct{} `json:"CVE-2026-112505,omitempty"`
+				Cve2026112506 *struct{} `json:"CVE-2026-112506,omitempty"`
+				Cve2026112508 *struct{} `json:"CVE-2026-112508,omitempty"`
+				Cve2026112510 *struct{} `json:"CVE-2026-112510,omitempty"`
+				Cve2026112511 *struct{} `json:"CVE-2026-112511,omitempty"`
+				Cve2026112512 *struct{} `json:"CVE-2026-112512,omitempty"`
+				Cve2026112513 *struct{} `json:"CVE-2026-112513,omitempty"`
+				Cve2026112514 *struct{} `json:"CVE-2026-112514,omitempty"`
+				Cve2026112515 *struct{} `json:"CVE-2026-112515,omitempty"`
+				Cve2026112516 *struct{} `json:"CVE-2026-112516,omitempty"`
+				Cve2026112517 *struct{} `json:"CVE-2026-112517,omitempty"`
+				Cve2026112518 *struct{} `json:"CVE-2026-112518,omitempty"`
+				Cve2026112519 *struct{} `json:"CVE-2026-112519,omitempty"`
+				Cve2026112521 *struct{} `json:"CVE-2026-112521,omitempty"`
+				Cve2026112522 *struct{} `json:"CVE-2026-112522,omitempty"`
+				Cve2026112523 *struct{} `json:"CVE-2026-112523,omitempty"`
+				Cve2026112524 *struct{} `json:"CVE-2026-112524,omitempty"`
+				Cve2026112525 *struct{} `json:"CVE-2026-112525,omitempty"`
+				Cve2026112526 *struct{} `json:"CVE-2026-112526,omitempty"`
+				Cve2026112529 *struct{} `json:"CVE-2026-112529,omitempty"`
+				Cve2026112530 *struct{} `json:"CVE-2026-112530,omitempty"`
+				Cve2026112531 *struct{} `json:"CVE-2026-112531,omitempty"`
+				Cve2026112532 *struct{} `json:"CVE-2026-112532,omitempty"`
+				Cve2026112533 *struct{} `json:"CVE-2026-112533,omitempty"`
+				Cve2026112534 *struct{} `json:"CVE-2026-112534,omitempty"`
+				Cve2026112535 *struct{} `json:"CVE-2026-112535,omitempty"`
+				Cve2026112536 *struct{} `json:"CVE-2026-112536,omitempty"`
+				Cve2026112537 *struct{} `json:"CVE-2026-112537,omitempty"`
+				Cve2026112539 *struct{} `json:"CVE-2026-112539,omitempty"`
+				Cve2026112540 *struct{} `json:"CVE-2026-112540,omitempty"`
+				Cve2026112541 *struct{} `json:"CVE-2026-112541,omitempty"`
+				Cve2026112542 *struct{} `json:"CVE-2026-112542,omitempty"`
+				Cve2026112543 *struct{} `json:"CVE-2026-112543,omitempty"`
+				Cve2026112544 *struct{} `json:"CVE-2026-112544,omitempty"`
+				Cve2026112545 *struct{} `json:"CVE-2026-112545,omitempty"`
+				Cve2026112546 *struct{} `json:"CVE-2026-112546,omitempty"`
+				Cve2026112548 *struct{} `json:"CVE-2026-112548,omitempty"`
+				Cve2026112550 *struct{} `json:"CVE-2026-112550,omitempty"`
+				Cve2026112551 *struct{} `json:"CVE-2026-112551,omitempty"`
+				Cve2026112552 *struct{} `json:"CVE-2026-112552,omitempty"`
+				Cve2026112553 *struct{} `json:"CVE-2026-112553,omitempty"`
+				Cve2026112554 *struct{} `json:"CVE-2026-112554,omitempty"`
+				Cve2026112555 *struct{} `json:"CVE-2026-112555,omitempty"`
+				Cve2026112556 *struct{} `json:"CVE-2026-112556,omitempty"`
+				Cve2026112557 *struct{} `json:"CVE-2026-112557,omitempty"`
+				Cve2026112558 *struct{} `json:"CVE-2026-112558,omitempty"`
+				Cve2026112559 *struct{} `json:"CVE-2026-112559,omitempty"`
+				Cve2026112560 *struct{} `json:"CVE-2026-112560,omitempty"`
+				Cve2026112561 *struct{} `json:"CVE-2026-112561,omitempty"`
+				Cve2026112562 *struct{} `json:"CVE-2026-112562,omitempty"`
+				Cve2026112563 *struct{} `json:"CVE-2026-112563,omitempty"`
+				Cve2026112565 *struct{} `json:"CVE-2026-112565,omitempty"`
+				Cve2026112566 *struct{} `json:"CVE-2026-112566,omitempty"`
+				Cve2026112567 *struct{} `json:"CVE-2026-112567,omitempty"`
+				Cve2026112568 *struct{} `json:"CVE-2026-112568,omitempty"`
+				Cve2026112569 *struct{} `json:"CVE-2026-112569,omitempty"`
+				Cve2026112570 *struct{} `json:"CVE-2026-112570,omitempty"`
+				Cve2026112571 *struct{} `json:"CVE-2026-112571,omitempty"`
+				Cve2026112575 *struct{} `json:"CVE-2026-112575,omitempty"`
+				Cve2026112576 *struct{} `json:"CVE-2026-112576,omitempty"`
+				Cve2026112577 *struct{} `json:"CVE-2026-112577,omitempty"`
+				Cve2026112593 *struct{} `json:"CVE-2026-112593,omitempty"`
+				Cve2026112595 *struct{} `json:"CVE-2026-112595,omitempty"`
+				Cve2026112596 *struct{} `json:"CVE-2026-112596,omitempty"`
+				Cve2026112599 *struct{} `json:"CVE-2026-112599,omitempty"`
+				Cve2026112601 *struct{} `json:"CVE-2026-112601,omitempty"`
+				Cve2026112604 *struct{} `json:"CVE-2026-112604,omitempty"`
+				Cve2026112606 *struct{} `json:"CVE-2026-112606,omitempty"`
+				Cve2026112607 *struct{} `json:"CVE-2026-112607,omitempty"`
+				Cve2026112608 *struct{} `json:"CVE-2026-112608,omitempty"`
+				Cve2026112610 *struct{} `json:"CVE-2026-112610,omitempty"`
+				Cve2026112611 *struct{} `json:"CVE-2026-112611,omitempty"`
+				Cve2026112614 *struct{} `json:"CVE-2026-112614,omitempty"`
+				Cve2026112615 *struct{} `json:"CVE-2026-112615,omitempty"`
+				Cve2026112616 *struct{} `json:"CVE-2026-112616,omitempty"`
+				Cve2026112617 *struct{} `json:"CVE-2026-112617,omitempty"`
+				Cve2026112619 *struct{} `json:"CVE-2026-112619,omitempty"`
+				Cve2026112620 *struct{} `json:"CVE-2026-112620,omitempty"`
+				Cve2026112621 *struct{} `json:"CVE-2026-112621,omitempty"`
+				Cve2026112622 *struct{} `json:"CVE-2026-112622,omitempty"`
+				Cve2026112623 *struct{} `json:"CVE-2026-112623,omitempty"`
+				Cve2026112624 *struct{} `json:"CVE-2026-112624,omitempty"`
+				Cve2026112625 *struct{} `json:"CVE-2026-112625,omitempty"`
+				Cve2026112626 *struct{} `json:"CVE-2026-112626,omitempty"`
+				Cve2026112627 *struct{} `json:"CVE-2026-112627,omitempty"`
+				Cve2026112628 *struct{} `json:"CVE-2026-112628,omitempty"`
+				Cve2026112629 *struct{} `json:"CVE-2026-112629,omitempty"`
+				Cve2026112630 *struct{} `json:"CVE-2026-112630,omitempty"`
+				Cve2026112632 *struct{} `json:"CVE-2026-112632,omitempty"`
+				Cve2026112633 *struct{} `json:"CVE-2026-112633,omitempty"`
+				Cve2026112634 *struct{} `json:"CVE-2026-112634,omitempty"`
+				Cve2026112637 *struct{} `json:"CVE-2026-112637,omitempty"`
+				Cve2026112638 *struct{} `json:"CVE-2026-112638,omitempty"`
+				Cve2026112639 *struct{} `json:"CVE-2026-112639,omitempty"`
+				Cve2026112640 *struct{} `json:"CVE-2026-112640,omitempty"`
+				Cve2026112642 *struct{} `json:"CVE-2026-112642,omitempty"`
+				Cve2026112647 *struct{} `json:"CVE-2026-112647,omitempty"`
+				Cve2026112651 *struct{} `json:"CVE-2026-112651,omitempty"`
+				Cve2026112652 *struct{} `json:"CVE-2026-112652,omitempty"`
+				Cve2026112653 *struct{} `json:"CVE-2026-112653,omitempty"`
+				Cve2026112654 *struct{} `json:"CVE-2026-112654,omitempty"`
+				Cve2026112655 *struct{} `json:"CVE-2026-112655,omitempty"`
+				Cve2026112656 *struct{} `json:"CVE-2026-112656,omitempty"`
+				Cve2026112658 *struct{} `json:"CVE-2026-112658,omitempty"`
+				Cve2026112659 *struct{} `json:"CVE-2026-112659,omitempty"`
+				Cve2026112660 *struct{} `json:"CVE-2026-112660,omitempty"`
+				Cve2026112665 *struct{} `json:"CVE-2026-112665,omitempty"`
+				Cve2026112666 *struct{} `json:"CVE-2026-112666,omitempty"`
+				Cve2026112668 *struct{} `json:"CVE-2026-112668,omitempty"`
+				Cve2026112669 *struct{} `json:"CVE-2026-112669,omitempty"`
+				Cve2026112670 *struct{} `json:"CVE-2026-112670,omitempty"`
+				Cve2026112671 *struct{} `json:"CVE-2026-112671,omitempty"`
+				Cve2026112672 *struct{} `json:"CVE-2026-112672,omitempty"`
+				Cve2026112673 *struct{} `json:"CVE-2026-112673,omitempty"`
+				Cve2026112675 *struct{} `json:"CVE-2026-112675,omitempty"`
+				Cve2026112676 *struct{} `json:"CVE-2026-112676,omitempty"`
+				Cve2026112677 *struct{} `json:"CVE-2026-112677,omitempty"`
+				Cve2026112678 *struct{} `json:"CVE-2026-112678,omitempty"`
+				Cve2026112679 *struct{} `json:"CVE-2026-112679,omitempty"`
+				Cve2026112680 *struct{} `json:"CVE-2026-112680,omitempty"`
+				Cve2026112682 *struct{} `json:"CVE-2026-112682,omitempty"`
+				Cve2026112683 *struct{} `json:"CVE-2026-112683,omitempty"`
+				Cve2026112684 *struct{} `json:"CVE-2026-112684,omitempty"`
+				Cve2026112685 *struct{} `json:"CVE-2026-112685,omitempty"`
+				Cve2026112686 *struct{} `json:"CVE-2026-112686,omitempty"`
+				Cve2026112688 *struct{} `json:"CVE-2026-112688,omitempty"`
+				Cve2026112689 *struct{} `json:"CVE-2026-112689,omitempty"`
+				Cve2026112690 *struct{} `json:"CVE-2026-112690,omitempty"`
+				Cve2026112693 *struct{} `json:"CVE-2026-112693,omitempty"`
+				Cve2026112695 *struct{} `json:"CVE-2026-112695,omitempty"`
+				Cve2026112696 *struct{} `json:"CVE-2026-112696,omitempty"`
+				Cve2026112697 *struct{} `json:"CVE-2026-112697,omitempty"`
+				Cve2026112698 *struct{} `json:"CVE-2026-112698,omitempty"`
+				Cve2026112699 *struct{} `json:"CVE-2026-112699,omitempty"`
+				Cve2026112704 *struct{} `json:"CVE-2026-112704,omitempty"`
+				Cve2026112705 *struct{} `json:"CVE-2026-112705,omitempty"`
+				Cve2026112708 *struct{} `json:"CVE-2026-112708,omitempty"`
+				Cve2026113896 *struct{} `json:"CVE-2026-113896,omitempty"`
+				Cve2026113897 *struct{} `json:"CVE-2026-113897,omitempty"`
+				Cve2026113898 *struct{} `json:"CVE-2026-113898,omitempty"`
+				Cve2026113899 *struct{} `json:"CVE-2026-113899,omitempty"`
+				Cve2026113900 *struct{} `json:"CVE-2026-113900,omitempty"`
+				Cve2026113901 *struct{} `json:"CVE-2026-113901,omitempty"`
+				Cve2026113903 *struct{} `json:"CVE-2026-113903,omitempty"`
+				Cve2026113904 *struct{} `json:"CVE-2026-113904,omitempty"`
+				Cve2026113907 *struct{} `json:"CVE-2026-113907,omitempty"`
+				Cve2026113909 *struct{} `json:"CVE-2026-113909,omitempty"`
+				Cve2026113910 *struct{} `json:"CVE-2026-113910,omitempty"`
+				Cve2026113912 *struct{} `json:"CVE-2026-113912,omitempty"`
+				Cve2026113913 *struct{} `json:"CVE-2026-113913,omitempty"`
+				Cve2026113915 *struct{} `json:"CVE-2026-113915,omitempty"`
+				Cve2026113934 *struct{} `json:"CVE-2026-113934,omitempty"`
+				Cve2026113935 *struct{} `json:"CVE-2026-113935,omitempty"`
+				Cve2026113936 *struct{} `json:"CVE-2026-113936,omitempty"`
+				Cve2026113937 *struct{} `json:"CVE-2026-113937,omitempty"`
+				Cve2026113938 *struct{} `json:"CVE-2026-113938,omitempty"`
+				Cve2026113939 *struct{} `json:"CVE-2026-113939,omitempty"`
+				Cve2026113940 *struct{} `json:"CVE-2026-113940,omitempty"`
+				Cve2026113941 *struct{} `json:"CVE-2026-113941,omitempty"`
+				Cve2026113942 *struct{} `json:"CVE-2026-113942,omitempty"`
+				Cve2026113943 *struct{} `json:"CVE-2026-113943,omitempty"`
+				Cve2026113944 *struct{} `json:"CVE-2026-113944,omitempty"`
+				Cve2026113945 *struct{} `json:"CVE-2026-113945,omitempty"`
+				Cve2026113946 *struct{} `json:"CVE-2026-113946,omitempty"`
+				Cve2026113947 *struct{} `json:"CVE-2026-113947,omitempty"`
+				Cve2026113948 *struct{} `json:"CVE-2026-113948,omitempty"`
+				Cve2026113949 *struct{} `json:"CVE-2026-113949,omitempty"`
+				Cve2026113950 *struct{} `json:"CVE-2026-113950,omitempty"`
+				Cve2026113952 *struct{} `json:"CVE-2026-113952,omitempty"`
+				Cve2026113960 *struct{} `json:"CVE-2026-113960,omitempty"`
+				Cve2026113961 *struct{} `json:"CVE-2026-113961,omitempty"`
+				Cve2026113964 *struct{} `json:"CVE-2026-113964,omitempty"`
+				Cve2026113965 *struct{} `json:"CVE-2026-113965,omitempty"`
+				Cve2026113968 *struct{} `json:"CVE-2026-113968,omitempty"`
+				Cve2026113969 *struct{} `json:"CVE-2026-113969,omitempty"`
+				Cve2026113970 *struct{} `json:"CVE-2026-113970,omitempty"`
+				Cve20261837   *struct{} `json:"CVE-2026-1837,omitempty"`
+				Cve202620601  *struct{} `json:"CVE-2026-20601,omitempty"`
+				Cve202620602  *struct{} `json:"CVE-2026-20602,omitempty"`
+				Cve202620603  *struct{} `json:"CVE-2026-20603,omitempty"`
+				Cve202620605  *struct{} `json:"CVE-2026-20605,omitempty"`
+				Cve202620606  *struct{} `json:"CVE-2026-20606,omitempty"`
+				Cve202620607  *struct{} `json:"CVE-2026-20607,omitempty"`
+				Cve202620608  *struct{} `json:"CVE-2026-20608,omitempty"`
+				Cve202620609  *struct{} `json:"CVE-2026-20609,omitempty"`
+				Cve202620610  *struct{} `json:"CVE-2026-20610,omitempty"`
+				Cve202620611  *struct{} `json:"CVE-2026-20611,omitempty"`
+				Cve202620612  *struct{} `json:"CVE-2026-20612,omitempty"`
+				Cve202620614  *struct{} `json:"CVE-2026-20614,omitempty"`
+				Cve202620615  *struct{} `json:"CVE-2026-20615,omitempty"`
+				Cve202620616  *struct{} `json:"CVE-2026-20616,omitempty"`
+				Cve202620617  *struct{} `json:"CVE-2026-20617,omitempty"`
+				Cve202620618  *struct{} `json:"CVE-2026-20618,omitempty"`
+				Cve202620619  *struct{} `json:"CVE-2026-20619,omitempty"`
+				Cve202620620  *struct{} `json:"CVE-2026-20620,omitempty"`
+				Cve202620621  *struct{} `json:"CVE-2026-20621,omitempty"`
+				Cve202620622  *struct{} `json:"CVE-2026-20622,omitempty"`
+				Cve202620623  *struct{} `json:"CVE-2026-20623,omitempty"`
+				Cve202620624  *struct{} `json:"CVE-2026-20624,omitempty"`
+				Cve202620625  *struct{} `json:"CVE-2026-20625,omitempty"`
+				Cve202620626  *struct{} `json:"CVE-2026-20626,omitempty"`
+				Cve202620627  *struct{} `json:"CVE-2026-20627,omitempty"`
+				Cve202620628  *struct{} `json:"CVE-2026-20628,omitempty"`
+				Cve202620629  *struct{} `json:"CVE-2026-20629,omitempty"`
+				Cve202620630  *struct{} `json:"CVE-2026-20630,omitempty"`
+				Cve202620631  *struct{} `json:"CVE-2026-20631,omitempty"`
+				Cve202620632  *struct{} `json:"CVE-2026-20632,omitempty"`
+				Cve202620633  *struct{} `json:"CVE-2026-20633,omitempty"`
+				Cve202620634  *struct{} `json:"CVE-2026-20634,omitempty"`
+				Cve202620635  *struct{} `json:"CVE-2026-20635,omitempty"`
+				Cve202620636  *struct{} `json:"CVE-2026-20636,omitempty"`
+				Cve202620637  *struct{} `json:"CVE-2026-20637,omitempty"`
+				Cve202620639  *struct{} `json:"CVE-2026-20639,omitempty"`
+				Cve202620641  *struct{} `json:"CVE-2026-20641,omitempty"`
+				Cve202620643  *struct{} `json:"CVE-2026-20643,omitempty"`
+				Cve202620644  *struct{} `json:"CVE-2026-20644,omitempty"`
+				Cve202620646  *struct{} `json:"CVE-2026-20646,omitempty"`
+				Cve202620647  *struct{} `json:"CVE-2026-20647,omitempty"`
+				Cve202620648  *struct{} `json:"CVE-2026-20648,omitempty"`
+				Cve202620649  *struct{} `json:"CVE-2026-20649,omitempty"`
+				Cve202620650  *struct{} `json:"CVE-2026-20650,omitempty"`
+				Cve202620651  *struct{} `json:"CVE-2026-20651,omitempty"`
+				Cve202620652  *struct{} `json:"CVE-2026-20652,omitempty"`
+				Cve202620653  *struct{} `json:"CVE-2026-20653,omitempty"`
+				Cve202620654  *struct{} `json:"CVE-2026-20654,omitempty"`
+				Cve202620656  *struct{} `json:"CVE-2026-20656,omitempty"`
+				Cve202620657  *struct{} `json:"CVE-2026-20657,omitempty"`
+				Cve202620658  *struct{} `json:"CVE-2026-20658,omitempty"`
+				Cve202620660  *struct{} `json:"CVE-2026-20660,omitempty"`
+				Cve202620662  *struct{} `json:"CVE-2026-20662,omitempty"`
+				Cve202620664  *struct{} `json:"CVE-2026-20664,omitempty"`
+				Cve202620665  *struct{} `json:"CVE-2026-20665,omitempty"`
+				Cve202620666  *struct{} `json:"CVE-2026-20666,omitempty"`
+				Cve202620667  *struct{} `json:"CVE-2026-20667,omitempty"`
+				Cve202620668  *struct{} `json:"CVE-2026-20668,omitempty"`
+				Cve202620669  *struct{} `json:"CVE-2026-20669,omitempty"`
+				Cve202620670  *struct{} `json:"CVE-2026-20670,omitempty"`
+				Cve202620671  *struct{} `json:"CVE-2026-20671,omitempty"`
+				Cve202620672  *struct{} `json:"CVE-2026-20672,omitempty"`
+				Cve202620673  *struct{} `json:"CVE-2026-20673,omitempty"`
+				Cve202620675  *struct{} `json:"CVE-2026-20675,omitempty"`
+				Cve202620676  *struct{} `json:"CVE-2026-20676,omitempty"`
+				Cve202620677  *struct{} `json:"CVE-2026-20677,omitempty"`
+				Cve202620679  *struct{} `json:"CVE-2026-20679,omitempty"`
+				Cve202620680  *struct{} `json:"CVE-2026-20680,omitempty"`
+				Cve202620681  *struct{} `json:"CVE-2026-20681,omitempty"`
+				Cve202620683  *struct{} `json:"CVE-2026-20683,omitempty"`
+				Cve202620684  *struct{} `json:"CVE-2026-20684,omitempty"`
+				Cve202620687  *struct{} `json:"CVE-2026-20687,omitempty"`
+				Cve202620688  *struct{} `json:"CVE-2026-20688,omitempty"`
+				Cve202620690  *struct{} `json:"CVE-2026-20690,omitempty"`
+				Cve202620691  *struct{} `json:"CVE-2026-20691,omitempty"`
+				Cve202620692  *struct{} `json:"CVE-2026-20692,omitempty"`
+				Cve202620693  *struct{} `json:"CVE-2026-20693,omitempty"`
+				Cve202620694  *struct{} `json:"CVE-2026-20694,omitempty"`
+				Cve202620695  *struct{} `json:"CVE-2026-20695,omitempty"`
+				Cve202620696  *struct{} `json:"CVE-2026-20696,omitempty"`
+				Cve202620697  *struct{} `json:"CVE-2026-20697,omitempty"`
+				Cve202620698  *struct{} `json:"CVE-2026-20698,omitempty"`
+				Cve202620699  *struct{} `json:"CVE-2026-20699,omitempty"`
+				Cve202620700  *struct {
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
 				} `json:"CVE-2026-20700,omitempty"`
 				Cve202620701 *struct{} `json:"CVE-2026-20701,omitempty"`
 				Cve202623918 *struct{} `json:"CVE-2026-23918,omitempty"`
@@ -3310,6 +6917,7 @@ type MacOSV2FeedResponse struct {
 				Cve202628833 *struct{} `json:"CVE-2026-28833,omitempty"`
 				Cve202628834 *struct{} `json:"CVE-2026-28834,omitempty"`
 				Cve202628835 *struct{} `json:"CVE-2026-28835,omitempty"`
+				Cve202628836 *struct{} `json:"CVE-2026-28836,omitempty"`
 				Cve202628837 *struct{} `json:"CVE-2026-28837,omitempty"`
 				Cve202628838 *struct{} `json:"CVE-2026-28838,omitempty"`
 				Cve202628839 *struct{} `json:"CVE-2026-28839,omitempty"`
@@ -3322,7 +6930,10 @@ type MacOSV2FeedResponse struct {
 				Cve202628847 *struct{} `json:"CVE-2026-28847,omitempty"`
 				Cve202628848 *struct{} `json:"CVE-2026-28848,omitempty"`
 				Cve202628849 *struct{} `json:"CVE-2026-28849,omitempty"`
+				Cve202628850 *struct{} `json:"CVE-2026-28850,omitempty"`
 				Cve202628852 *struct{} `json:"CVE-2026-28852,omitempty"`
+				Cve202628853 *struct{} `json:"CVE-2026-28853,omitempty"`
+				Cve202628854 *struct{} `json:"CVE-2026-28854,omitempty"`
 				Cve202628855 *struct{} `json:"CVE-2026-28855,omitempty"`
 				Cve202628857 *struct{} `json:"CVE-2026-28857,omitempty"`
 				Cve202628859 *struct{} `json:"CVE-2026-28859,omitempty"`
@@ -3352,6 +6963,7 @@ type MacOSV2FeedResponse struct {
 				Cve202628894 *struct{} `json:"CVE-2026-28894,omitempty"`
 				Cve202628896 *struct{} `json:"CVE-2026-28896,omitempty"`
 				Cve202628897 *struct{} `json:"CVE-2026-28897,omitempty"`
+				Cve202628899 *struct{} `json:"CVE-2026-28899,omitempty"`
 				Cve202628900 *struct{} `json:"CVE-2026-28900,omitempty"`
 				Cve202628901 *struct{} `json:"CVE-2026-28901,omitempty"`
 				Cve202628902 *struct{} `json:"CVE-2026-28902,omitempty"`
@@ -3381,7 +6993,11 @@ type MacOSV2FeedResponse struct {
 				Cve202628930 *struct{} `json:"CVE-2026-28930,omitempty"`
 				Cve202628931 *struct{} `json:"CVE-2026-28931,omitempty"`
 				Cve202628932 *struct{} `json:"CVE-2026-28932,omitempty"`
+				Cve202628933 *struct{} `json:"CVE-2026-28933,omitempty"`
+				Cve202628934 *struct{} `json:"CVE-2026-28934,omitempty"`
+				Cve202628935 *struct{} `json:"CVE-2026-28935,omitempty"`
 				Cve202628936 *struct{} `json:"CVE-2026-28936,omitempty"`
+				Cve202628937 *struct{} `json:"CVE-2026-28937,omitempty"`
 				Cve202628940 *struct{} `json:"CVE-2026-28940,omitempty"`
 				Cve202628941 *struct{} `json:"CVE-2026-28941,omitempty"`
 				Cve202628942 *struct{} `json:"CVE-2026-28942,omitempty"`
@@ -3400,6 +7016,8 @@ type MacOSV2FeedResponse struct {
 				Cve202628959 *struct{} `json:"CVE-2026-28959,omitempty"`
 				Cve202628961 *struct{} `json:"CVE-2026-28961,omitempty"`
 				Cve202628962 *struct{} `json:"CVE-2026-28962,omitempty"`
+				Cve202628966 *struct{} `json:"CVE-2026-28966,omitempty"`
+				Cve202628968 *struct{} `json:"CVE-2026-28968,omitempty"`
 				Cve202628969 *struct{} `json:"CVE-2026-28969,omitempty"`
 				Cve202628971 *struct{} `json:"CVE-2026-28971,omitempty"`
 				Cve202628972 *struct{} `json:"CVE-2026-28972,omitempty"`
@@ -3424,6 +7042,7 @@ type MacOSV2FeedResponse struct {
 				Cve202628994 *struct{} `json:"CVE-2026-28994,omitempty"`
 				Cve202628995 *struct{} `json:"CVE-2026-28995,omitempty"`
 				Cve202628996 *struct{} `json:"CVE-2026-28996,omitempty"`
+				Cve202634979 *struct{} `json:"CVE-2026-34979,omitempty"`
 				Cve20263783  *struct{} `json:"CVE-2026-3783,omitempty"`
 				Cve20263784  *struct{} `json:"CVE-2026-3784,omitempty"`
 				Cve202639868 *struct{} `json:"CVE-2026-39868,omitempty"`
@@ -3445,6 +7064,7 @@ type MacOSV2FeedResponse struct {
 				Cve202643660 *struct{} `json:"CVE-2026-43660,omitempty"`
 				Cve202643661 *struct{} `json:"CVE-2026-43661,omitempty"`
 				Cve202643663 *struct{} `json:"CVE-2026-43663,omitempty"`
+				Cve202643664 *struct{} `json:"CVE-2026-43664,omitempty"`
 				Cve202643665 *struct{} `json:"CVE-2026-43665,omitempty"`
 				Cve202643666 *struct{} `json:"CVE-2026-43666,omitempty"`
 				Cve202643667 *struct{} `json:"CVE-2026-43667,omitempty"`
@@ -3453,14 +7073,28 @@ type MacOSV2FeedResponse struct {
 				Cve202643672 *struct{} `json:"CVE-2026-43672,omitempty"`
 				Cve202643673 *struct{} `json:"CVE-2026-43673,omitempty"`
 				Cve202643676 *struct{} `json:"CVE-2026-43676,omitempty"`
+				Cve202643677 *struct{} `json:"CVE-2026-43677,omitempty"`
 				Cve202643681 *struct{} `json:"CVE-2026-43681,omitempty"`
 				Cve202643682 *struct{} `json:"CVE-2026-43682,omitempty"`
+				Cve202643683 *struct{} `json:"CVE-2026-43683,omitempty"`
+				Cve202643684 *struct{} `json:"CVE-2026-43684,omitempty"`
+				Cve202643686 *struct{} `json:"CVE-2026-43686,omitempty"`
+				Cve202643687 *struct{} `json:"CVE-2026-43687,omitempty"`
+				Cve202643688 *struct{} `json:"CVE-2026-43688,omitempty"`
+				Cve202643689 *struct{} `json:"CVE-2026-43689,omitempty"`
+				Cve202643690 *struct{} `json:"CVE-2026-43690,omitempty"`
+				Cve202643691 *struct{} `json:"CVE-2026-43691,omitempty"`
+				Cve202643692 *struct{} `json:"CVE-2026-43692,omitempty"`
 				Cve202643693 *struct{} `json:"CVE-2026-43693,omitempty"`
 				Cve202643694 *struct{} `json:"CVE-2026-43694,omitempty"`
+				Cve202643695 *struct{} `json:"CVE-2026-43695,omitempty"`
+				Cve202643696 *struct{} `json:"CVE-2026-43696,omitempty"`
+				Cve202643697 *struct{} `json:"CVE-2026-43697,omitempty"`
 				Cve202643698 *struct{} `json:"CVE-2026-43698,omitempty"`
 				Cve202643699 *struct{} `json:"CVE-2026-43699,omitempty"`
 				Cve202643700 *struct{} `json:"CVE-2026-43700,omitempty"`
 				Cve202643701 *struct{} `json:"CVE-2026-43701,omitempty"`
+				Cve202643702 *struct{} `json:"CVE-2026-43702,omitempty"`
 				Cve202643703 *struct{} `json:"CVE-2026-43703,omitempty"`
 				Cve202643704 *struct{} `json:"CVE-2026-43704,omitempty"`
 				Cve202643705 *struct{} `json:"CVE-2026-43705,omitempty"`
@@ -3477,6 +7111,7 @@ type MacOSV2FeedResponse struct {
 				Cve202643716 *struct{} `json:"CVE-2026-43716,omitempty"`
 				Cve202643717 *struct{} `json:"CVE-2026-43717,omitempty"`
 				Cve202643718 *struct{} `json:"CVE-2026-43718,omitempty"`
+				Cve202643719 *struct{} `json:"CVE-2026-43719,omitempty"`
 				Cve202643720 *struct{} `json:"CVE-2026-43720,omitempty"`
 				Cve202643721 *struct{} `json:"CVE-2026-43721,omitempty"`
 				Cve202643722 *struct{} `json:"CVE-2026-43722,omitempty"`
@@ -3493,9 +7128,12 @@ type MacOSV2FeedResponse struct {
 				Cve202643733 *struct{} `json:"CVE-2026-43733,omitempty"`
 				Cve202643734 *struct{} `json:"CVE-2026-43734,omitempty"`
 				Cve202643735 *struct{} `json:"CVE-2026-43735,omitempty"`
+				Cve202643736 *struct{} `json:"CVE-2026-43736,omitempty"`
+				Cve202643737 *struct{} `json:"CVE-2026-43737,omitempty"`
 				Cve202643738 *struct{} `json:"CVE-2026-43738,omitempty"`
 				Cve202643739 *struct{} `json:"CVE-2026-43739,omitempty"`
 				Cve202643740 *struct{} `json:"CVE-2026-43740,omitempty"`
+				Cve202643741 *struct{} `json:"CVE-2026-43741,omitempty"`
 				Cve202643742 *struct{} `json:"CVE-2026-43742,omitempty"`
 				Cve202643743 *struct{} `json:"CVE-2026-43743,omitempty"`
 				Cve202643744 *struct{} `json:"CVE-2026-43744,omitempty"`
@@ -3513,6 +7151,8 @@ type MacOSV2FeedResponse struct {
 				Cve202643758 *struct{} `json:"CVE-2026-43758,omitempty"`
 				Cve202643759 *struct{} `json:"CVE-2026-43759,omitempty"`
 				Cve202643760 *struct{} `json:"CVE-2026-43760,omitempty"`
+				Cve202643761 *struct{} `json:"CVE-2026-43761,omitempty"`
+				Cve202643762 *struct{} `json:"CVE-2026-43762,omitempty"`
 				Cve202643763 *struct{} `json:"CVE-2026-43763,omitempty"`
 				Cve202643764 *struct{} `json:"CVE-2026-43764,omitempty"`
 				Cve202643765 *struct{} `json:"CVE-2026-43765,omitempty"`
@@ -3533,6 +7173,14 @@ type MacOSV2FeedResponse struct {
 				Cve202643780 *struct{} `json:"CVE-2026-43780,omitempty"`
 				Cve202643781 *struct{} `json:"CVE-2026-43781,omitempty"`
 				Cve202643782 *struct{} `json:"CVE-2026-43782,omitempty"`
+				Cve202643783 *struct{} `json:"CVE-2026-43783,omitempty"`
+				Cve202643785 *struct{} `json:"CVE-2026-43785,omitempty"`
+				Cve202643786 *struct{} `json:"CVE-2026-43786,omitempty"`
+				Cve202643787 *struct{} `json:"CVE-2026-43787,omitempty"`
+				Cve202643788 *struct{} `json:"CVE-2026-43788,omitempty"`
+				Cve202643789 *struct{} `json:"CVE-2026-43789,omitempty"`
+				Cve202643790 *struct{} `json:"CVE-2026-43790,omitempty"`
+				Cve202643791 *struct{} `json:"CVE-2026-43791,omitempty"`
 				Cve202643792 *struct{} `json:"CVE-2026-43792,omitempty"`
 				Cve202643793 *struct{} `json:"CVE-2026-43793,omitempty"`
 				Cve202643794 *struct{} `json:"CVE-2026-43794,omitempty"`
@@ -3548,11 +7196,13 @@ type MacOSV2FeedResponse struct {
 				Cve202643805 *struct{} `json:"CVE-2026-43805,omitempty"`
 				Cve202643806 *struct{} `json:"CVE-2026-43806,omitempty"`
 				Cve202643807 *struct{} `json:"CVE-2026-43807,omitempty"`
+				Cve202643808 *struct{} `json:"CVE-2026-43808,omitempty"`
 				Cve202643809 *struct{} `json:"CVE-2026-43809,omitempty"`
 				Cve202643810 *struct{} `json:"CVE-2026-43810,omitempty"`
 				Cve202643812 *struct{} `json:"CVE-2026-43812,omitempty"`
 				Cve202643813 *struct{} `json:"CVE-2026-43813,omitempty"`
 				Cve202643814 *struct{} `json:"CVE-2026-43814,omitempty"`
+				Cve202643815 *struct{} `json:"CVE-2026-43815,omitempty"`
 				Cve202643816 *struct{} `json:"CVE-2026-43816,omitempty"`
 				Cve202643817 *struct{} `json:"CVE-2026-43817,omitempty"`
 				Cve202643818 *struct{} `json:"CVE-2026-43818,omitempty"`
@@ -3570,6 +7220,7 @@ type MacOSV2FeedResponse struct {
 				Cve202664698 *struct{} `json:"CVE-2026-64698,omitempty"`
 				Cve202664699 *struct{} `json:"CVE-2026-64699,omitempty"`
 				Cve202664700 *struct{} `json:"CVE-2026-64700,omitempty"`
+				Cve202664701 *struct{} `json:"CVE-2026-64701,omitempty"`
 				Cve202664702 *struct{} `json:"CVE-2026-64702,omitempty"`
 				Cve202664703 *struct{} `json:"CVE-2026-64703,omitempty"`
 				Cve202664704 *struct{} `json:"CVE-2026-64704,omitempty"`
@@ -3579,9 +7230,12 @@ type MacOSV2FeedResponse struct {
 				Cve202664709 *struct{} `json:"CVE-2026-64709,omitempty"`
 				Cve202664710 *struct{} `json:"CVE-2026-64710,omitempty"`
 				Cve202664711 *struct{} `json:"CVE-2026-64711,omitempty"`
+				Cve202664712 *struct{} `json:"CVE-2026-64712,omitempty"`
 				Cve202664713 *struct{} `json:"CVE-2026-64713,omitempty"`
+				Cve202664714 *struct{} `json:"CVE-2026-64714,omitempty"`
 				Cve202664715 *struct{} `json:"CVE-2026-64715,omitempty"`
 				Cve202664716 *struct{} `json:"CVE-2026-64716,omitempty"`
+				Cve202664717 *struct{} `json:"CVE-2026-64717,omitempty"`
 				Cve202664718 *struct{} `json:"CVE-2026-64718,omitempty"`
 				Cve202664719 *struct{} `json:"CVE-2026-64719,omitempty"`
 				Cve202664720 *struct{} `json:"CVE-2026-64720,omitempty"`
@@ -3600,6 +7254,7 @@ type MacOSV2FeedResponse struct {
 				Cve202664733 *struct{} `json:"CVE-2026-64733,omitempty"`
 				Cve202664734 *struct{} `json:"CVE-2026-64734,omitempty"`
 				Cve202664735 *struct{} `json:"CVE-2026-64735,omitempty"`
+				Cve202664736 *struct{} `json:"CVE-2026-64736,omitempty"`
 				Cve202664737 *struct{} `json:"CVE-2026-64737,omitempty"`
 				Cve202664738 *struct{} `json:"CVE-2026-64738,omitempty"`
 				Cve202664739 *struct{} `json:"CVE-2026-64739,omitempty"`
@@ -3610,10 +7265,16 @@ type MacOSV2FeedResponse struct {
 				Cve202664746 *struct{} `json:"CVE-2026-64746,omitempty"`
 				Cve202664747 *struct{} `json:"CVE-2026-64747,omitempty"`
 				Cve202664749 *struct{} `json:"CVE-2026-64749,omitempty"`
+				Cve202664750 *struct{} `json:"CVE-2026-64750,omitempty"`
 				Cve202664751 *struct{} `json:"CVE-2026-64751,omitempty"`
+				Cve202664752 *struct{} `json:"CVE-2026-64752,omitempty"`
+				Cve202664753 *struct{} `json:"CVE-2026-64753,omitempty"`
 				Cve202664754 *struct{} `json:"CVE-2026-64754,omitempty"`
+				Cve202664756 *struct{} `json:"CVE-2026-64756,omitempty"`
 				Cve202664757 *struct{} `json:"CVE-2026-64757,omitempty"`
 				Cve202664758 *struct{} `json:"CVE-2026-64758,omitempty"`
+				Cve202664759 *struct{} `json:"CVE-2026-64759,omitempty"`
+				Cve202664760 *struct{} `json:"CVE-2026-64760,omitempty"`
 				Cve202664762 *struct{} `json:"CVE-2026-64762,omitempty"`
 				Cve202664763 *struct{} `json:"CVE-2026-64763,omitempty"`
 				Cve202664764 *struct{} `json:"CVE-2026-64764,omitempty"`
@@ -3637,6 +7298,9 @@ type MacOSV2FeedResponse struct {
 				Cve202664784 *struct{} `json:"CVE-2026-64784,omitempty"`
 				Cve202664787 *struct{} `json:"CVE-2026-64787,omitempty"`
 				Cve202664788 *struct{} `json:"CVE-2026-64788,omitempty"`
+				Cve202664789 *struct{} `json:"CVE-2026-64789,omitempty"`
+				Cve202664790 *struct{} `json:"CVE-2026-64790,omitempty"`
+				Cve202665327 *struct{} `json:"CVE-2026-65327,omitempty"`
 				Cve202665330 *struct{} `json:"CVE-2026-65330,omitempty"`
 				Cve202665331 *struct{} `json:"CVE-2026-65331,omitempty"`
 				Cve202665332 *struct{} `json:"CVE-2026-65332,omitempty"`
@@ -3649,17 +7313,288 @@ type MacOSV2FeedResponse struct {
 				Cve202665339 *struct{} `json:"CVE-2026-65339,omitempty"`
 				Cve202665340 *struct{} `json:"CVE-2026-65340,omitempty"`
 				Cve202665341 *struct{} `json:"CVE-2026-65341,omitempty"`
+				Cve202665342 *struct{} `json:"CVE-2026-65342,omitempty"`
 				Cve202665343 *struct{} `json:"CVE-2026-65343,omitempty"`
+				Cve202665344 *struct{} `json:"CVE-2026-65344,omitempty"`
+				Cve202665345 *struct{} `json:"CVE-2026-65345,omitempty"`
 				Cve202665346 *struct{} `json:"CVE-2026-65346,omitempty"`
 				Cve202665347 *struct{} `json:"CVE-2026-65347,omitempty"`
+				Cve202665348 *struct{} `json:"CVE-2026-65348,omitempty"`
 				Cve202665349 *struct{} `json:"CVE-2026-65349,omitempty"`
+				Cve202665350 *struct{} `json:"CVE-2026-65350,omitempty"`
 				Cve202665351 *struct{} `json:"CVE-2026-65351,omitempty"`
+				Cve202665352 *struct{} `json:"CVE-2026-65352,omitempty"`
+				Cve202665353 *struct{} `json:"CVE-2026-65353,omitempty"`
+				Cve202665354 *struct{} `json:"CVE-2026-65354,omitempty"`
+				Cve202665355 *struct{} `json:"CVE-2026-65355,omitempty"`
+				Cve202665356 *struct{} `json:"CVE-2026-65356,omitempty"`
+				Cve202665357 *struct{} `json:"CVE-2026-65357,omitempty"`
+				Cve202665358 *struct{} `json:"CVE-2026-65358,omitempty"`
+				Cve202665359 *struct{} `json:"CVE-2026-65359,omitempty"`
+				Cve202665360 *struct{} `json:"CVE-2026-65360,omitempty"`
+				Cve202665361 *struct{} `json:"CVE-2026-65361,omitempty"`
+				Cve202665362 *struct{} `json:"CVE-2026-65362,omitempty"`
+				Cve202665363 *struct{} `json:"CVE-2026-65363,omitempty"`
+				Cve202665364 *struct{} `json:"CVE-2026-65364,omitempty"`
+				Cve202665365 *struct{} `json:"CVE-2026-65365,omitempty"`
+				Cve202665368 *struct{} `json:"CVE-2026-65368,omitempty"`
+				Cve202665369 *struct{} `json:"CVE-2026-65369,omitempty"`
+				Cve202665371 *struct{} `json:"CVE-2026-65371,omitempty"`
+				Cve202665372 *struct{} `json:"CVE-2026-65372,omitempty"`
+				Cve202665373 *struct{} `json:"CVE-2026-65373,omitempty"`
+				Cve202665374 *struct{} `json:"CVE-2026-65374,omitempty"`
+				Cve202665375 *struct{} `json:"CVE-2026-65375,omitempty"`
+				Cve202665376 *struct{} `json:"CVE-2026-65376,omitempty"`
+				Cve202665377 *struct{} `json:"CVE-2026-65377,omitempty"`
+				Cve202665378 *struct{} `json:"CVE-2026-65378,omitempty"`
+				Cve202665379 *struct{} `json:"CVE-2026-65379,omitempty"`
+				Cve202665380 *struct{} `json:"CVE-2026-65380,omitempty"`
+				Cve202665381 *struct{} `json:"CVE-2026-65381,omitempty"`
+				Cve202665382 *struct{} `json:"CVE-2026-65382,omitempty"`
+				Cve202665383 *struct{} `json:"CVE-2026-65383,omitempty"`
+				Cve202665384 *struct{} `json:"CVE-2026-65384,omitempty"`
+				Cve202665390 *struct{} `json:"CVE-2026-65390,omitempty"`
+				Cve202665391 *struct{} `json:"CVE-2026-65391,omitempty"`
+				Cve202665392 *struct{} `json:"CVE-2026-65392,omitempty"`
+				Cve202665393 *struct{} `json:"CVE-2026-65393,omitempty"`
+				Cve202665395 *struct{} `json:"CVE-2026-65395,omitempty"`
+				Cve202665396 *struct{} `json:"CVE-2026-65396,omitempty"`
+				Cve202665397 *struct{} `json:"CVE-2026-65397,omitempty"`
+				Cve202665398 *struct{} `json:"CVE-2026-65398,omitempty"`
+				Cve202665399 *struct{} `json:"CVE-2026-65399,omitempty"`
 				Cve202665400 *struct {
 					ActivelyExploited bool   `json:"ActivelyExploited"`
 					InKev             bool   `json:"InKEV"`
 					Nisturl           string `json:"NISTURL"`
-					Severity          string `json:"Severity"`
 				} `json:"CVE-2026-65400,omitempty"`
+				Cve202665401 *struct{} `json:"CVE-2026-65401,omitempty"`
+				Cve202665402 *struct{} `json:"CVE-2026-65402,omitempty"`
+				Cve202665403 *struct{} `json:"CVE-2026-65403,omitempty"`
+				Cve202665404 *struct{} `json:"CVE-2026-65404,omitempty"`
+				Cve202665405 *struct{} `json:"CVE-2026-65405,omitempty"`
+				Cve202665406 *struct{} `json:"CVE-2026-65406,omitempty"`
+				Cve202665407 *struct{} `json:"CVE-2026-65407,omitempty"`
+				Cve202665408 *struct{} `json:"CVE-2026-65408,omitempty"`
+				Cve202665409 *struct{} `json:"CVE-2026-65409,omitempty"`
+				Cve202665410 *struct{} `json:"CVE-2026-65410,omitempty"`
+				Cve202665412 *struct{} `json:"CVE-2026-65412,omitempty"`
+				Cve202665413 *struct{} `json:"CVE-2026-65413,omitempty"`
+				Cve202665414 *struct{} `json:"CVE-2026-65414,omitempty"`
+				Cve202665415 *struct{} `json:"CVE-2026-65415,omitempty"`
+				Cve202684487 *struct{} `json:"CVE-2026-84487,omitempty"`
+				Cve202684489 *struct{} `json:"CVE-2026-84489,omitempty"`
+				Cve202684491 *struct{} `json:"CVE-2026-84491,omitempty"`
+				Cve202684492 *struct{} `json:"CVE-2026-84492,omitempty"`
+				Cve202684494 *struct{} `json:"CVE-2026-84494,omitempty"`
+				Cve202684495 *struct{} `json:"CVE-2026-84495,omitempty"`
+				Cve202684496 *struct{} `json:"CVE-2026-84496,omitempty"`
+				Cve202684497 *struct{} `json:"CVE-2026-84497,omitempty"`
+				Cve202684498 *struct{} `json:"CVE-2026-84498,omitempty"`
+				Cve202684505 *struct{} `json:"CVE-2026-84505,omitempty"`
+				Cve202684506 *struct{} `json:"CVE-2026-84506,omitempty"`
+				Cve202684507 *struct{} `json:"CVE-2026-84507,omitempty"`
+				Cve202684508 *struct{} `json:"CVE-2026-84508,omitempty"`
+				Cve202684509 *struct{} `json:"CVE-2026-84509,omitempty"`
+				Cve202684510 *struct{} `json:"CVE-2026-84510,omitempty"`
+				Cve202684511 *struct{} `json:"CVE-2026-84511,omitempty"`
+				Cve202684512 *struct{} `json:"CVE-2026-84512,omitempty"`
+				Cve202684513 *struct{} `json:"CVE-2026-84513,omitempty"`
+				Cve202684514 *struct{} `json:"CVE-2026-84514,omitempty"`
+				Cve202684515 *struct{} `json:"CVE-2026-84515,omitempty"`
+				Cve202684516 *struct{} `json:"CVE-2026-84516,omitempty"`
+				Cve202684517 *struct{} `json:"CVE-2026-84517,omitempty"`
+				Cve202684518 *struct{} `json:"CVE-2026-84518,omitempty"`
+				Cve202684519 *struct{} `json:"CVE-2026-84519,omitempty"`
+				Cve202684520 *struct{} `json:"CVE-2026-84520,omitempty"`
+				Cve202684521 *struct{} `json:"CVE-2026-84521,omitempty"`
+				Cve202684522 *struct{} `json:"CVE-2026-84522,omitempty"`
+				Cve202684523 *struct{} `json:"CVE-2026-84523,omitempty"`
+				Cve202684524 *struct{} `json:"CVE-2026-84524,omitempty"`
+				Cve202684525 *struct{} `json:"CVE-2026-84525,omitempty"`
+				Cve202684526 *struct{} `json:"CVE-2026-84526,omitempty"`
+				Cve202684527 *struct{} `json:"CVE-2026-84527,omitempty"`
+				Cve202684528 *struct{} `json:"CVE-2026-84528,omitempty"`
+				Cve202684530 *struct{} `json:"CVE-2026-84530,omitempty"`
+				Cve202684531 *struct{} `json:"CVE-2026-84531,omitempty"`
+				Cve202684532 *struct{} `json:"CVE-2026-84532,omitempty"`
+				Cve202684533 *struct{} `json:"CVE-2026-84533,omitempty"`
+				Cve202684534 *struct{} `json:"CVE-2026-84534,omitempty"`
+				Cve202684535 *struct{} `json:"CVE-2026-84535,omitempty"`
+				Cve202684536 *struct{} `json:"CVE-2026-84536,omitempty"`
+				Cve202684537 *struct{} `json:"CVE-2026-84537,omitempty"`
+				Cve202684538 *struct{} `json:"CVE-2026-84538,omitempty"`
+				Cve202684539 *struct{} `json:"CVE-2026-84539,omitempty"`
+				Cve202684540 *struct{} `json:"CVE-2026-84540,omitempty"`
+				Cve202684541 *struct{} `json:"CVE-2026-84541,omitempty"`
+				Cve202684542 *struct{} `json:"CVE-2026-84542,omitempty"`
+				Cve202684543 *struct{} `json:"CVE-2026-84543,omitempty"`
+				Cve202684544 *struct{} `json:"CVE-2026-84544,omitempty"`
+				Cve202684545 *struct{} `json:"CVE-2026-84545,omitempty"`
+				Cve202684546 *struct{} `json:"CVE-2026-84546,omitempty"`
+				Cve202684547 *struct{} `json:"CVE-2026-84547,omitempty"`
+				Cve202684548 *struct{} `json:"CVE-2026-84548,omitempty"`
+				Cve202684549 *struct{} `json:"CVE-2026-84549,omitempty"`
+				Cve202684550 *struct{} `json:"CVE-2026-84550,omitempty"`
+				Cve202684551 *struct{} `json:"CVE-2026-84551,omitempty"`
+				Cve202684552 *struct{} `json:"CVE-2026-84552,omitempty"`
+				Cve202684553 *struct{} `json:"CVE-2026-84553,omitempty"`
+				Cve202684554 *struct{} `json:"CVE-2026-84554,omitempty"`
+				Cve202684555 *struct{} `json:"CVE-2026-84555,omitempty"`
+				Cve202684556 *struct{} `json:"CVE-2026-84556,omitempty"`
+				Cve202684558 *struct{} `json:"CVE-2026-84558,omitempty"`
+				Cve202684559 *struct{} `json:"CVE-2026-84559,omitempty"`
+				Cve202684560 *struct{} `json:"CVE-2026-84560,omitempty"`
+				Cve202684561 *struct{} `json:"CVE-2026-84561,omitempty"`
+				Cve202684562 *struct{} `json:"CVE-2026-84562,omitempty"`
+				Cve202684563 *struct{} `json:"CVE-2026-84563,omitempty"`
+				Cve202684564 *struct{} `json:"CVE-2026-84564,omitempty"`
+				Cve202684565 *struct{} `json:"CVE-2026-84565,omitempty"`
+				Cve202684566 *struct{} `json:"CVE-2026-84566,omitempty"`
+				Cve202684567 *struct{} `json:"CVE-2026-84567,omitempty"`
+				Cve202684568 *struct{} `json:"CVE-2026-84568,omitempty"`
+				Cve202684569 *struct{} `json:"CVE-2026-84569,omitempty"`
+				Cve202684570 *struct{} `json:"CVE-2026-84570,omitempty"`
+				Cve202684571 *struct{} `json:"CVE-2026-84571,omitempty"`
+				Cve202684572 *struct{} `json:"CVE-2026-84572,omitempty"`
+				Cve202684573 *struct{} `json:"CVE-2026-84573,omitempty"`
+				Cve202684574 *struct{} `json:"CVE-2026-84574,omitempty"`
+				Cve202684575 *struct{} `json:"CVE-2026-84575,omitempty"`
+				Cve202684576 *struct{} `json:"CVE-2026-84576,omitempty"`
+				Cve202684577 *struct{} `json:"CVE-2026-84577,omitempty"`
+				Cve202684578 *struct{} `json:"CVE-2026-84578,omitempty"`
+				Cve202684579 *struct{} `json:"CVE-2026-84579,omitempty"`
+				Cve202684580 *struct{} `json:"CVE-2026-84580,omitempty"`
+				Cve202684581 *struct{} `json:"CVE-2026-84581,omitempty"`
+				Cve202684582 *struct{} `json:"CVE-2026-84582,omitempty"`
+				Cve202684583 *struct{} `json:"CVE-2026-84583,omitempty"`
+				Cve202684584 *struct{} `json:"CVE-2026-84584,omitempty"`
+				Cve202684585 *struct{} `json:"CVE-2026-84585,omitempty"`
+				Cve202684586 *struct{} `json:"CVE-2026-84586,omitempty"`
+				Cve202684587 *struct{} `json:"CVE-2026-84587,omitempty"`
+				Cve202684588 *struct{} `json:"CVE-2026-84588,omitempty"`
+				Cve202684589 *struct{} `json:"CVE-2026-84589,omitempty"`
+				Cve202684590 *struct{} `json:"CVE-2026-84590,omitempty"`
+				Cve202684595 *struct{} `json:"CVE-2026-84595,omitempty"`
+				Cve202684596 *struct{} `json:"CVE-2026-84596,omitempty"`
+				Cve202684597 *struct{} `json:"CVE-2026-84597,omitempty"`
+				Cve202684599 *struct{} `json:"CVE-2026-84599,omitempty"`
+				Cve202684600 *struct{} `json:"CVE-2026-84600,omitempty"`
+				Cve202684601 *struct{} `json:"CVE-2026-84601,omitempty"`
+				Cve202684602 *struct{} `json:"CVE-2026-84602,omitempty"`
+				Cve202684604 *struct{} `json:"CVE-2026-84604,omitempty"`
+				Cve202684606 *struct{} `json:"CVE-2026-84606,omitempty"`
+				Cve202684607 *struct{} `json:"CVE-2026-84607,omitempty"`
+				Cve202684609 *struct{} `json:"CVE-2026-84609,omitempty"`
+				Cve202684610 *struct{} `json:"CVE-2026-84610,omitempty"`
+				Cve202684611 *struct{} `json:"CVE-2026-84611,omitempty"`
+				Cve202684612 *struct{} `json:"CVE-2026-84612,omitempty"`
+				Cve202684613 *struct{} `json:"CVE-2026-84613,omitempty"`
+				Cve202684616 *struct{} `json:"CVE-2026-84616,omitempty"`
+				Cve202684617 *struct{} `json:"CVE-2026-84617,omitempty"`
+				Cve202684618 *struct{} `json:"CVE-2026-84618,omitempty"`
+				Cve202684619 *struct{} `json:"CVE-2026-84619,omitempty"`
+				Cve202684620 *struct{} `json:"CVE-2026-84620,omitempty"`
+				Cve202684621 *struct{} `json:"CVE-2026-84621,omitempty"`
+				Cve202684622 *struct{} `json:"CVE-2026-84622,omitempty"`
+				Cve202684624 *struct{} `json:"CVE-2026-84624,omitempty"`
+				Cve202684625 *struct{} `json:"CVE-2026-84625,omitempty"`
+				Cve202684626 *struct{} `json:"CVE-2026-84626,omitempty"`
+				Cve202684627 *struct{} `json:"CVE-2026-84627,omitempty"`
+				Cve202684628 *struct{} `json:"CVE-2026-84628,omitempty"`
+				Cve202684630 *struct{} `json:"CVE-2026-84630,omitempty"`
+				Cve202684631 *struct{} `json:"CVE-2026-84631,omitempty"`
+				Cve202684632 *struct{} `json:"CVE-2026-84632,omitempty"`
+				Cve202684633 *struct{} `json:"CVE-2026-84633,omitempty"`
+				Cve202684634 *struct{} `json:"CVE-2026-84634,omitempty"`
+				Cve202684635 *struct{} `json:"CVE-2026-84635,omitempty"`
+				Cve202686868 *struct{} `json:"CVE-2026-86868,omitempty"`
+				Cve202686869 *struct{} `json:"CVE-2026-86869,omitempty"`
+				Cve202686870 *struct{} `json:"CVE-2026-86870,omitempty"`
+				Cve202686871 *struct{} `json:"CVE-2026-86871,omitempty"`
+				Cve202686876 *struct{} `json:"CVE-2026-86876,omitempty"`
+				Cve202686877 *struct{} `json:"CVE-2026-86877,omitempty"`
+				Cve202686881 *struct{} `json:"CVE-2026-86881,omitempty"`
+				Cve202686882 *struct{} `json:"CVE-2026-86882,omitempty"`
+				Cve202686884 *struct{} `json:"CVE-2026-86884,omitempty"`
+				Cve202686888 *struct{} `json:"CVE-2026-86888,omitempty"`
+				Cve202686889 *struct{} `json:"CVE-2026-86889,omitempty"`
+				Cve202686891 *struct{} `json:"CVE-2026-86891,omitempty"`
+				Cve202686894 *struct{} `json:"CVE-2026-86894,omitempty"`
+				Cve202686896 *struct{} `json:"CVE-2026-86896,omitempty"`
+				Cve202686897 *struct{} `json:"CVE-2026-86897,omitempty"`
+				Cve202686898 *struct{} `json:"CVE-2026-86898,omitempty"`
+				Cve202686900 *struct{} `json:"CVE-2026-86900,omitempty"`
+				Cve202686901 *struct{} `json:"CVE-2026-86901,omitempty"`
+				Cve202686902 *struct{} `json:"CVE-2026-86902,omitempty"`
+				Cve202686903 *struct{} `json:"CVE-2026-86903,omitempty"`
+				Cve202686905 *struct{} `json:"CVE-2026-86905,omitempty"`
+				Cve202686907 *struct{} `json:"CVE-2026-86907,omitempty"`
+				Cve202686909 *struct{} `json:"CVE-2026-86909,omitempty"`
+				Cve202686910 *struct{} `json:"CVE-2026-86910,omitempty"`
+				Cve202686911 *struct{} `json:"CVE-2026-86911,omitempty"`
+				Cve202686913 *struct{} `json:"CVE-2026-86913,omitempty"`
+				Cve202686914 *struct{} `json:"CVE-2026-86914,omitempty"`
+				Cve202686915 *struct{} `json:"CVE-2026-86915,omitempty"`
+				Cve202686916 *struct{} `json:"CVE-2026-86916,omitempty"`
+				Cve202686917 *struct{} `json:"CVE-2026-86917,omitempty"`
+				Cve202686918 *struct{} `json:"CVE-2026-86918,omitempty"`
+				Cve202686919 *struct{} `json:"CVE-2026-86919,omitempty"`
+				Cve202686920 *struct{} `json:"CVE-2026-86920,omitempty"`
+				Cve202686921 *struct{} `json:"CVE-2026-86921,omitempty"`
+				Cve202686922 *struct{} `json:"CVE-2026-86922,omitempty"`
+				Cve202686923 *struct{} `json:"CVE-2026-86923,omitempty"`
+				Cve202686924 *struct{} `json:"CVE-2026-86924,omitempty"`
+				Cve202686925 *struct{} `json:"CVE-2026-86925,omitempty"`
+				Cve202686928 *struct{} `json:"CVE-2026-86928,omitempty"`
+				Cve202686929 *struct{} `json:"CVE-2026-86929,omitempty"`
+				Cve202686931 *struct{} `json:"CVE-2026-86931,omitempty"`
+				Cve202686932 *struct{} `json:"CVE-2026-86932,omitempty"`
+				Cve202686933 *struct{} `json:"CVE-2026-86933,omitempty"`
+				Cve202686935 *struct{} `json:"CVE-2026-86935,omitempty"`
+				Cve202686936 *struct{} `json:"CVE-2026-86936,omitempty"`
+				Cve202686937 *struct{} `json:"CVE-2026-86937,omitempty"`
+				Cve202686939 *struct{} `json:"CVE-2026-86939,omitempty"`
+				Cve202686940 *struct{} `json:"CVE-2026-86940,omitempty"`
+				Cve202686941 *struct{} `json:"CVE-2026-86941,omitempty"`
+				Cve202686942 *struct{} `json:"CVE-2026-86942,omitempty"`
+				Cve202686943 *struct{} `json:"CVE-2026-86943,omitempty"`
+				Cve202686944 *struct{} `json:"CVE-2026-86944,omitempty"`
+				Cve202686945 *struct{} `json:"CVE-2026-86945,omitempty"`
+				Cve202686946 *struct{} `json:"CVE-2026-86946,omitempty"`
+				Cve202686950 *struct {
+					ActivelyExploited      bool   `json:"ActivelyExploited"`
+					AppleExploitationNotes string `json:"AppleExploitationNotes"`
+					InKev                  bool   `json:"InKEV"`
+					Nisturl                string `json:"NISTURL"`
+				} `json:"CVE-2026-86950,omitempty"`
+				Cve202686953 *struct{} `json:"CVE-2026-86953,omitempty"`
+				Cve202686954 *struct{} `json:"CVE-2026-86954,omitempty"`
+				Cve202686957 *struct{} `json:"CVE-2026-86957,omitempty"`
+				Cve202686958 *struct{} `json:"CVE-2026-86958,omitempty"`
+				Cve202686959 *struct{} `json:"CVE-2026-86959,omitempty"`
+				Cve202686961 *struct{} `json:"CVE-2026-86961,omitempty"`
+				Cve202686962 *struct{} `json:"CVE-2026-86962,omitempty"`
+				Cve202686964 *struct{} `json:"CVE-2026-86964,omitempty"`
+				Cve202686966 *struct{} `json:"CVE-2026-86966,omitempty"`
+				Cve202686968 *struct{} `json:"CVE-2026-86968,omitempty"`
+				Cve202686969 *struct{} `json:"CVE-2026-86969,omitempty"`
+				Cve202686970 *struct{} `json:"CVE-2026-86970,omitempty"`
+				Cve202686971 *struct{} `json:"CVE-2026-86971,omitempty"`
+				Cve202686972 *struct{} `json:"CVE-2026-86972,omitempty"`
+				Cve202686973 *struct{} `json:"CVE-2026-86973,omitempty"`
+				Cve202686974 *struct{} `json:"CVE-2026-86974,omitempty"`
+				Cve202686975 *struct{} `json:"CVE-2026-86975,omitempty"`
+				Cve202686976 *struct{} `json:"CVE-2026-86976,omitempty"`
+				Cve202686978 *struct{} `json:"CVE-2026-86978,omitempty"`
+				Cve202686979 *struct{} `json:"CVE-2026-86979,omitempty"`
+				Cve202686981 *struct{} `json:"CVE-2026-86981,omitempty"`
+				Cve202686984 *struct{} `json:"CVE-2026-86984,omitempty"`
+				Cve202686985 *struct{} `json:"CVE-2026-86985,omitempty"`
+				Cve202686986 *struct{} `json:"CVE-2026-86986,omitempty"`
+				Cve202686988 *struct{} `json:"CVE-2026-86988,omitempty"`
+				Cve202686990 *struct{} `json:"CVE-2026-86990,omitempty"`
+				Cve202686991 *struct{} `json:"CVE-2026-86991,omitempty"`
+				Cve202686992 *struct{} `json:"CVE-2026-86992,omitempty"`
 			} `json:"CVEs"`
 			DaysSincePreviousRelease int       `json:"DaysSincePreviousRelease,omitempty"`
 			DeviceScope              string    `json:"DeviceScope"`
@@ -3735,6 +7670,13 @@ type MacOSV2FeedResponse struct {
 				// "Mac16,7" cannot be unmarshalled into a struct field by encoding/json.
 				// "Mac16,8" cannot be unmarshalled into a struct field by encoding/json.
 				// "Mac16,9" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,10" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,11" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,12" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,13" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,14" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,15" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac17,16" cannot be unmarshalled into a struct field by encoding/json.
 				// "Mac17,2" cannot be unmarshalled into a struct field by encoding/json.
 				// "Mac17,3" cannot be unmarshalled into a struct field by encoding/json.
 				// "Mac17,4" cannot be unmarshalled into a struct field by encoding/json.
@@ -3743,6 +7685,9 @@ type MacOSV2FeedResponse struct {
 				// "Mac17,7" cannot be unmarshalled into a struct field by encoding/json.
 				// "Mac17,8" cannot be unmarshalled into a struct field by encoding/json.
 				// "Mac17,9" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac18,1" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac18,2" cannot be unmarshalled into a struct field by encoding/json.
+				// "Mac18,5" cannot be unmarshalled into a struct field by encoding/json.
 				// "MacBook10,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "MacBook9,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "MacBookAir10,1" cannot be unmarshalled into a struct field by encoding/json.
@@ -3780,7 +7725,6 @@ type MacOSV2FeedResponse struct {
 				// "Macmini8,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "Macmini9,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "VirtualMac2,1" cannot be unmarshalled into a struct field by encoding/json.
-				// "iMac15,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "iMac16,1" cannot be unmarshalled into a struct field by encoding/json.
 				// "iMac16,2" cannot be unmarshalled into a struct field by encoding/json.
 				// "iMac17,1" cannot be unmarshalled into a struct field by encoding/json.
@@ -3799,7 +7743,32 @@ type MacOSV2FeedResponse struct {
 			URL   string `json:"URL"`
 		} `json:"SupportedModels"`
 	} `json:"OSVersions"`
-	SchemaVersion    string `json:"SchemaVersion"`
+	ProductKeys struct {
+		_26 struct {
+			BackgroundSecurityImprovement []string `json:"BackgroundSecurityImprovement"`
+			Update                        []string `json:"Update"`
+			Upgrade                       []string `json:"Upgrade"`
+		} `json:"26"`
+		_27 struct {
+			Update []string `json:"Update"`
+		} `json:"27"`
+	} `json:"ProductKeys"`
+	SchemaVersion string `json:"SchemaVersion"`
+	Sources       struct {
+		Apple struct {
+			Format    string    `json:"Format"`
+			Layer     int       `json:"Layer"`
+			Name      string    `json:"Name"`
+			Retrieved time.Time `json:"Retrieved"`
+			URL       string    `json:"URL"`
+		} `json:"Apple"`
+		Kev struct {
+			Layer   int    `json:"Layer"`
+			Name    string `json:"Name"`
+			URL     string `json:"URL"`
+			Version string `json:"Version"`
+		} `json:"KEV"`
+	} `json:"Sources"`
 	UpdateHash       string `json:"UpdateHash"`
 	Version          string `json:"Version"`
 	XProtectPayloads struct {
